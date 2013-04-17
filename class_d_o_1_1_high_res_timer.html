@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>DO: DO++ libraries</title>
+<title>DO: HighResTimer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -43,11 +43,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -67,6 +67,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -79,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('class_d_o_1_1_high_res_timer.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -97,17 +105,53 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_d_o_1_1_high_res_timer-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">DO++ libraries </div>  </div>
+<div class="title">HighResTimer Class Reference<div class="ingroups"><a class="el" href="group___utility.html">Utility</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is my basic set of C++ vision libraries. DO++ is opensource and licensed with the MPL2 license. </p>
-</div></div><!-- contents -->
+
+<p><a class="el" href="class_d_o_1_1_timer.html" title="Timer class.">Timer</a> class with microsecond accuracy.  
+ <a href="class_d_o_1_1_high_res_timer.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_timer_8hpp_source.html">Timer.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a22ee094ca3f45aa4156b97d34fe678bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22ee094ca3f45aa4156b97d34fe678bf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>restart</b> ()</td></tr>
+<tr class="separator:a22ee094ca3f45aa4156b97d34fe678bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4dbcc0b93d74e5fb7100c4299f9ec20"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4dbcc0b93d74e5fb7100c4299f9ec20"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>elapsedMs</b> ()</td></tr>
+<tr class="separator:af4dbcc0b93d74e5fb7100c4299f9ec20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a2ea9282fd2003b9e952e0d2bb54e48c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ea9282fd2003b9e952e0d2bb54e48c7"></a>
+timeval&#160;</td><td class="memItemRight" valign="bottom"><b>start_</b></td></tr>
+<tr class="separator:a2ea9282fd2003b9e952e0d2bb54e48c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce1b9ff5082e17ac8a6679b7b8df5a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ce1b9ff5082e17ac8a6679b7b8df5a4"></a>
+timeval&#160;</td><td class="memItemRight" valign="bottom"><b>end_</b></td></tr>
+<tr class="separator:a1ce1b9ff5082e17ac8a6679b7b8df5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0935164e30e3396a46e9494efb83fe7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0935164e30e3396a46e9494efb83fe7"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>elapsed_</b></td></tr>
+<tr class="separator:ac0935164e30e3396a46e9494efb83fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_d_o_1_1_timer.html" title="Timer class.">Timer</a> class with microsecond accuracy. </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>src/DO/Core/<a class="el" href="_timer_8hpp_source.html">Timer.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 17 2013 06:58:22 for DO by
+    <li class="navelem"><a class="el" href="namespace_d_o.html">DO</a></li><li class="navelem"><a class="el" href="class_d_o_1_1_high_res_timer.html">HighResTimer</a></li>
+    <li class="footer">Generated on Wed Apr 17 2013 06:58:20 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

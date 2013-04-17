@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>DO: DO++ libraries</title>
+<title>DO: MultiArray</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -43,7 +43,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('group___multi_array.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -97,17 +97,43 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">DO++ libraries </div>  </div>
+<div class="title">MultiArray<div class="ingroups"><a class="el" href="group___core.html">Core</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is my basic set of C++ vision libraries. DO++ is opensource and licensed with the MPL2 license. </p>
-</div></div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_element_traits.html">ElementTraits&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html">ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The specialized element traits class when the entry is a non square matrix. Again the matrix is viewed as a 'super-scalar'. However, super-scalar operations will be regular point-wise matrix operations. Therefore this applies for row-vector and column vector.  <a href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html">ElementTraits&lt; Array&lt; T, M, N &gt; &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The specialized element traits class when the entry is an array. Default super-scalar operations are point-wise matrix operations.  <a href="struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html">MultiArray&lt; T, N, StorageOrder &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The N-dimensional array class.  <a href="class_d_o_1_1_multi_array.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga9223155c64483239f48caab75fc0557d"><td class="memTemplParams" colspan="2"><a class="anchor" id="ga9223155c64483239f48caab75fc0557d"></a>
+template&lt;typename T , int N, int StorageOrder&gt; </td></tr>
+<tr class="memitem:ga9223155c64483239f48caab75fc0557d"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___multi_array.html#ga9223155c64483239f48caab75fc0557d">operator&lt;&lt;</a> (std::ostream &amp;os, const MultiArray&lt; T, N, StorageOrder &gt; &amp;M)</td></tr>
+<tr class="memdesc:ga9223155c64483239f48caab75fc0557d"><td class="mdescLeft">&#160;</td><td class="mdescRight">output stream operator <br/></td></tr>
+<tr class="separator:ga9223155c64483239f48caab75fc0557d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 17 2013 06:58:22 for DO by
+    <li class="footer">Generated on Wed Apr 17 2013 06:58:19 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

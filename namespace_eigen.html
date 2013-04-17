@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>DO: DO++ libraries</title>
+<title>DO: Eigen Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -43,10 +43,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -67,6 +67,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="namespaces.html"><span>Namespace&#160;List</span></a></li>
+      <li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -79,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('namespace_eigen.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -97,16 +103,33 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">DO++ libraries </div>  </div>
+<div class="title">Eigen Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is my basic set of C++ vision libraries. DO++ is opensource and licensed with the MPL2 license. </p>
+
+<p>Some customized extension to interface for the <a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> library Essentially template class specialization for array type instead of scalar. I wonder if this is very useful. But let's just put it for now.  
+<a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">NumTraits template class specialization in case the scalar type is actually an array. For example, when an Array&lt;Matrix2d, 2, 2&gt; type is instantiated, multiplication and addition operations are properly defined.  <a href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">NumTraits template class specialization in case the scalar type is actually a matrix.  <a href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Some customized extension to interface for the <a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> library Essentially template class specialization for array type instead of scalar. I wonder if this is very useful. But let's just put it for now. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="namespace_eigen.html">Eigen</a></li>
     <li class="footer">Generated on Wed Apr 17 2013 06:58:22 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>

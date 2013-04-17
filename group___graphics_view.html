@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>DO: DO++ libraries</title>
+<title>DO: Graphics View</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -43,7 +43,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('group___graphics_view.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -97,17 +97,104 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">DO++ libraries </div>  </div>
+<div class="title">Graphics View<div class="ingroups"><a class="el" href="group___graphics.html">Graphics</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is my basic set of C++ vision libraries. DO++ is opensource and licensed with the MPL2 license. </p>
-</div></div><!-- contents -->
+
+<p>This submodule is based Qt Graphics View technology allowing for interactivity with added elements in a <a class="el" href="class_d_o_1_1_graphics_view.html" title="QGraphicsView-derived class used to view interactively images.">DO::GraphicsView</a> window.  
+<a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga26dd076d57f9e1e5e6ea70fb5383a0f3"><td class="memItemLeft" align="right" valign="top">DO_EXPORT ImageItem&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___graphics_view.html#ga26dd076d57f9e1e5e6ea70fb5383a0f3">addImage</a> (const Image&lt; Rgb8 &gt; &amp;I, bool randomPos=false)</td></tr>
+<tr class="memdesc:ga26dd076d57f9e1e5e6ea70fb5383a0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add image <b>I</b> to the active <a class="el" href="class_d_o_1_1_graphics_view.html" title="QGraphicsView-derived class used to view interactively images.">GraphicsView</a> window. The added window can be:  <a href="#ga26dd076d57f9e1e5e6ea70fb5383a0f3">More...</a><br/></td></tr>
+<tr class="separator:ga26dd076d57f9e1e5e6ea70fb5383a0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga90520e24f6b25d7da37cdf425b6c4795"><td class="memItemLeft" align="right" valign="top">DO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___graphics_view.html#ga90520e24f6b25d7da37cdf425b6c4795">drawPointOnPixmapItem</a> (int x, int y, const Rgb8 &amp;c, ImageItem pixItem)</td></tr>
+<tr class="separator:ga90520e24f6b25d7da37cdf425b6c4795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>This submodule is based Qt Graphics View technology allowing for interactivity with added elements in a <a class="el" href="class_d_o_1_1_graphics_view.html" title="QGraphicsView-derived class used to view interactively images.">DO::GraphicsView</a> window. </p>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga26dd076d57f9e1e5e6ea70fb5383a0f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DO_EXPORT ImageItem DO::addImage </td>
+          <td>(</td>
+          <td class="paramtype">const Image&lt; Rgb8 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>I</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>randomPos</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add image <b>I</b> to the active <a class="el" href="class_d_o_1_1_graphics_view.html" title="QGraphicsView-derived class used to view interactively images.">GraphicsView</a> window. The added window can be: </p>
+<ul>
+<li>rescaled by hitting key <b>+</b> or key <b>-</b>,</li>
+<li>selected and moved in the <a class="el" href="class_d_o_1_1_graphics_view.html" title="QGraphicsView-derived class used to view interactively images.">GraphicsView</a> window using the mouse. </li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="ga90520e24f6b25d7da37cdf425b6c4795"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DO_EXPORT void DO::drawPointOnPixmapItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Rgb8 &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImageItem&#160;</td>
+          <td class="paramname"><em>pixItem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Not yet implemented I think. Check that. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 17 2013 06:58:22 for DO by
+    <li class="footer">Generated on Wed Apr 17 2013 06:58:19 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

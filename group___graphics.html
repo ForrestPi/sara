@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>DO: DO++ libraries</title>
+<title>DO: Graphics</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -43,7 +43,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('group___graphics.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -97,17 +97,52 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#groups">Modules</a>  </div>
   <div class="headertitle">
-<div class="title">DO++ libraries </div>  </div>
+<div class="title">Graphics</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is my basic set of C++ vision libraries. DO++ is opensource and licensed with the MPL2 license. </p>
-</div></div><!-- contents -->
+
+<p>The Graphics module relies on the Qt 5 framework. It covers basic graphical features such as:  
+<a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group___graphics_internal"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___graphics_internal.html">Graphics Internals</a></td></tr>
+<tr class="memdesc:group___graphics_internal"><td class="mdescLeft">&#160;</td><td class="mdescRight">This contains the Qt-based internal implementation of the Graphics module. <br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___draw3_d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw3_d.html">Drawing 3D</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___event"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___event.html">Event handling functions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___graphics_view"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___graphics_view.html">Graphics View</a></td></tr>
+<tr class="memdesc:group___graphics_view"><td class="mdescLeft">&#160;</td><td class="mdescRight">This submodule is based Qt Graphics View technology allowing for interactivity with added elements in a <a class="el" href="class_d_o_1_1_graphics_view.html" title="QGraphicsView-derived class used to view interactively images.">DO::GraphicsView</a> window. <br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___image_drawing"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___image_drawing.html">Drawing Image</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___image_i_o"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___image_i_o.html">Image I/O</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___draw2_d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw2_d.html">Drawing 2D</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___window_management"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___window_management.html">Window management functions</a></td></tr>
+<tr class="memdesc:group___window_management"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open, close windows, wait for a click or a key, listen to events. <br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>The Graphics module relies on the Qt 5 framework. It covers basic graphical features such as: </p>
+<ul>
+<li>opening, closing a window,</li>
+<li>draw 2D things,</li>
+<li>display a 3D mesh,</li>
+<li>interactive viewing of images. </li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 17 2013 06:58:22 for DO by
+    <li class="footer">Generated on Wed Apr 17 2013 06:58:19 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
