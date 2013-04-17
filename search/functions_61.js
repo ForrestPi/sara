@@ -1,6 +1,7 @@
 var searchData=
 [
   ['addimage',['addImage',['../group___graphics_view.html#ga26dd076d57f9e1e5e6ea70fb5383a0f3',1,'DO']]],
+  ['affinity',['affinity',['../class_d_o_1_1_o_e_region.html#a210721a354bb9e2435440cb872b18fb7',1,'DO::OERegion']]],
   ['all_5factual_5fsizes',['all_actual_sizes',['../class_d_o_1_1_sparse_multi_array.html#a64a533cf4dbc0310557c4a0c06ecef6a',1,'DO::SparseMultiArray']]],
   ['all_5fsizes',['all_sizes',['../class_d_o_1_1_sparse_multi_array.html#a96c8baba4bb71887f51755f43047c026',1,'DO::SparseMultiArray']]],
   ['alpha',['alpha',['../group___channel_accessors.html#gaa131549883a0aae99914ffe78da0dbcb',1,'DO::alpha(Color&lt; T, Layout &gt; &amp;c)'],['../group___channel_accessors.html#gaedb55300f0a4cfb17d4f281e437e1ac3',1,'DO::alpha(const Color&lt; T, Layout &gt; &amp;c)']]],

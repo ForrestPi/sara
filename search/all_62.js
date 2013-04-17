@@ -16,6 +16,7 @@ var searchData=
   ['black64f',['Black64f',['../group___primary_colors.html#gabfe37c60a3af0a0e46e705df031c90ee',1,'DO']]],
   ['black8',['Black8',['../group___primary_colors.html#ga7edec80c32ccfc9bbfe90ad701444e13',1,'DO']]],
   ['black8s',['Black8s',['../group___primary_colors.html#gaed8c3ac856006472dd1a4189e9a58f07',1,'DO']]],
+  ['blob',['Blob',['../class_d_o_1_1_blob.html',1,'DO']]],
   ['blue',['blue',['../group___channel_accessors.html#ga002fae45c069050f774c897a69e18b39',1,'DO::blue(Color&lt; T, Layout &gt; &amp;c)'],['../group___channel_accessors.html#ga7f05f0fe577efb6d905528093fbaab0b',1,'DO::blue(const Color&lt; T, Layout &gt; &amp;c)'],['../group___primary_colors.html#ga854c3a582fd097c73469f89b73e63915',1,'DO::blue()']]],
   ['blue16',['Blue16',['../group___primary_colors.html#gab4b0b2ae71f26139bf99c35958089743',1,'DO']]],
   ['blue16s',['Blue16s',['../group___primary_colors.html#ga1c194d70f2088366be5d2c8198fbb06f',1,'DO']]],

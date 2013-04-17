@@ -24,13 +24,31 @@ var hierarchy =
     [ "ColorTraits< uchar >", "struct_d_o_1_1_color_traits_3_01uchar_01_4.html", null ],
     [ "ColorTraits< uint >", "struct_d_o_1_1_color_traits_3_01uint_01_4.html", null ],
     [ "ColorTraits< ushort >", "struct_d_o_1_1_color_traits_3_01ushort_01_4.html", null ],
+    [ "ComputeGradient< T, N >", "struct_d_o_1_1_compute_gradient.html", null ],
+    [ "ComputeHessian< T, N >", "struct_d_o_1_1_compute_hessian.html", null ],
+    [ "ComputeLaplacian< T, N >", "struct_d_o_1_1_compute_laplacian.html", null ],
+    [ "ComputeScaleSpace", "class_d_o_1_1_compute_scale_space.html", null ],
     [ "ConvertImage< T, U, N >", "struct_d_o_1_1_convert_image.html", null ],
     [ "ConvertImage< T, T, N >", "struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html", null ],
+    [ "DescriptorBase", "class_d_o_1_1_descriptor_base.html", [
+      [ "Descriptor< T, N >", "class_d_o_1_1_descriptor.html", null ]
+    ] ],
+    [ "Differential< N, Axis >", "struct_d_o_1_1_differential.html", null ],
+    [ "Differential< N, 0 >", "struct_d_o_1_1_differential_3_01_n_00_010_01_4.html", null ],
     [ "ElementTraits< T >", "struct_d_o_1_1_element_traits.html", null ],
     [ "ElementTraits< Array< T, M, N > >", "struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html", null ],
     [ "ElementTraits< Color< T, Layout > >", "struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html", null ],
     [ "ElementTraits< Matrix< T, M, N > >", "struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html", null ],
     [ "Event", "struct_d_o_1_1_event.html", null ],
+    [ "Feature", "class_d_o_1_1_feature.html", [
+      [ "PointFeature", "class_d_o_1_1_point_feature.html", [
+        [ "OERegion", "class_d_o_1_1_o_e_region.html", [
+          [ "Blob", "class_d_o_1_1_blob.html", null ],
+          [ "Corner", "class_d_o_1_1_corner.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "FeatureItemSelector< Feature >", "struct_d_o_1_1_feature_item_selector.html", null ],
     [ "Frame", "class_g_l_object_1_1_frame.html", null ],
     [ "G", "struct_d_o_1_1_g.html", null ],
     [ "Gray", "struct_d_o_1_1_gray.html", null ],
@@ -53,10 +71,13 @@ var hierarchy =
       [ "RangeIterator< N >", "class_d_o_1_1_range_iterator.html", null ]
     ] ],
     [ "K", "struct_d_o_1_1_k.html", null ],
+    [ "Key< F, D >", "class_d_o_1_1_key.html", null ],
+    [ "KeyRef", "struct_d_o_1_1_key_ref.html", null ],
     [ "LexicographicalOrder", "struct_d_o_1_1_lexicographical_order.html", null ],
     [ "M", "struct_d_o_1_1_m.html", null ],
     [ "Matrix", null, [
-      [ "Color< T, Layout >", "class_d_o_1_1_color.html", null ]
+      [ "Color< T, Layout >", "class_d_o_1_1_color.html", null ],
+      [ "Descriptor< T, N >", "class_d_o_1_1_descriptor.html", null ]
     ] ],
     [ "MeshReader", "class_d_o_1_1_mesh_reader.html", null ],
     [ "MultiArray< T, N, StorageOrder >", "class_d_o_1_1_multi_array.html", null ],
@@ -76,7 +97,14 @@ var hierarchy =
     [ "QGLWidget", null, [
       [ "OpenGLWindow", "class_d_o_1_1_open_g_l_window.html", null ]
     ] ],
+    [ "QGraphicsEllipseItem", null, [
+      [ "FeatureItemSelector< Feature >::FeatureItem", "class_d_o_1_1_feature_item_selector_1_1_feature_item.html", null ]
+    ] ],
+    [ "QGraphicsItem", null, [
+      [ "FeatureItemSelector< Feature >::MatchItem", "class_d_o_1_1_feature_item_selector_1_1_match_item.html", null ]
+    ] ],
     [ "QGraphicsPixmapItem", null, [
+      [ "ImageFeaturesItem< Keypoint >", "class_d_o_1_1_image_features_item.html", null ],
       [ "PixmapItem", "class_d_o_1_1_pixmap_item.html", null ]
     ] ],
     [ "QGraphicsView", null, [
@@ -93,6 +121,7 @@ var hierarchy =
     ] ],
     [ "R", "struct_d_o_1_1_r.html", null ],
     [ "S", "struct_d_o_1_1_s.html", null ],
+    [ "ScaleInfo", "struct_d_o_1_1_scale_info.html", null ],
     [ "SimpleMesh< Vector_, Face_ >", "class_d_o_1_1_simple_mesh.html", null ],
     [ "SimpleMesh< Point3f, Triangle >", "class_d_o_1_1_simple_mesh.html", null ],
     [ "SparseMultiArray< T, N >", "class_d_o_1_1_sparse_multi_array.html", null ],

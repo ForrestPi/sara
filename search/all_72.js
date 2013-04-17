@@ -1,6 +1,7 @@
 var searchData=
 [
   ['r',['R',['../struct_d_o_1_1_r.html',1,'DO']]],
+  ['radius',['radius',['../class_d_o_1_1_o_e_region.html#a17126522b1e707da4d1ee81a36251f5e',1,'DO::OERegion']]],
   ['range_5fiterator',['range_iterator',['../class_d_o_1_1_multi_array.html#a993ff1bd1b7d3a67eeea283b48b1b346',1,'DO::MultiArray']]],
   ['rangeiterator',['RangeIterator',['../class_d_o_1_1_range_iterator.html',1,'DO']]],
   ['rangeiterator',['RangeIterator',['../class_d_o_1_1_multi_array.html#a9ac449a0d117e31fa565a7f41e02a748',1,'DO::MultiArray']]],
@@ -16,6 +17,7 @@ var searchData=
   ['red8',['Red8',['../group___primary_colors.html#ga32848640a436555758f75cb92b30e8dd',1,'DO']]],
   ['red8s',['Red8s',['../group___primary_colors.html#gae0daacdd8093bcea7ab7a93d09330d0f',1,'DO']]],
   ['reference',['reference',['../struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#abe8933d436779a43cb5c1896ff5f2918',1,'DO::ElementTraits&lt; Color&lt; T, Layout &gt; &gt;::reference()'],['../class_d_o_1_1_locator.html#abaed3f9c23f38a6baedf841296fa931c',1,'DO::Locator::reference()'],['../struct_d_o_1_1_element_traits.html#a9b1a63f171d76a7a3995b6858e99f2ea',1,'DO::ElementTraits::reference()'],['../struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abe8933d436779a43cb5c1896ff5f2918',1,'DO::ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;::reference()'],['../struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abe8933d436779a43cb5c1896ff5f2918',1,'DO::ElementTraits&lt; Array&lt; T, M, N &gt; &gt;::reference()'],['../class_d_o_1_1_multi_array.html#a9b1a63f171d76a7a3995b6858e99f2ea',1,'DO::MultiArray::reference()'],['../class_d_o_1_1_sparse_multi_array.html#abe8933d436779a43cb5c1896ff5f2918',1,'DO::SparseMultiArray::reference()']]],
+  ['regionlexcompless',['regionLexCompLess',['../class_d_o_1_1_o_e_region.html#a46c225519e501e58884822cd0f162b73',1,'DO::OERegion']]],
   ['requireinitialization',['RequireInitialization',['../struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da076ee79941a434ab0e56732208246979',1,'Eigen::NumTraits&lt; Array&lt; T, M, N &gt; &gt;::RequireInitialization()'],['../struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a076ee79941a434ab0e56732208246979',1,'Eigen::NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;::RequireInitialization()']]],
   ['resize',['resize',['../class_d_o_1_1_multi_array.html#a3f049389446e1c60e25f09be5b64f192',1,'DO::MultiArray::resize(const vector_type &amp;sizes)'],['../class_d_o_1_1_multi_array.html#a574c89c5254dabd3d20950612732104a',1,'DO::MultiArray::resize(int rows, int cols)'],['../class_d_o_1_1_multi_array.html#ae519bd2dc457833fb5de167c6da87a2f',1,'DO::MultiArray::resize(int rows, int cols, int depth)']]],
   ['restart',['restart',['../class_d_o_1_1_timer.html#a22ee094ca3f45aa4156b97d34fe678bf',1,'DO::Timer']]],

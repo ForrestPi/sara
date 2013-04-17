@@ -6,6 +6,7 @@ var searchData=
   ['getmouse',['getMouse',['../group___window_management.html#ga5f65aa168357a4f932ac14bf3767af4f',1,'DO::getMouse(int &amp;x, int &amp;y)'],['../group___window_management.html#gaa1b23139f5681ebfe40610f79e70de4b',1,'DO::getMouse(Point2i &amp;p)']]],
   ['getrescaledchannel64f',['getRescaledChannel64f',['../group___color_conversion.html#ga3e86b8eff1da0324f3aee0cef19b7d68',1,'DO']]],
   ['getrescaledcolor64f',['getRescaledColor64f',['../group___color_conversion.html#ga77f1b557bb4f33fac18948fcd9178dd7',1,'DO']]],
+  ['grad',['grad',['../namespace_d_o.html#ae1ffe40d90ac39c71d06d562278db247',1,'DO']]],
   ['graphics',['Graphics',['../group___graphics.html',1,'']]],
   ['graphics_2ehpp',['Graphics.hpp',['../_graphics_8hpp.html',1,'']]],
   ['graphicsapplication',['GraphicsApplication',['../class_d_o_1_1_graphics_application.html',1,'DO']]],

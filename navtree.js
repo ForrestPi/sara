@@ -1,7 +1,10 @@
 var NAVTREE =
 [
   [ "DO", "index.html", [
-    [ "DO++ libraries", "index.html", null ],
+    [ "DO++ libraries", "index.html", [
+      [ "Introduction", "index.html#Introduction", null ],
+      [ "Libraries", "index.html#Third-Party", null ]
+    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Bug List", "bug.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -23,6 +26,7 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
@@ -41,11 +45,12 @@ var NAVTREEINDEX =
 [
 ".html",
 "_color_8hpp.html#gafb6d4a0e35de27b2f598c5fdf5ff7673",
-"class_d_o_1_1_color.html#a86b6c08f8a3c0123d9f4df11e8ffe526",
-"class_d_o_1_1_pixmap_item.html#a998f8cd639af4f18afab0219a0bfb0ec",
-"group___color_conversion.html#ga3e86b8eff1da0324f3aee0cef19b7d68",
-"group___image.html#ga465663977e6c21ceb263a6cb6289ed59",
-"struct_d_o_1_1_color_traits_3_01uchar_01_4.html#aea02f057eaa34dbc5eddf2ff26572206"
+"class_d_o_1_1_axis_iterator.html#aacf98e49e90f9aeead0ff8885fae3ac7",
+"class_d_o_1_1_multi_array.html#ab243ad95876992f71bfc9043b9a713bd",
+"class_d_o_1_1_tree.html#ab20dfe0da9bfd5b4e021b4081813555f",
+"group___color_types.html#ga9c8a72eb9c04233172157ab5e7d0be22",
+"group___sparse_multi_array.html",
+"struct_d_o_1_1_meta_1_1_at.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

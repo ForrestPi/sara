@@ -4,6 +4,7 @@ var searchData=
   ['abgr',['Abgr',['../group___color_space.html#gae0496dd76c54f129381947440d56a874',1,'DO']]],
   ['addcost',['AddCost',['../struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da879f6b9e117daf216dce0c0fb6f377c8',1,'Eigen::NumTraits&lt; Array&lt; T, M, N &gt; &gt;::AddCost()'],['../struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a879f6b9e117daf216dce0c0fb6f377c8',1,'Eigen::NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;::AddCost()']]],
   ['addimage',['addImage',['../group___graphics_view.html#ga26dd076d57f9e1e5e6ea70fb5383a0f3',1,'DO']]],
+  ['affinity',['affinity',['../class_d_o_1_1_o_e_region.html#a210721a354bb9e2435440cb872b18fb7',1,'DO::OERegion']]],
   ['all_5factual_5fsizes',['all_actual_sizes',['../class_d_o_1_1_sparse_multi_array.html#a64a533cf4dbc0310557c4a0c06ecef6a',1,'DO::SparseMultiArray']]],
   ['all_5fsizes',['all_sizes',['../class_d_o_1_1_sparse_multi_array.html#a96c8baba4bb71887f51755f43047c026',1,'DO::SparseMultiArray']]],
   ['alpha',['alpha',['../group___channel_accessors.html#gaa131549883a0aae99914ffe78da0dbcb',1,'DO::alpha(Color&lt; T, Layout &gt; &amp;c)'],['../group___channel_accessors.html#gaedb55300f0a4cfb17d4f281e437e1ac3',1,'DO::alpha(const Color&lt; T, Layout &gt; &amp;c)']]],

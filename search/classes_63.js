@@ -18,6 +18,11 @@ var searchData=
   ['colortraits_3c_20uchar_20_3e',['ColorTraits&lt; uchar &gt;',['../struct_d_o_1_1_color_traits_3_01uchar_01_4.html',1,'DO']]],
   ['colortraits_3c_20uint_20_3e',['ColorTraits&lt; uint &gt;',['../struct_d_o_1_1_color_traits_3_01uint_01_4.html',1,'DO']]],
   ['colortraits_3c_20ushort_20_3e',['ColorTraits&lt; ushort &gt;',['../struct_d_o_1_1_color_traits_3_01ushort_01_4.html',1,'DO']]],
+  ['computegradient',['ComputeGradient',['../struct_d_o_1_1_compute_gradient.html',1,'DO']]],
+  ['computehessian',['ComputeHessian',['../struct_d_o_1_1_compute_hessian.html',1,'DO']]],
+  ['computelaplacian',['ComputeLaplacian',['../struct_d_o_1_1_compute_laplacian.html',1,'DO']]],
+  ['computescalespace',['ComputeScaleSpace',['../class_d_o_1_1_compute_scale_space.html',1,'DO']]],
   ['convertimage',['ConvertImage',['../struct_d_o_1_1_convert_image.html',1,'DO']]],
-  ['convertimage_3c_20t_2c_20t_2c_20n_20_3e',['ConvertImage&lt; T, T, N &gt;',['../struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html',1,'DO']]]
+  ['convertimage_3c_20t_2c_20t_2c_20n_20_3e',['ConvertImage&lt; T, T, N &gt;',['../struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html',1,'DO']]],
+  ['corner',['Corner',['../class_d_o_1_1_corner.html',1,'DO']]]
 ];

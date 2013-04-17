@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('index.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,13 +101,43 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="title">DO++ libraries </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is my basic set of C++ vision libraries. DO++ is opensource and licensed with the MPL2 license. </p>
+<div class="textblock"><h1><a class="anchor" id="Introduction"></a>
+Introduction</h1>
+<p>This is a basic set of C++ libraries for computer vision.</p>
+<ul>
+<li>DO++ has a very user-friendly API.</li>
+<li>DO++ is small and thus easily maintenable and extensible.</li>
+<li>DO++ is opensource and licensed with the MPL2 license.</li>
+</ul>
+<h1><a class="anchor" id="Third-Party"></a>
+Libraries</h1>
+<p>DO++ uses the following third-party libraries:</p>
+<ul>
+<li><p class="startli"><a href="http://qt-project.org/"><b>Qt 5</b></a> is a cross-platform application and UI framework with APIs for C++ programming. Qt 5 is licensed with GNU Lesser General Public License (LGPL) version 2.1.</p>
+<p class="startli">Qt 5 is not included in the repository and <b>must be installed</b>. If it is installed, then you must set system environment variable <b>QT5_DIR</b> which will be appended in <b>CMAKE_PREFIX_PATH</b> when generating projects with CMake. In addition, append the binary directory of Qt 5 (e.g., <b>%QT5_DIR%\bin</b> in windows environment) to the system PATH.</p>
+<p class="startli">I have made available compiled Qt5 Libraries for Visual Studio 2010 x64 and Visual Studio 2012 x64. They are available here:</p>
+<ul>
+<li><a href="https://dl.dropbox.com/u/80774144/repositories/qt-5.0.1-msvc2010-x64.7z"><b>Qt 5.0.1 compiled with VS2010 64bit (ICU and WebKit disabled) (561 Mb)</b></a></li>
+<li><a href="https://dl.dropbox.com/u/80774144/repositories/qt-5.0.1-msvc2012-x64.7z"><b>Qt 5.0.1 compiled with VS2012 64bit (ICU and WebKit disabled) (594 Mb)</b></a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p class="startli"><a href="http://eigen.tuxfamily.org/"><b>Eigen</b></a> is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms. <a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> is licensed with Mozilla Public License v.2 (MPL2).</p>
+<p class="startli"><b><a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> 3.1.2</b> is already included in the repository and it is therefore not needed to install it.</p>
+</li>
+</ul>
+<ul>
+<li><p class="startli"><a href="https://code.google.com/p/googletest/"><b>Google Test</b></a> is Google's framework for writing C++ tests on a variety of platforms (Linux, Mac OS X, Windows, Cygwin, Windows CE, and Symbian). Based on the xUnit architecture. Supports automatic test discovery, a rich set of assertions, user-defined assertions, death tests, fatal and non-fatal failures, value- and type-parameterized tests, various options for running the tests, and XML test report generation. Google Test is licensed with New BSD License.</p>
+<p class="startli"><b>Google Test 1.6.0</b> is already included in the repository and it is therefore not needed to install it. </p>
+</li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 17 2013 07:34:40 for DO by
+    <li class="footer">Generated on Wed Apr 17 2013 08:28:46 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

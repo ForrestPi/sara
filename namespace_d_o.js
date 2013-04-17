@@ -48,6 +48,20 @@ var namespace_d_o =
     [ "Timer", "class_d_o_1_1_timer.html", "class_d_o_1_1_timer" ],
     [ "HighResTimer", "class_d_o_1_1_high_res_timer.html", "class_d_o_1_1_high_res_timer" ],
     [ "Tree", "class_d_o_1_1_tree.html", "class_d_o_1_1_tree" ],
+    [ "DescriptorBase", "class_d_o_1_1_descriptor_base.html", "class_d_o_1_1_descriptor_base" ],
+    [ "Descriptor", "class_d_o_1_1_descriptor.html", "class_d_o_1_1_descriptor" ],
+    [ "Feature", "class_d_o_1_1_feature.html", "class_d_o_1_1_feature" ],
+    [ "PointFeature", "class_d_o_1_1_point_feature.html", "class_d_o_1_1_point_feature" ],
+    [ "OERegion", "class_d_o_1_1_o_e_region.html", "class_d_o_1_1_o_e_region" ],
+    [ "Corner", "class_d_o_1_1_corner.html", "class_d_o_1_1_corner" ],
+    [ "Blob", "class_d_o_1_1_blob.html", "class_d_o_1_1_blob" ],
+    [ "FeatureItemSelector", "struct_d_o_1_1_feature_item_selector.html", [
+      [ "FeatureItem", "class_d_o_1_1_feature_item_selector_1_1_feature_item.html", "class_d_o_1_1_feature_item_selector_1_1_feature_item" ],
+      [ "MatchItem", "class_d_o_1_1_feature_item_selector_1_1_match_item.html", "class_d_o_1_1_feature_item_selector_1_1_match_item" ]
+    ] ],
+    [ "Key", "class_d_o_1_1_key.html", "class_d_o_1_1_key" ],
+    [ "KeyRef", "struct_d_o_1_1_key_ref.html", "struct_d_o_1_1_key_ref" ],
+    [ "ImageFeaturesItem", "class_d_o_1_1_image_features_item.html", "class_d_o_1_1_image_features_item" ],
     [ "InteractiveBox", "struct_d_o_1_1_interactive_box.html", "struct_d_o_1_1_interactive_box" ],
     [ "GraphicsApplication", "class_d_o_1_1_graphics_application.html", "class_d_o_1_1_graphics_application" ],
     [ "GraphicsView", "class_d_o_1_1_graphics_view.html", "class_d_o_1_1_graphics_view" ],
@@ -59,5 +73,12 @@ var namespace_d_o =
     [ "UserThread", "class_d_o_1_1_user_thread.html", "class_d_o_1_1_user_thread" ],
     [ "Event", "struct_d_o_1_1_event.html", "struct_d_o_1_1_event" ],
     [ "SimpleMesh", "class_d_o_1_1_simple_mesh.html", "class_d_o_1_1_simple_mesh" ],
-    [ "MeshReader", "class_d_o_1_1_mesh_reader.html", "class_d_o_1_1_mesh_reader" ]
+    [ "MeshReader", "class_d_o_1_1_mesh_reader.html", "class_d_o_1_1_mesh_reader" ],
+    [ "Differential", "struct_d_o_1_1_differential.html", "struct_d_o_1_1_differential" ],
+    [ "Differential< N, 0 >", "struct_d_o_1_1_differential_3_01_n_00_010_01_4.html", null ],
+    [ "ComputeGradient", "struct_d_o_1_1_compute_gradient.html", "struct_d_o_1_1_compute_gradient" ],
+    [ "ComputeLaplacian", "struct_d_o_1_1_compute_laplacian.html", "struct_d_o_1_1_compute_laplacian" ],
+    [ "ComputeHessian", "struct_d_o_1_1_compute_hessian.html", "struct_d_o_1_1_compute_hessian" ],
+    [ "ScaleInfo", "struct_d_o_1_1_scale_info.html", "struct_d_o_1_1_scale_info" ],
+    [ "ComputeScaleSpace", "class_d_o_1_1_compute_scale_space.html", "class_d_o_1_1_compute_scale_space" ]
 ];
