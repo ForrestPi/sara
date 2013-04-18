@@ -3,6 +3,7 @@ var NAVTREE =
   [ "DO", "index.html", [
     [ "DO++ libraries", "index.html", [
       [ "Introduction", "index.html#Introduction", null ],
+      [ "Available Modules", "index.html#Currently", null ],
       [ "Libraries", "index.html#Third-Party", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
@@ -50,7 +51,7 @@ var NAVTREEINDEX =
 "class_d_o_1_1_tree.html#ab20dfe0da9bfd5b4e021b4081813555f",
 "group___color_types.html#ga9c8a72eb9c04233172157ab5e7d0be22",
 "group___sparse_multi_array.html",
-"struct_d_o_1_1_meta_1_1_at.html"
+"struct_d_o_1_1_m.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -26,8 +26,9 @@ var NAVTREEINDEX6 =
 "hierarchy.html":[5,2],
 "index.html":[0],
 "index.html":[],
+"index.html#Currently":[0,1],
 "index.html#Introduction":[0,0],
-"index.html#Third-Party":[0,1],
+"index.html#Third-Party":[0,2],
 "modules.html":[3],
 "namespace_d_o.html":[5,0,0],
 "namespace_d_o.html":[4,0,0],
@@ -35,8 +36,8 @@ var NAVTREEINDEX6 =
 "namespace_d_o_1_1_meta.html":[4,0,0,0],
 "namespace_eigen.html":[5,0,1],
 "namespace_eigen.html":[4,0,1],
-"namespacemembers.html":[4,1,0,0],
 "namespacemembers.html":[4,1,0],
+"namespacemembers.html":[4,1,0,0],
 "namespacemembers_0x62.html":[4,1,0,1],
 "namespacemembers_0x63.html":[4,1,0,2],
 "namespacemembers_0x64.html":[4,1,0,3],
@@ -56,8 +57,8 @@ var NAVTREEINDEX6 =
 "namespacemembers_0x76.html":[4,1,0,17],
 "namespacemembers_0x77.html":[4,1,0,18],
 "namespacemembers_0x79.html":[4,1,0,19],
-"namespacemembers_func.html":[4,1,1,0],
 "namespacemembers_func.html":[4,1,1],
+"namespacemembers_func.html":[4,1,1,0],
 "namespacemembers_func_0x62.html":[4,1,1,1],
 "namespacemembers_func_0x63.html":[4,1,1,2],
 "namespacemembers_func_0x64.html":[4,1,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "struct_d_o_1_1_key_ref.html#ac765329451135abec74c45e1897abf26":[5,0,0,57,4],
 "struct_d_o_1_1_key_ref.html#ac948f13dbf1ed6a8ad17f9b44a1343d1":[5,0,0,57,0],
 "struct_d_o_1_1_lexicographical_order.html":[3,0,1,0],
-"struct_d_o_1_1_lexicographical_order.html#a41a012640ffdb9c89e7ed18d92e89443":[3,0,1,0,0],
-"struct_d_o_1_1_m.html":[3,0,0,0,5]
+"struct_d_o_1_1_lexicographical_order.html#a41a012640ffdb9c89e7ed18d92e89443":[3,0,1,0,0]
 };
