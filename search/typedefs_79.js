@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['y_5fiterator',['y_iterator',['../class_d_o_1_1_locator.html#af164507f5d2199608aa38d15634c878b',1,'DO::Locator']]],
   ['yuv',['Yuv',['../group___color_space.html#ga8d04b5aa0ecd455aa29da0987b106ad0',1,'DO']]],
   ['yuv16',['Yuv16',['../group___color_types.html#ga2ec923931f5a3e7cba53238fa7077396',1,'DO']]],
   ['yuv16s',['Yuv16s',['../group___color_types.html#ga5353986a1fb36e7d31acde633107f35c',1,'DO']]],

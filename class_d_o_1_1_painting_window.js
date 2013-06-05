@@ -5,6 +5,7 @@ var class_d_o_1_1_painting_window =
     [ "display", "class_d_o_1_1_painting_window.html#a8a2b0d9ee239a064684d767e392f54f8", null ],
     [ "drawArrow", "class_d_o_1_1_painting_window.html#ab26208f9358949835cd0c2903a20010c", null ],
     [ "drawCircle", "class_d_o_1_1_painting_window.html#a7051cc5fd5f19b9070b60e35dde2cdd9", null ],
+    [ "drawCircle", "class_d_o_1_1_painting_window.html#a0bebeb558aed00b708493d8204000b57", null ],
     [ "drawEllipse", "class_d_o_1_1_painting_window.html#ab48b68294566b5ef4bce71a551a1a3fb", null ],
     [ "drawEllipse", "class_d_o_1_1_painting_window.html#a5234523b6d222165c2ccd1dc1235bc71", null ],
     [ "drawLine", "class_d_o_1_1_painting_window.html#a3871290c78c7c8d13a6fb157dab84be2", null ],

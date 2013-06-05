@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -487,7 +493,7 @@ false otherwise </dd></dl>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">I</td><td>image </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>path of the output image. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>image quality in <img class="formulaInl" alt="$[0, 100]$" src="form_0.png"/>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>image quality in \([0, 100]\). </td></tr>
   </table>
   </dd>
 </dl>
@@ -540,7 +546,7 @@ false otherwise. </dd></dl>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">I</td><td>image </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>path of the output image. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>image quality in <img class="formulaInl" alt="$[0, 100]$" src="form_0.png"/>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>image quality in \([0, 100]\). </td></tr>
   </table>
   </dd>
 </dl>
@@ -599,7 +605,7 @@ false otherwise. </dd></dl>
     <tr><td class="paramdir">[in]</td><td class="paramname">cols</td><td>array of <b>Color3ub</b> </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>image width. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>image height. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>image quality in <img class="formulaInl" alt="$[0, 100]$" src="form_0.png"/>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>image quality in \([0, 100]\). </td></tr>
   </table>
   </dd>
 </dl>
@@ -658,7 +664,7 @@ false otherwise. </dd></dl>
     <tr><td class="paramdir">[in]</td><td class="paramname">g</td><td>array of <b>unsigned char</b> </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>image width. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>image height. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>image quality in <img class="formulaInl" alt="$[0, 100]$" src="form_0.png"/>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">quality</td><td>image quality in \([0, 100]\). </td></tr>
   </table>
   </dd>
 </dl>
@@ -673,7 +679,7 @@ false otherwise. </dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:50 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

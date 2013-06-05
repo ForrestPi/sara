@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -167,11 +173,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_color_traits.html">ColorTraits&lt; Color_ &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_d_o_1_1_color.html" title="Lightweight template color class with some flexibility.">Color</a> traits class.  <a href="struct_d_o_1_1_color_traits.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_013_00_011_01_4_01_4.html">ColorTraits&lt; Matrix&lt; ChannelType_, 3, 1 &gt; &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized color traits class for 3D color types.  <a href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_013_00_011_01_4_01_4.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_014_00_011_01_4_01_4.html">ColorTraits&lt; Matrix&lt; ChannelType_, 4, 1 &gt; &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized color traits class for 4D color types.  <a href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_014_00_011_01_4_01_4.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_01_m_00_01_n_01_4_01_4.html">ColorTraits&lt; Matrix&lt; ChannelType_, M, N &gt; &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized color traits class for MxN-Dimensional color types.  <a href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_01_m_00_01_n_01_4_01_4.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html">ColorTraits&lt; uchar &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized color traits class for 'uchar' grayscale color.  <a href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#details">More...</a><br/></td></tr>
@@ -201,7 +204,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_d_o"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_d_o.html">DO</a></td></tr>
-<tr class="memdesc:namespace_d_o"><td class="mdescLeft">&#160;</td><td class="mdescRight">The library namespace. <br/></td></tr>
+<tr class="memdesc:namespace_d_o"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> dependencies. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -1300,7 +1303,7 @@ const Rgb64f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7cfa978e82701257b4eeff8e81fa333b.html">DO</a></li><li class="navelem"><a class="el" href="dir_7bef077cbb0b026103ac45f2b959b03e.html">Core</a></li><li class="navelem"><a class="el" href="_color_8hpp.html">Color.hpp</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:49 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

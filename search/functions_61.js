@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['adaptfeatureaffinelytolocalshape',['AdaptFeatureAffinelyToLocalShape',['../class_d_o_1_1_adapt_feature_affinely_to_local_shape.html#adb280b2d26559fc4fd143870777efcd0',1,'DO::AdaptFeatureAffinelyToLocalShape']]],
+  ['adaptivenonmaximalsuppression',['adaptiveNonMaximalSuppression',['../group___a_n_m_s.html#gaebf6724613bb6b75e5c0b6bcefb3253b',1,'DO']]],
   ['addimage',['addImage',['../group___graphics_view.html#ga26dd076d57f9e1e5e6ea70fb5383a0f3',1,'DO']]],
   ['affinity',['affinity',['../class_d_o_1_1_o_e_region.html#a210721a354bb9e2435440cb872b18fb7',1,'DO::OERegion']]],
   ['all_5factual_5fsizes',['all_actual_sizes',['../class_d_o_1_1_sparse_multi_array.html#a64a533cf4dbc0310557c4a0c06ecef6a',1,'DO::SparseMultiArray']]],
@@ -11,11 +13,27 @@ var searchData=
   ['append_5fchild',['append_child',['../class_d_o_1_1_tree.html#a120c2a2f64f45604e96c85ca3984aaed',1,'DO::Tree']]],
   ['append_5fchild_5ftree',['append_child_tree',['../class_d_o_1_1_tree.html#a15908e24c5d1f66b6d96b548291ff5c3',1,'DO::Tree']]],
   ['apply',['apply',['../struct_d_o_1_1_convert_image.html#afe48b50d9ed6115f19df98129e540c47',1,'DO::ConvertImage::apply()'],['../struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html#aa5b8da65afada1738fd9f08d33d5520f',1,'DO::ConvertImage&lt; T, T, N &gt;::apply()']]],
+  ['apply2dnonseparablefilter',['apply2DNonSeparableFilter',['../group___linear_filtering.html#gae316e1bacae047bf2a770b8594696ad4',1,'DO']]],
+  ['applycolumnbasedfilter',['applyColumnBasedFilter',['../group___linear_filtering.html#gae31e0e90ca788c9477f88d1243ce0896',1,'DO']]],
+  ['applycolumnderivative',['applyColumnDerivative',['../group___linear_filtering.html#ga6a1a0a9d8ff920e034979ddde3258c9a',1,'DO']]],
+  ['applyfastcolumnbasedfilter',['applyFastColumnBasedFilter',['../group___linear_filtering.html#ga09dc57c30263f9a027598e18c970464a',1,'DO']]],
+  ['applyfastrowbasedfilter',['applyFastRowBasedFilter',['../group___linear_filtering.html#gad1076c16222836dcebaf4cc016283cb4',1,'DO']]],
+  ['applygaussianfilter',['applyGaussianFilter',['../group___linear_filtering.html#ga006a1d392ae9a9c5cf1284e748bdcc87',1,'DO']]],
+  ['applykirschfilter',['applyKirschFilter',['../group___linear_filtering.html#ga88b7c8c0e0aa57abab1cacd56cf30f8c',1,'DO']]],
+  ['applylaplacianfilter',['applyLaplacianFilter',['../group___linear_filtering.html#ga023bb2f35444bc0652aa0292bb2b554b',1,'DO']]],
+  ['applyprewittfilter',['applyPrewittFilter',['../group___linear_filtering.html#gaa987c1ac33d95684536eb7550849df63',1,'DO']]],
+  ['applyrobertscrossfilter',['applyRobertsCrossFilter',['../group___linear_filtering.html#ga36e0d65f2ffc247bf1a31c59501f457e',1,'DO']]],
+  ['applyrobinsonfilter',['applyRobinsonFilter',['../group___linear_filtering.html#ga9e790446a2fa0cba36f16b17e5d08a05',1,'DO']]],
+  ['applyrowbasedfilter',['applyRowBasedFilter',['../group___linear_filtering.html#gac78d2553d4b060a5bcb8caec356f4942',1,'DO']]],
+  ['applyrowderivative',['applyRowDerivative',['../group___linear_filtering.html#gaecdacf0a2cbb3b2ea97dda5f6d2c6536',1,'DO']]],
+  ['applyscharrfilter',['applyScharrFilter',['../group___linear_filtering.html#ga8bf11e5f7d19e724fd16fac28ab2a5ab',1,'DO']]],
+  ['applysobelfilter',['applySobelFilter',['../group___linear_filtering.html#ga0c789c6587c9a61cabd28387c21eec78',1,'DO']]],
+  ['approximateintersectionunionratio',['approximateIntersectionUnionRatio',['../namespace_d_o.html#a82c0919f285b278cba2e7b95fdd80180',1,'DO']]],
   ['array',['array',['../class_d_o_1_1_multi_array.html#a8ede4f48ca36ec46ca4b57e3e2eeb3f7',1,'DO::MultiArray::array() const '],['../class_d_o_1_1_multi_array.html#a32bc57ca621cb7ae27ab5aa25ef1c70d',1,'DO::MultiArray::array()']]],
   ['ascmykimage',['asCmykImage',['../group___image.html#ga03047b50e8796b06624fbd45ac3c46ec',1,'DO']]],
   ['asrgbaimage',['asRgbaImage',['../group___image.html#ga4392375bc20250c8f8cf6c571ab3e5c8',1,'DO']]],
   ['asrgbimage',['asRgbImage',['../group___image.html#ga6ca7c2968f16fe642348e58d2d72c3d8',1,'DO']]],
   ['asyuvimage',['asYuvImage',['../group___image.html#gac9273f843fb0d04b3be0c254e920896b',1,'DO']]],
-  ['axis',['axis',['../class_d_o_1_1_locator.html#a2e106e539d6ba7366e07cc4ae130b29e',1,'DO::Locator']]],
-  ['axisiterator',['AxisIterator',['../class_d_o_1_1_axis_iterator.html#abfc20ae4f3e395a95f0aeb868272fc45',1,'DO::AxisIterator::AxisIterator(pointer_reference pos, coord_reference coords, const vector_type &amp;strides, const vector_type &amp;size)'],['../class_d_o_1_1_axis_iterator.html#a94cc353f1334b1d367d4df72ceb61071',1,'DO::AxisIterator::AxisIterator(const self_type &amp;it)']]]
+  ['axis',['axis',['../class_d_o_1_1_range_iterator_base.html#a9c808e11699e1a2d9f806f3bdd829ae7',1,'DO::RangeIteratorBase']]],
+  ['axisiterator',['AxisIterator',['../class_d_o_1_1_axis_iterator.html#a160239099dab920a25e35d660c7d38d1',1,'DO::AxisIterator::AxisIterator(pointer_reference pos, coords_reference coords, const vector_type &amp;strides, const vector_type &amp;size)'],['../class_d_o_1_1_axis_iterator.html#a94cc353f1334b1d367d4df72ceb61071',1,'DO::AxisIterator::AxisIterator(const self_type &amp;it)']]]
 ];

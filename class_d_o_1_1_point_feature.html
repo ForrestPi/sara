@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -126,10 +132,8 @@ $(document).ready(function(){initNavTree('class_d_o_1_1_point_feature.html','');
  <div class="center">
   <img src="class_d_o_1_1_point_feature.png" usemap="#PointFeature_map" alt=""/>
   <map id="PointFeature_map" name="PointFeature_map">
-<area href="class_d_o_1_1_feature.html" title="Abstract &#39;Feature&#39; class." alt="Feature" shape="rect" coords="47,0,131,24"/>
-<area href="class_d_o_1_1_o_e_region.html" alt="OERegion" shape="rect" coords="47,112,131,136"/>
-<area href="class_d_o_1_1_blob.html" alt="Blob" shape="rect" coords="0,168,84,192"/>
-<area href="class_d_o_1_1_corner.html" alt="Corner" shape="rect" coords="94,168,178,192"/>
+<area href="class_d_o_1_1_feature.html" title="Abstract &#39;Feature&#39; class." alt="Feature" shape="rect" coords="0,0,84,24"/>
+<area href="class_d_o_1_1_o_e_region.html" alt="OERegion" shape="rect" coords="0,112,84,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -153,6 +157,10 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a1d1cfd8ffb84e947f82999c682b666a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID for each point feature type. <br/></td></tr>
 <tr class="separator:a1d1cfd8ffb84e947f82999c682b666a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42373da1d77e9ecbd237d652f1c66390"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>ExtremumType</b> { <b>Max</b> = 1, 
+<b>Min</b> = -1
+ }</td></tr>
+<tr class="separator:a42373da1d77e9ecbd237d652f1c66390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -183,6 +191,12 @@ const <a class="el" href="group___eigen_typedefs.html#ga02df8c02295a7722cc3f5b89
 <tr class="memitem:afbd0fa31db28593e9669c3c56711c0a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbd0fa31db28593e9669c3c56711c0a7"></a>
 <a class="el" href="class_d_o_1_1_point_feature.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> () const </td></tr>
 <tr class="separator:afbd0fa31db28593e9669c3c56711c0a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17fa998e2299dc02c9076b38afda0ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa17fa998e2299dc02c9076b38afda0ac"></a>
+ExtremumType&#160;</td><td class="memItemRight" valign="bottom"><b>extremumType</b> () const </td></tr>
+<tr class="separator:aa17fa998e2299dc02c9076b38afda0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5400aa2d03554a59557f482fbb5f902c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5400aa2d03554a59557f482fbb5f902c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>extremumValue</b> () const </td></tr>
+<tr class="separator:a5400aa2d03554a59557f482fbb5f902c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2938456ea3df44918fd15184252811c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2938456ea3df44918fd15184252811c9"></a>
 float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_point_feature.html#a2938456ea3df44918fd15184252811c9">x</a> ()</td></tr>
 <tr class="memdesc:a2938456ea3df44918fd15184252811c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable getters. <br/></td></tr>
@@ -199,6 +213,12 @@ float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>y</b> ()</td><
 <tr class="memitem:a149d43be6037552463fbb438bc8122bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a149d43be6037552463fbb438bc8122bf"></a>
 <a class="el" href="class_d_o_1_1_point_feature.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> ()</td></tr>
 <tr class="separator:a149d43be6037552463fbb438bc8122bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d38e3f33a42ecd2955a13287b032dc3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d38e3f33a42ecd2955a13287b032dc3"></a>
+ExtremumType &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>extremumType</b> ()</td></tr>
+<tr class="separator:a9d38e3f33a42ecd2955a13287b032dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6943e49d663a1f67d87156566c5311b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6943e49d663a1f67d87156566c5311b"></a>
+float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>extremumValue</b> ()</td></tr>
+<tr class="separator:ad6943e49d663a1f67d87156566c5311b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af12ebdba6c8e33e77a37628f29b957c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af12ebdba6c8e33e77a37628f29b957c1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_point_feature.html#af12ebdba6c8e33e77a37628f29b957c1">operator==</a> (const <a class="el" href="class_d_o_1_1_point_feature.html">PointFeature</a> &amp;f) const </td></tr>
 <tr class="memdesc:af12ebdba6c8e33e77a37628f29b957c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator. <br/></td></tr>
@@ -222,7 +242,7 @@ std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>read</b
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d_o.html">DO</a></li><li class="navelem"><a class="el" href="class_d_o_1_1_point_feature.html">PointFeature</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:42 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:56 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

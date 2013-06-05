@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_func_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_func_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_func_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_func_0x68.html#index_h"><span>h</span></a></li>
       <li class="current"><a href="functions_func_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_func_0x6c.html#index_l"><span>l</span></a></li>
@@ -146,11 +153,27 @@ $(document).ready(function(){initNavTree('functions_func_0x69.html','');});
 <li>Image()
 : <a class="el" href="class_d_o_1_1_image.html#a66d0d6da3b89580352c28d37b57df5bb">Image&lt; Color, N &gt;</a>
 </li>
+<li>imagePaddingSize()
+: <a class="el" href="class_d_o_1_1_image_pyramid_params.html#a6529cf71d087e1949747fe54491a04ef">ImagePyramidParams</a>
+</li>
 <li>increment_coords()
-: <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#acbe7b75b289ed1e202180fd94a2a707c">Offset&lt; N, ColMajor &gt;</a>
-, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#acbe7b75b289ed1e202180fd94a2a707c">Offset&lt; 1, RowMajor &gt;</a>
-, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#acbe7b75b289ed1e202180fd94a2a707c">Offset&lt; 1, ColMajor &gt;</a>
-, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#acbe7b75b289ed1e202180fd94a2a707c">Offset&lt; N, RowMajor &gt;</a>
+: <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#a197c87541b2f7ceca6df994e3f933dca">Offset&lt; N, RowMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a197c87541b2f7ceca6df994e3f933dca">Offset&lt; 1, RowMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#a197c87541b2f7ceca6df994e3f933dca">Offset&lt; N, ColMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#a197c87541b2f7ceca6df994e3f933dca">Offset&lt; 1, ColMajor &gt;</a>
+</li>
+<li>increment_coords_()
+: <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#a8953400b698926cd8d544cec97ed6927">Offset&lt; N, ColMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#a5e4f52f6fce1f306223b7efda4ea1186">Offset&lt; N, RowMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#a5e4f52f6fce1f306223b7efda4ea1186">Offset&lt; N, ColMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a5e4f52f6fce1f306223b7efda4ea1186">Offset&lt; 1, RowMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#a8953400b698926cd8d544cec97ed6927">Offset&lt; 1, ColMajor &gt;</a>
+</li>
+<li>initOctaveIndex()
+: <a class="el" href="class_d_o_1_1_image_pyramid_params.html#a72c5d7407d0631cf6d2a9c103b39091e">ImagePyramidParams</a>
+</li>
+<li>initSigma()
+: <a class="el" href="class_d_o_1_1_image_pyramid_params.html#af34d613c4c3b7615bf0eedecf533aa2d">ImagePyramidParams</a>
 </li>
 <li>insert_sibling_after()
 : <a class="el" href="class_d_o_1_1_tree.html#abe4588e8f434f4ab6fa9654427cc4dda">Tree&lt; T &gt;</a>
@@ -164,7 +187,7 @@ $(document).ready(function(){initNavTree('functions_func_0x69.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

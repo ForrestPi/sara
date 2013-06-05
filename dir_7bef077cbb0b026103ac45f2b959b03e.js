@@ -2,9 +2,8 @@ var dir_7bef077cbb0b026103ac45f2b959b03e =
 [
     [ "Color.hpp", "_color_8hpp.html", "_color_8hpp" ],
     [ "EigenExtension.hpp", "_eigen_extension_8hpp.html", "_eigen_extension_8hpp" ],
-    [ "Hash.hpp", "_hash_8hpp.html", null ],
     [ "Image.hpp", "_image_8hpp.html", "_image_8hpp" ],
-    [ "Locator.hpp", "_locator_8hpp.html", null ],
+    [ "Locator.hpp", "_locator_8hpp.html", "_locator_8hpp" ],
     [ "Meta.hpp", "_meta_8hpp.html", [
       [ "Vector3", "struct_d_o_1_1_meta_1_1_vector3.html", "struct_d_o_1_1_meta_1_1_vector3" ],
       [ "Vector4", "struct_d_o_1_1_meta_1_1_vector4.html", "struct_d_o_1_1_meta_1_1_vector4" ],
@@ -28,9 +27,14 @@ var dir_7bef077cbb0b026103ac45f2b959b03e =
       [ "Choose< false, IsTrue, IsFalse >", "struct_d_o_1_1_meta_1_1_choose_3_01false_00_01_is_true_00_01_is_false_01_4.html", "struct_d_o_1_1_meta_1_1_choose_3_01false_00_01_is_true_00_01_is_false_01_4" ]
     ] ],
     [ "MultiArray.hpp", "_multi_array_8hpp.html", "_multi_array_8hpp" ],
+    [ "SharedPointer.hpp", "_shared_pointer_8hpp.html", [
+      [ "SharedPointer", "class_d_o_1_1_shared_pointer.html", "class_d_o_1_1_shared_pointer" ]
+    ] ],
     [ "SparseMultiArray.hpp", "_sparse_multi_array_8hpp.html", null ],
     [ "StaticAssert.hpp", "_static_assert_8hpp.html", "_static_assert_8hpp" ],
+    [ "StdVectorHelpers.hpp", "_std_vector_helpers_8hpp.html", "_std_vector_helpers_8hpp" ],
     [ "Stringify.hpp", "_stringify_8hpp.html", "_stringify_8hpp" ],
+    [ "Subimage.hpp", "_subimage_8hpp.html", "_subimage_8hpp" ],
     [ "Timer.hpp", "_timer_8hpp.html", null ],
     [ "Tree.hpp", "_tree_8hpp.html", "_tree_8hpp" ]
 ];

@@ -10,8 +10,9 @@ var _painting_commands_8hpp =
     [ "displayThreeChannelColorImageAsIs", "_painting_commands_8hpp.html#gab725fb61c4c95346186b4b64c842297d", null ],
     [ "drawArrow", "_painting_commands_8hpp.html#ga16d65640d0280fda29e54c359bf03357", null ],
     [ "drawArrow", "_painting_commands_8hpp.html#ga23b2f26a1d7ffaa2c1e72aedeaa76dfa", null ],
-    [ "drawCircle", "_painting_commands_8hpp.html#ga752f49150f8f2f6ff00806fca131b86c", null ],
+    [ "drawCircle", "_painting_commands_8hpp.html#ga3a5f1861fa6d1300657c037e4ee6fc95", null ],
     [ "drawCircle", "_painting_commands_8hpp.html#ga0dcd2c6ad80005cf9fc3e92198fc508f", null ],
+    [ "drawCircle", "_painting_commands_8hpp.html#ga222b3771f2dc60e8887d125479ae3dee", null ],
     [ "drawEllipse", "_painting_commands_8hpp.html#ga7f9dee248b78883c0948e13612831835", null ],
     [ "drawEllipse", "_painting_commands_8hpp.html#gad48ba1e8253e2f9308cc1b6c4c3eec22", null ],
     [ "drawLine", "_painting_commands_8hpp.html#ga768901f98aa242de772e32e0aaad4bd1", null ],
@@ -45,5 +46,5 @@ var _painting_commands_8hpp =
     [ "saveScreen", "_painting_commands_8hpp.html#ga7f40424c6ecca2871552b0fdba3a9a70", null ],
     [ "setAntialiasing", "_painting_commands_8hpp.html#ga2eec0b5d22bc4c3d5c325e6b153657a4", null ],
     [ "setTransparency", "_painting_commands_8hpp.html#ga2af67563364bb902cb8e00ec6046fda8", null ],
-    [ "view", "_painting_commands_8hpp.html#ga15abf15c4ccee6805650834016a512d3", null ]
+    [ "viewImage", "_painting_commands_8hpp.html#gafffa14be173576d6e5a3af58ed6bee3a", null ]
 ];

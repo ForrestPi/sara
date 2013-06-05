@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,30 +115,40 @@ $(document).ready(function(){initNavTree('struct_d_o_1_1_differential_3_01_n_00_
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="struct_d_o_1_1_differential_3_01_n_00_010_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Differential&lt; N, 0 &gt; Struct Template Reference</div>  </div>
+<div class="title">Differential&lt; N, 0 &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group___differential.html">Differential Calculus, Norms, and Other Stuff</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Internals.  
+ <a href="struct_d_o_1_1_differential_3_01_n_00_010_01_4.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_differential_8hpp_source.html">Differential.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:acc90649b7392a7cb30243c32c5aff93b"><td class="memTemplParams" colspan="2"><a class="anchor" id="acc90649b7392a7cb30243c32c5aff93b"></a>
-template&lt;typename T , int StorageOrder&gt; </td></tr>
-<tr class="memitem:acc90649b7392a7cb30243c32c5aff93b"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>eval_derivative</b> (<a class="el" href="class_d_o_1_1_locator.html">Locator</a>&lt; T, N, StorageOrder &gt; &amp;loc)</td></tr>
-<tr class="separator:acc90649b7392a7cb30243c32c5aff93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bdd80ca939baebbab985e92f02c6153"><td class="memTemplParams" colspan="2"><a class="anchor" id="a5bdd80ca939baebbab985e92f02c6153"></a>
-template&lt;typename T , int StorageOrder&gt; </td></tr>
-<tr class="memitem:a5bdd80ca939baebbab985e92f02c6153"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>accumulate_neighbor_values</b> (<a class="el" href="class_d_o_1_1_locator.html">Locator</a>&lt; T, N, StorageOrder &gt; &amp;loc)</td></tr>
-<tr class="separator:a5bdd80ca939baebbab985e92f02c6153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20aeff5af7ef363d9dbe69ff74728e6f"><td class="memTemplParams" colspan="2"><a class="anchor" id="a20aeff5af7ef363d9dbe69ff74728e6f"></a>
-template&lt;typename T , int StorageOrder&gt; </td></tr>
-<tr class="memitem:a20aeff5af7ef363d9dbe69ff74728e6f"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>eval_gradient</b> (Matrix&lt; T, N, 1 &gt; &amp;g, <a class="el" href="class_d_o_1_1_locator.html">Locator</a>&lt; const T, N, StorageOrder &gt; &amp;loc)</td></tr>
-<tr class="separator:a20aeff5af7ef363d9dbe69ff74728e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6380e13b51f26820940a84e8d2445ad7"><td class="memTemplParams" colspan="2"><a class="anchor" id="a6380e13b51f26820940a84e8d2445ad7"></a>
-template&lt;typename T , int StorageOrder&gt; </td></tr>
-<tr class="memitem:a6380e13b51f26820940a84e8d2445ad7"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>eval_divergence</b> (<a class="el" href="class_d_o_1_1_locator.html">Locator</a>&lt; Matrix&lt; T, N, 1 &gt;, N, StorageOrder &gt; &amp;loc)</td></tr>
-<tr class="separator:a6380e13b51f26820940a84e8d2445ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41626470df89a237c5a821ccbfe0ceff"><td class="memTemplParams" colspan="2"><a class="anchor" id="a41626470df89a237c5a821ccbfe0ceff"></a>
+template&lt;bool IsConst, typename T , int StorageOrder&gt; </td></tr>
+<tr class="memitem:a41626470df89a237c5a821ccbfe0ceff"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>eval_partial_derivative</b> (<a class="el" href="class_d_o_1_1_range_iterator.html">RangeIterator</a>&lt; IsConst, T, N, StorageOrder &gt; &amp;it)</td></tr>
+<tr class="separator:a41626470df89a237c5a821ccbfe0ceff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2829f4bd082487ff599338615bfd3804"><td class="memTemplParams" colspan="2"><a class="anchor" id="a2829f4bd082487ff599338615bfd3804"></a>
+template&lt;bool IsConst, typename T , int StorageOrder&gt; </td></tr>
+<tr class="memitem:a2829f4bd082487ff599338615bfd3804"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>accumulate_neighbor_values</b> (<a class="el" href="class_d_o_1_1_range_iterator.html">RangeIterator</a>&lt; IsConst, T, N, StorageOrder &gt; &amp;it)</td></tr>
+<tr class="separator:a2829f4bd082487ff599338615bfd3804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59578acd9183a7b0c37c5f6843d4a904"><td class="memTemplParams" colspan="2"><a class="anchor" id="a59578acd9183a7b0c37c5f6843d4a904"></a>
+template&lt;bool IsConst, typename T , int StorageOrder&gt; </td></tr>
+<tr class="memitem:a59578acd9183a7b0c37c5f6843d4a904"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>eval_gradient</b> (Matrix&lt; T, N, 1 &gt; &amp;g, <a class="el" href="class_d_o_1_1_range_iterator.html">RangeIterator</a>&lt; IsConst, T, N, StorageOrder &gt; &amp;it)</td></tr>
+<tr class="separator:a59578acd9183a7b0c37c5f6843d4a904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7de1fd11f831994069e7368be11b301"><td class="memTemplParams" colspan="2"><a class="anchor" id="ab7de1fd11f831994069e7368be11b301"></a>
+template&lt;bool IsConst, typename T , int StorageOrder&gt; </td></tr>
+<tr class="memitem:ab7de1fd11f831994069e7368be11b301"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>eval_divergence</b> (<a class="el" href="class_d_o_1_1_range_iterator.html">RangeIterator</a>&lt; IsConst, Matrix&lt; T, N, 1 &gt;, N, StorageOrder &gt; &amp;it)</td></tr>
+<tr class="separator:ab7de1fd11f831994069e7368be11b301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;int N&gt;<br/>
+struct DO::Differential&lt; N, 0 &gt;</h3>
+
+<p>Internals. </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>src/DO/ImageProcessing/<a class="el" href="_differential_8hpp_source.html">Differential.hpp</a></li>
 </ul>
 </div><!-- contents -->
@@ -141,7 +157,7 @@ template&lt;typename T , int StorageOrder&gt; </td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d_o.html">DO</a></li><li class="navelem"><a class="el" href="struct_d_o_1_1_differential_3_01_n_00_010_01_4.html">Differential< N, 0 ></a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:45 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:59 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -131,13 +137,13 @@ $(document).ready(function(){initNavTree('_eigen_extension_8hpp_source.html','')
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ae5988a13ff54e94be1f4c785b30ed82b">   40</a></span>&#160;    <span class="keyword">typedef</span> Array&lt;T, M, N&gt; <a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ae5988a13ff54e94be1f4c785b30ed82b" title="Eigen internals.">Nested</a>;      </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da66d6dc5b929fc072f7dce7fdab0ee378">   43</a></span>&#160;      IsComplex = 0,                    </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da487b1b7ce5ea1cb7f99635a826256596">   44</a></span>&#160;      IsInteger = 0,                    </div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da1088f425e8c7750fd4fbcd843ef0d497">   45</a></span>&#160;      IsSigned = 0,                     </div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da076ee79941a434ab0e56732208246979">   46</a></span>&#160;      RequireInitialization = 1,        </div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da5a1fb41592894b713f370e40e4967339">   47</a></span>&#160;      ReadCost = 1,                     </div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da879f6b9e117daf216dce0c0fb6f377c8">   48</a></span>&#160;      AddCost = 1,                      </div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da93abfd40f941a64a071fdff2a4c32a28">   49</a></span>&#160;      MulCost = 1                       </div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a66d6dc5b929fc072f7dce7fdab0ee378">   43</a></span>&#160;      IsComplex = 0,                    </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a487b1b7ce5ea1cb7f99635a826256596">   44</a></span>&#160;      IsInteger = 0,                    </div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a1088f425e8c7750fd4fbcd843ef0d497">   45</a></span>&#160;      IsSigned = 0,                     </div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a076ee79941a434ab0e56732208246979">   46</a></span>&#160;      RequireInitialization = 1,        </div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a5a1fb41592894b713f370e40e4967339">   47</a></span>&#160;      ReadCost = 1,                     </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a879f6b9e117daf216dce0c0fb6f377c8">   48</a></span>&#160;      AddCost = 1,                      </div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a93abfd40f941a64a071fdff2a4c32a28">   49</a></span>&#160;      MulCost = 1                       </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    };</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    </div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a34a0f20cd593faa04bf2c821272ab5c1">   53</a></span>&#160;    <span class="keyword">inline</span> <span class="keyword">static</span> <a class="code" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac8c09a8007131b0360928599f9060e9e" title="Eigen internals.">Real</a> epsilon()</div>
@@ -155,13 +161,13 @@ $(document).ready(function(){initNavTree('_eigen_extension_8hpp_source.html','')
 <div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a48b4a05e97dd1a7811db53a0a94befdf">   68</a></span>&#160;    <span class="keyword">typedef</span> Matrix&lt;T, M, N&gt; <a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a48b4a05e97dd1a7811db53a0a94befdf" title="Eigen internals.">Nested</a>;     </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">enum</span> { </div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a66d6dc5b929fc072f7dce7fdab0ee378">   71</a></span>&#160;      IsComplex = 0,                    </div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a487b1b7ce5ea1cb7f99635a826256596">   72</a></span>&#160;      IsInteger = 0,                    </div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a1088f425e8c7750fd4fbcd843ef0d497">   73</a></span>&#160;      IsSigned = 0,                     </div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a076ee79941a434ab0e56732208246979">   74</a></span>&#160;      RequireInitialization = 1,        </div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a5a1fb41592894b713f370e40e4967339">   75</a></span>&#160;      ReadCost = 1,                     </div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a879f6b9e117daf216dce0c0fb6f377c8">   76</a></span>&#160;      AddCost = 1,                      </div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a93abfd40f941a64a071fdff2a4c32a28">   77</a></span>&#160;      MulCost = 1                       </div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da66d6dc5b929fc072f7dce7fdab0ee378">   71</a></span>&#160;      IsComplex = 0,                    </div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da487b1b7ce5ea1cb7f99635a826256596">   72</a></span>&#160;      IsInteger = 0,                    </div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da1088f425e8c7750fd4fbcd843ef0d497">   73</a></span>&#160;      IsSigned = 0,                     </div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da076ee79941a434ab0e56732208246979">   74</a></span>&#160;      RequireInitialization = 1,        </div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da5a1fb41592894b713f370e40e4967339">   75</a></span>&#160;      ReadCost = 1,                     </div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da879f6b9e117daf216dce0c0fb6f377c8">   76</a></span>&#160;      AddCost = 1,                      </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da93abfd40f941a64a071fdff2a4c32a28">   77</a></span>&#160;      MulCost = 1                       </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    };</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    </div>
 <div class="line"><a name="l00081"></a><span class="lineno"><a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a34a0f20cd593faa04bf2c821272ab5c1">   81</a></span>&#160;    <span class="keyword">inline</span> <span class="keyword">static</span> <a class="code" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a1a60db4703bbefdac9f214dae8fa427c" title="Eigen internals.">Real</a> epsilon()</div>
@@ -238,7 +244,7 @@ $(document).ready(function(){initNavTree('_eigen_extension_8hpp_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7cfa978e82701257b4eeff8e81fa333b.html">DO</a></li><li class="navelem"><a class="el" href="dir_7bef077cbb0b026103ac45f2b959b03e.html">Core</a></li><li class="navelem"><a class="el" href="_eigen_extension_8hpp.html">EigenExtension.hpp</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:48 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

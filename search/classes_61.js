@@ -1,6 +1,7 @@
 var searchData=
 [
   ['a',['A',['../struct_d_o_1_1_a.html',1,'DO']]],
+  ['adaptfeatureaffinelytolocalshape',['AdaptFeatureAffinelyToLocalShape',['../class_d_o_1_1_adapt_feature_affinely_to_local_shape.html',1,'DO']]],
   ['at',['At',['../struct_d_o_1_1_meta_1_1_at.html',1,'DO::Meta']]],
   ['at_3c_20vector_2c_200_20_3e',['At&lt; Vector, 0 &gt;',['../struct_d_o_1_1_meta_1_1_at_3_01_vector_00_010_01_4.html',1,'DO::Meta']]],
   ['at_3c_20vector_2c_201_20_3e',['At&lt; Vector, 1 &gt;',['../struct_d_o_1_1_meta_1_1_at_3_01_vector_00_011_01_4.html',1,'DO::Meta']]],

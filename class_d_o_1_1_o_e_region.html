@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -122,10 +128,8 @@ $(document).ready(function(){initNavTree('class_d_o_1_1_o_e_region.html','');});
  <div class="center">
   <img src="class_d_o_1_1_o_e_region.png" usemap="#OERegion_map" alt=""/>
   <map id="OERegion_map" name="OERegion_map">
-<area href="class_d_o_1_1_point_feature.html" title="PointFeature is fairly a self-explanatory class." alt="PointFeature" shape="rect" coords="47,56,131,80"/>
-<area href="class_d_o_1_1_feature.html" title="Abstract &#39;Feature&#39; class." alt="Feature" shape="rect" coords="47,0,131,24"/>
-<area href="class_d_o_1_1_blob.html" alt="Blob" shape="rect" coords="0,168,84,192"/>
-<area href="class_d_o_1_1_corner.html" alt="Corner" shape="rect" coords="94,168,178,192"/>
+<area href="class_d_o_1_1_point_feature.html" title="PointFeature is fairly a self-explanatory class." alt="PointFeature" shape="rect" coords="0,56,84,80"/>
+<area href="class_d_o_1_1_feature.html" title="Abstract &#39;Feature&#39; class." alt="Feature" shape="rect" coords="0,0,84,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -167,18 +171,6 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_o_e_region.html#a9a447bdcc319edbc1dcb8be38a97758c">operator==</a> (const <a class="el" href="class_d_o_1_1_o_e_region.html">OERegion</a> &amp;f) const </td></tr>
 <tr class="memdesc:a9a447bdcc319edbc1dcb8be38a97758c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator. <br/></td></tr>
 <tr class="separator:a9a447bdcc319edbc1dcb8be38a97758c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cfa24770244449cc04d812de7efd446"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4cfa24770244449cc04d812de7efd446"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_o_e_region.html#a4cfa24770244449cc04d812de7efd446">sameRegionAs</a> (const <a class="el" href="class_d_o_1_1_o_e_region.html">OERegion</a> &amp;f) const </td></tr>
-<tr class="memdesc:a4cfa24770244449cc04d812de7efd446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the regions are equal regardless of the orientation. <br/></td></tr>
-<tr class="separator:a4cfa24770244449cc04d812de7efd446"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46c225519e501e58884822cd0f162b73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46c225519e501e58884822cd0f162b73"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_o_e_region.html#a46c225519e501e58884822cd0f162b73">regionLexCompLess</a> (const <a class="el" href="class_d_o_1_1_o_e_region.html">OERegion</a> &amp;f) const </td></tr>
-<tr class="memdesc:a46c225519e501e58884822cd0f162b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lexicographical comparison by region. <br/></td></tr>
-<tr class="separator:a46c225519e501e58884822cd0f162b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e50d15f5953df5bb5d40e86e2bfecd2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e50d15f5953df5bb5d40e86e2bfecd2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_o_e_region.html#a2e50d15f5953df5bb5d40e86e2bfecd2">lexCompLess</a> (const <a class="el" href="class_d_o_1_1_o_e_region.html">OERegion</a> &amp;f) const </td></tr>
-<tr class="memdesc:a2e50d15f5953df5bb5d40e86e2bfecd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lexicographical comparison by region and orientation. <br/></td></tr>
-<tr class="separator:a2e50d15f5953df5bb5d40e86e2bfecd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af289b06f5eb5c7bcf6ae7ef4cc61c520"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af289b06f5eb5c7bcf6ae7ef4cc61c520"></a>
 std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_o_e_region.html#af289b06f5eb5c7bcf6ae7ef4cc61c520">print</a> (std::ostream &amp;os) const </td></tr>
 <tr class="memdesc:af289b06f5eb5c7bcf6ae7ef4cc61c520"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/O. <br/></td></tr>
@@ -218,6 +210,12 @@ const <a class="el" href="group___eigen_typedefs.html#ga02df8c02295a7722cc3f5b89
 <tr class="memitem:afbd0fa31db28593e9669c3c56711c0a7 inherit pub_methods_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbd0fa31db28593e9669c3c56711c0a7"></a>
 <a class="el" href="class_d_o_1_1_point_feature.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> () const </td></tr>
 <tr class="separator:afbd0fa31db28593e9669c3c56711c0a7 inherit pub_methods_class_d_o_1_1_point_feature"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17fa998e2299dc02c9076b38afda0ac inherit pub_methods_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa17fa998e2299dc02c9076b38afda0ac"></a>
+ExtremumType&#160;</td><td class="memItemRight" valign="bottom"><b>extremumType</b> () const </td></tr>
+<tr class="separator:aa17fa998e2299dc02c9076b38afda0ac inherit pub_methods_class_d_o_1_1_point_feature"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5400aa2d03554a59557f482fbb5f902c inherit pub_methods_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5400aa2d03554a59557f482fbb5f902c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>extremumValue</b> () const </td></tr>
+<tr class="separator:a5400aa2d03554a59557f482fbb5f902c inherit pub_methods_class_d_o_1_1_point_feature"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2938456ea3df44918fd15184252811c9 inherit pub_methods_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2938456ea3df44918fd15184252811c9"></a>
 float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_point_feature.html#a2938456ea3df44918fd15184252811c9">x</a> ()</td></tr>
 <tr class="memdesc:a2938456ea3df44918fd15184252811c9 inherit pub_methods_class_d_o_1_1_point_feature"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable getters. <br/></td></tr>
@@ -234,6 +232,12 @@ float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>y</b> ()</td><
 <tr class="memitem:a149d43be6037552463fbb438bc8122bf inherit pub_methods_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a149d43be6037552463fbb438bc8122bf"></a>
 <a class="el" href="class_d_o_1_1_point_feature.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> ()</td></tr>
 <tr class="separator:a149d43be6037552463fbb438bc8122bf inherit pub_methods_class_d_o_1_1_point_feature"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d38e3f33a42ecd2955a13287b032dc3 inherit pub_methods_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d38e3f33a42ecd2955a13287b032dc3"></a>
+ExtremumType &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>extremumType</b> ()</td></tr>
+<tr class="separator:a9d38e3f33a42ecd2955a13287b032dc3 inherit pub_methods_class_d_o_1_1_point_feature"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6943e49d663a1f67d87156566c5311b inherit pub_methods_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6943e49d663a1f67d87156566c5311b"></a>
+float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>extremumValue</b> ()</td></tr>
+<tr class="separator:ad6943e49d663a1f67d87156566c5311b inherit pub_methods_class_d_o_1_1_point_feature"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af12ebdba6c8e33e77a37628f29b957c1 inherit pub_methods_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af12ebdba6c8e33e77a37628f29b957c1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_point_feature.html#af12ebdba6c8e33e77a37628f29b957c1">operator==</a> (const <a class="el" href="class_d_o_1_1_point_feature.html">PointFeature</a> &amp;f) const </td></tr>
 <tr class="memdesc:af12ebdba6c8e33e77a37628f29b957c1 inherit pub_methods_class_d_o_1_1_point_feature"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator. <br/></td></tr>
@@ -260,6 +264,10 @@ Additional Inherited Members</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a1d1cfd8ffb84e947f82999c682b666a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID for each point feature type. <br/></td></tr>
 <tr class="separator:a1d1cfd8ffb84e947f82999c682b666a7 inherit pub_types_class_d_o_1_1_point_feature"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42373da1d77e9ecbd237d652f1c66390 inherit pub_types_class_d_o_1_1_point_feature"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>ExtremumType</b> { <b>Max</b> = 1, 
+<b>Min</b> = -1
+ }</td></tr>
+<tr class="separator:a42373da1d77e9ecbd237d652f1c66390 inherit pub_types_class_d_o_1_1_point_feature"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The '<a class="el" href="class_d_o_1_1_o_e_region.html">OERegion</a>' class stands for 'Oriented Elliptic Region' and is dedicated to store important geometric features such as:</p>
@@ -342,7 +350,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d_o.html">DO</a></li><li class="navelem"><a class="el" href="class_d_o_1_1_o_e_region.html">OERegion</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:42 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:56 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

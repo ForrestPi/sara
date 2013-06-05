@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_0x6c.html#index_l"><span>l</span></a></li>
@@ -144,14 +151,11 @@ $(document).ready(function(){initNavTree('functions_0x73.html','');});
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>sameRegionAs()
-: <a class="el" href="class_d_o_1_1_o_e_region.html#a4cfa24770244449cc04d812de7efd446">OERegion</a>
-</li>
 <li>scale()
 : <a class="el" href="class_d_o_1_1_o_e_region.html#ae152c05dbe35bd324ca8a8e4a69cbd10">OERegion</a>
 </li>
-<li>self_type
-: <a class="el" href="class_d_o_1_1_locator.html#a2b4e7bf0649f420e5db026e79ac499be">Locator&lt; T, N, StorageOrder &gt;</a>
+<li>scaleGeomFactor()
+: <a class="el" href="class_d_o_1_1_image_pyramid_params.html#a464bc11f7f5ed7a5b78a77b708504145">ImagePyramidParams</a>
 </li>
 <li>set_root()
 : <a class="el" href="class_d_o_1_1_tree.html#a37a865cf4e8665ad843cbd3fa7fac805">Tree&lt; T &gt;</a>
@@ -159,34 +163,47 @@ $(document).ready(function(){initNavTree('functions_0x73.html','');});
 <li>shapeMat()
 : <a class="el" href="class_d_o_1_1_o_e_region.html#ad9ab689132bb925effc2c5e47d6450aa">OERegion</a>
 </li>
+<li>SharedPointer()
+: <a class="el" href="class_d_o_1_1_shared_pointer.html#a697015eb8ea4d0e844b4b566523381a0">SharedPointer&lt; T &gt;</a>
+</li>
 <li>size()
 : <a class="el" href="class_d_o_1_1_multi_array.html#a503ab01f6c0142145d3434f6924714e7">MultiArray&lt; T, N, StorageOrder &gt;</a>
 , <a class="el" href="class_d_o_1_1_sparse_multi_array.html#a503ab01f6c0142145d3434f6924714e7">SparseMultiArray&lt; T, N &gt;</a>
-, <a class="el" href="class_d_o_1_1_axis_iterator.html#ab8e4e3e2a7bf18888b71bdf9dda0770b">AxisIterator&lt; T, Axis, N, StorageOrder &gt;</a>
-, <a class="el" href="class_d_o_1_1_locator.html#ab243ad95876992f71bfc9043b9a713bd">Locator&lt; T, N, StorageOrder &gt;</a>
+, <a class="el" href="class_d_o_1_1_axis_iterator.html#ab8e4e3e2a7bf18888b71bdf9dda0770b">AxisIterator&lt; IsConst, T, Axis, N &gt;</a>
+, <a class="el" href="class_d_o_1_1_range_iterator_base.html#ab243ad95876992f71bfc9043b9a713bd">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>size_type
 : <a class="el" href="class_d_o_1_1_sparse_multi_array.html#ada51e68d31936547d3729c82daf6b7c6">SparseMultiArray&lt; T, N &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#a49b489a408a211a90e766329c0732d7b">ElementTraits&lt; Color&lt; T, Layout &gt; &gt;</a>
-, <a class="el" href="class_d_o_1_1_multi_array.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">MultiArray&lt; T, N, StorageOrder &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits.html#a49b489a408a211a90e766329c0732d7b">ElementTraits&lt; T &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a49b489a408a211a90e766329c0732d7b">ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a49b489a408a211a90e766329c0732d7b">ElementTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="class_d_o_1_1_multi_array.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>sizes()
-: <a class="el" href="class_d_o_1_1_locator.html#a15f0ce2877b385c9505f042faa705694">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#a15f0ce2877b385c9505f042faa705694">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 , <a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
+<li>sizes_
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#acc3c4c5d00d37bbc0ed318ca59e1e5c8">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
+</li>
 <li>SparseMultiArray()
-: <a class="el" href="class_d_o_1_1_sparse_multi_array.html#adb2b3256fac8e82cdbb7532324788461">SparseMultiArray&lt; T, N &gt;</a>
+: <a class="el" href="class_d_o_1_1_sparse_multi_array.html#aa31288ffe2bcc901d1bea4ab9291c278">SparseMultiArray&lt; T, N &gt;</a>
 </li>
 <li>stride()
-: <a class="el" href="class_d_o_1_1_locator.html#abe61dbf6dda369f1605c7700793791bd">Locator&lt; T, N, StorageOrder &gt;</a>
-, <a class="el" href="class_d_o_1_1_multi_array.html#abe61dbf6dda369f1605c7700793791bd">MultiArray&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_multi_array.html#abe61dbf6dda369f1605c7700793791bd">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>strides()
-: <a class="el" href="class_d_o_1_1_locator.html#a5be6b48ede748b588c237552cbf3b6b8">Locator&lt; T, N, StorageOrder &gt;</a>
-, <a class="el" href="class_d_o_1_1_multi_array.html#a5be6b48ede748b588c237552cbf3b6b8">MultiArray&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_multi_array.html#a5be6b48ede748b588c237552cbf3b6b8">MultiArray&lt; T, N, StorageOrder &gt;</a>
+</li>
+<li>strides_
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#a75797003a07a37c392447be7a21a9cd7">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
+</li>
+<li>subrange_iterator
+: <a class="el" href="class_d_o_1_1_multi_array.html#aa8ebb791e2ac5be9d07eb78236f6b75e">MultiArray&lt; T, N, StorageOrder &gt;</a>
+</li>
+<li>SubrangeIterator()
+: <a class="el" href="class_d_o_1_1_subrange_iterator.html#a3bcee2c43f9a2901c3a2109b4ccd8b10">SubrangeIterator&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>swap()
 : <a class="el" href="class_d_o_1_1_tree.html#a4ef88b6304d9d660dece87018d740033">Tree&lt; T &gt;</a>
@@ -198,7 +215,7 @@ $(document).ready(function(){initNavTree('functions_0x73.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

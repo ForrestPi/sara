@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -158,28 +164,37 @@ typedef T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 typedef const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a2fc97dce62b7053449cc868607540dba">const_iterator</a></td></tr>
 <tr class="memdesc:a2fc97dce62b7053449cc868607540dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">STL typedef. <br/></td></tr>
 <tr class="separator:a2fc97dce62b7053449cc868607540dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad121376b4c75b70d8dbbf614aa8c238a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad121376b4c75b70d8dbbf614aa8c238a"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#ae272211659151c529353c4cf96a980d0">Locator</a>&lt; T, N, <br class="typebreak"/>
-StorageOrder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ad121376b4c75b70d8dbbf614aa8c238a">locator</a></td></tr>
-<tr class="memdesc:ad121376b4c75b70d8dbbf614aa8c238a"><td class="mdescLeft">&#160;</td><td class="mdescRight">N-dimensional iterator. <br/></td></tr>
-<tr class="separator:ad121376b4c75b70d8dbbf614aa8c238a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a50c3fdef274a291b3fc257677bea28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a50c3fdef274a291b3fc257677bea28"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#ae272211659151c529353c4cf96a980d0">Locator</a>&lt; const T, N, <br class="typebreak"/>
-StorageOrder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a4a50c3fdef274a291b3fc257677bea28">const_locator</a></td></tr>
-<tr class="memdesc:a4a50c3fdef274a291b3fc257677bea28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immutable N-dimensional iterator. <br/></td></tr>
-<tr class="separator:a4a50c3fdef274a291b3fc257677bea28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a993ff1bd1b7d3a67eeea283b48b1b346"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a993ff1bd1b7d3a67eeea283b48b1b346"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#a9ac449a0d117e31fa565a7f41e02a748">RangeIterator</a>&lt; N &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a993ff1bd1b7d3a67eeea283b48b1b346">range_iterator</a></td></tr>
-<tr class="memdesc:a993ff1bd1b7d3a67eeea283b48b1b346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator over the coordinates. <br/></td></tr>
-<tr class="separator:a993ff1bd1b7d3a67eeea283b48b1b346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4fb477425bbeb20329d300396ac2582"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4fb477425bbeb20329d300396ac2582"></a>
-typedef Matrix&lt; int, N, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ae4fb477425bbeb20329d300396ac2582">coord_type</a></td></tr>
-<tr class="memdesc:ae4fb477425bbeb20329d300396ac2582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate type. <br/></td></tr>
-<tr class="separator:ae4fb477425bbeb20329d300396ac2582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94cd6f98815d838c630d458ffbd5d88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af94cd6f98815d838c630d458ffbd5d88"></a>
+typedef Matrix&lt; int, N, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#af94cd6f98815d838c630d458ffbd5d88">coords_type</a></td></tr>
+<tr class="memdesc:af94cd6f98815d838c630d458ffbd5d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type. <br/></td></tr>
+<tr class="separator:af94cd6f98815d838c630d458ffbd5d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacf98e49e90f9aeead0ff8885fae3ac7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacf98e49e90f9aeead0ff8885fae3ac7"></a>
-typedef Matrix&lt; int, N, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#aacf98e49e90f9aeead0ff8885fae3ac7">vector_type</a></td></tr>
-<tr class="memdesc:aacf98e49e90f9aeead0ff8885fae3ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector type. <br/></td></tr>
+typedef Matrix&lt; int, N, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vector_type</b></td></tr>
 <tr class="separator:aacf98e49e90f9aeead0ff8885fae3ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a598d93e43e894a9acbbaf36d99afeaa2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a598d93e43e894a9acbbaf36d99afeaa2"></a>
+typedef <a class="el" href="class_d_o_1_1_range_iterator.html">RangeIterator</a>&lt; false, <br class="typebreak"/>
+T, N, StorageOrder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a598d93e43e894a9acbbaf36d99afeaa2">range_iterator</a></td></tr>
+<tr class="memdesc:a598d93e43e894a9acbbaf36d99afeaa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">N-dimensional iterator. <br/></td></tr>
+<tr class="separator:a598d93e43e894a9acbbaf36d99afeaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8ebb791e2ac5be9d07eb78236f6b75e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8ebb791e2ac5be9d07eb78236f6b75e"></a>
+typedef <a class="el" href="class_d_o_1_1_subrange_iterator.html">SubrangeIterator</a><br class="typebreak"/>
+&lt; false, T, N, StorageOrder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#aa8ebb791e2ac5be9d07eb78236f6b75e">subrange_iterator</a></td></tr>
+<tr class="memdesc:aa8ebb791e2ac5be9d07eb78236f6b75e"><td class="mdescLeft">&#160;</td><td class="mdescRight">N-dimensional subrange iterator. <br/></td></tr>
+<tr class="separator:aa8ebb791e2ac5be9d07eb78236f6b75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69c27e7edbb13178e1dc9147c5ce613"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad69c27e7edbb13178e1dc9147c5ce613"></a>
+typedef <a class="el" href="class_d_o_1_1_range_iterator.html">RangeIterator</a>&lt; true, T, <br class="typebreak"/>
+N, StorageOrder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ad69c27e7edbb13178e1dc9147c5ce613">const_range_iterator</a></td></tr>
+<tr class="memdesc:ad69c27e7edbb13178e1dc9147c5ce613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immutable N-dimensional iterator. <br/></td></tr>
+<tr class="separator:ad69c27e7edbb13178e1dc9147c5ce613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a860b7c52202b3cf2240cfc5cd84e9556"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a860b7c52202b3cf2240cfc5cd84e9556"></a>
+typedef <a class="el" href="class_d_o_1_1_subrange_iterator.html">SubrangeIterator</a>&lt; true, <br class="typebreak"/>
+T, N, StorageOrder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a860b7c52202b3cf2240cfc5cd84e9556">const_subrange_iterator</a></td></tr>
+<tr class="memdesc:a860b7c52202b3cf2240cfc5cd84e9556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immutable N-dimensional subrange iterator. <br/></td></tr>
+<tr class="separator:a860b7c52202b3cf2240cfc5cd84e9556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ca55d9377565ef193eae7ebbf945db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51ca55d9377565ef193eae7ebbf945db"></a>
+typedef <a class="el" href="class_d_o_1_1_coords_iterator.html">CoordsIterator</a>&lt; N &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a51ca55d9377565ef193eae7ebbf945db">coords_iterator</a></td></tr>
+<tr class="memdesc:a51ca55d9377565ef193eae7ebbf945db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator over the coordinates. <br/></td></tr>
+<tr class="separator:a51ca55d9377565ef193eae7ebbf945db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c4550c956b26060ca29852fc7752500"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c4550c956b26060ca29852fc7752500"></a>
 typedef Map&lt; const Array<br class="typebreak"/>
 &lt; typename <a class="el" href="struct_d_o_1_1_element_traits.html">ElementTraits</a>&lt; T &gt;<br class="typebreak"/>
@@ -205,42 +220,6 @@ typedef Map&lt; Matrix&lt; typename <br class="typebreak"/>
 Dynamic, Dynamic, StorageOrder &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a185870835281f858bc66928f6c9e1e52">matrix_view_type</a></td></tr>
 <tr class="memdesc:a185870835281f858bc66928f6c9e1e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable matrix view for linear algebra. <br/></td></tr>
 <tr class="separator:a185870835281f858bc66928f6c9e1e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a445d56f5d487eeb1e4d9fe4e9b3e57b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a445d56f5d487eeb1e4d9fe4e9b3e57b4"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#a9f4b00f1ddd01a394b9e7efc47206238">array_view_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a445d56f5d487eeb1e4d9fe4e9b3e57b4">ArrayView</a></td></tr>
-<tr class="memdesc:a445d56f5d487eeb1e4d9fe4e9b3e57b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:a445d56f5d487eeb1e4d9fe4e9b3e57b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dfde2003ca22260d443cb6934cfc791"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5dfde2003ca22260d443cb6934cfc791"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#a185870835281f858bc66928f6c9e1e52">matrix_view_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a5dfde2003ca22260d443cb6934cfc791">MatrixView</a></td></tr>
-<tr class="memdesc:a5dfde2003ca22260d443cb6934cfc791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:a5dfde2003ca22260d443cb6934cfc791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52eca6995c3493cf021776bb66b4d5f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a52eca6995c3493cf021776bb66b4d5f3"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#a4c4550c956b26060ca29852fc7752500">const_array_view_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a52eca6995c3493cf021776bb66b4d5f3">ConstArrayView</a></td></tr>
-<tr class="memdesc:a52eca6995c3493cf021776bb66b4d5f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:a52eca6995c3493cf021776bb66b4d5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ac38b3635f1f1ea4016b226401ba9ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ac38b3635f1f1ea4016b226401ba9ad"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#a6dcd1d235928f2209e19860122cfe407">const_matrix_view_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a4ac38b3635f1f1ea4016b226401ba9ad">ConstMatrixView</a></td></tr>
-<tr class="memdesc:a4ac38b3635f1f1ea4016b226401ba9ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:a4ac38b3635f1f1ea4016b226401ba9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ac449a0d117e31fa565a7f41e02a748"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ac449a0d117e31fa565a7f41e02a748"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#a993ff1bd1b7d3a67eeea283b48b1b346">range_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a9ac449a0d117e31fa565a7f41e02a748">RangeIterator</a></td></tr>
-<tr class="memdesc:a9ac449a0d117e31fa565a7f41e02a748"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:a9ac449a0d117e31fa565a7f41e02a748"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae272211659151c529353c4cf96a980d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae272211659151c529353c4cf96a980d0"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#ad121376b4c75b70d8dbbf614aa8c238a">locator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ae272211659151c529353c4cf96a980d0">Locator</a></td></tr>
-<tr class="memdesc:ae272211659151c529353c4cf96a980d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:ae272211659151c529353c4cf96a980d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9dad77d8c0422c8e778476ad56a2136"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9dad77d8c0422c8e778476ad56a2136"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#a4a50c3fdef274a291b3fc257677bea28">const_locator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ac9dad77d8c0422c8e778476ad56a2136">ConstLocator</a></td></tr>
-<tr class="memdesc:ac9dad77d8c0422c8e778476ad56a2136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:ac9dad77d8c0422c8e778476ad56a2136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c3d64e399e96b23463965538b430170"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c3d64e399e96b23463965538b430170"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#ae4fb477425bbeb20329d300396ac2582">coord_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a8c3d64e399e96b23463965538b430170">Coords</a></td></tr>
-<tr class="memdesc:a8c3d64e399e96b23463965538b430170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:a8c3d64e399e96b23463965538b430170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566f0c85cbe372baeec72065fc245842"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a566f0c85cbe372baeec72065fc245842"></a>
-typedef <a class="el" href="class_d_o_1_1_multi_array.html#aacf98e49e90f9aeead0ff8885fae3ac7">vector_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a566f0c85cbe372baeec72065fc245842">Vector</a></td></tr>
-<tr class="memdesc:a566f0c85cbe372baeec72065fc245842"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non STL-like typedefs. <br/></td></tr>
-<tr class="separator:a566f0c85cbe372baeec72065fc245842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -249,11 +228,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a596f3b4b4084da422cb3320e165e1d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor that constructs an empty N-dimensional array. <br/></td></tr>
 <tr class="separator:a596f3b4b4084da422cb3320e165e1d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9883e52ac7683fbd42f04e82def4dd63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9883e52ac7683fbd42f04e82def4dd63"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a9883e52ac7683fbd42f04e82def4dd63">MultiArray</a> (<a class="el" href="class_d_o_1_1_multi_array.html#a265a253612b46abed17c61b0a5e5ce30">value_type</a> *<a class="el" href="class_d_o_1_1_multi_array.html#a36e4d11a00a3572c87bf7e913e9b5ca1">data</a>, const <a class="el" href="class_d_o_1_1_multi_array.html#aacf98e49e90f9aeead0ff8885fae3ac7">vector_type</a> &amp;<a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">sizes</a>)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a9883e52ac7683fbd42f04e82def4dd63">MultiArray</a> (<a class="el" href="class_d_o_1_1_multi_array.html#a265a253612b46abed17c61b0a5e5ce30">value_type</a> *<a class="el" href="class_d_o_1_1_multi_array.html#a36e4d11a00a3572c87bf7e913e9b5ca1">data</a>, const vector_type &amp;<a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">sizes</a>)</td></tr>
 <tr class="memdesc:a9883e52ac7683fbd42f04e82def4dd63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that wraps plain data with its known sizes. <br/></td></tr>
 <tr class="separator:a9883e52ac7683fbd42f04e82def4dd63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12c16e1c2846b8ca00471291ba650988"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12c16e1c2846b8ca00471291ba650988"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a12c16e1c2846b8ca00471291ba650988">MultiArray</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#aacf98e49e90f9aeead0ff8885fae3ac7">vector_type</a> &amp;<a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">sizes</a>)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a12c16e1c2846b8ca00471291ba650988">MultiArray</a> (const vector_type &amp;<a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">sizes</a>)</td></tr>
 <tr class="memdesc:a12c16e1c2846b8ca00471291ba650988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor that allocates an N-dimensional array with the specified sizes. <br/></td></tr>
 <tr class="separator:a12c16e1c2846b8ca00471291ba650988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbb77f86b0c9386505a84adcd76f66e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbb77f86b0c9386505a84adcd76f66e7"></a>
@@ -286,10 +265,10 @@ template&lt;typename T2 &gt; </td></tr>
 <tr class="memitem:aeaf5648ec46dbd53a8818e3aed129068"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="class_d_o_1_1_multi_array.html">self_type</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#aeaf5648ec46dbd53a8818e3aed129068">operator=</a> (const <a class="el" href="class_d_o_1_1_multi_array.html">MultiArray</a>&lt; T2, N, StorageOrder &gt; &amp;<a class="el" href="struct_d_o_1_1_m.html">M</a>)</td></tr>
 <tr class="memdesc:aeaf5648ec46dbd53a8818e3aed129068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator that recopies the content of the source array with appropriate type casting. <br/></td></tr>
 <tr class="separator:aeaf5648ec46dbd53a8818e3aed129068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af35032f9361f446260918b88401f0e6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af35032f9361f446260918b88401f0e6e"></a>
-<a class="el" href="class_d_o_1_1_multi_array.html#a9b1a63f171d76a7a3995b6858e99f2ea">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#af35032f9361f446260918b88401f0e6e">operator()</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#ae4fb477425bbeb20329d300396ac2582">coord_type</a> &amp;c)</td></tr>
-<tr class="memdesc:af35032f9361f446260918b88401f0e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable referencing operator. <br/></td></tr>
-<tr class="separator:af35032f9361f446260918b88401f0e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acde7384c0a8f7d0d69bc9ec7d57967c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acde7384c0a8f7d0d69bc9ec7d57967c3"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#a9b1a63f171d76a7a3995b6858e99f2ea">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#acde7384c0a8f7d0d69bc9ec7d57967c3">operator()</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#af94cd6f98815d838c630d458ffbd5d88">coords_type</a> &amp;c)</td></tr>
+<tr class="memdesc:acde7384c0a8f7d0d69bc9ec7d57967c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable referencing operator. <br/></td></tr>
+<tr class="separator:acde7384c0a8f7d0d69bc9ec7d57967c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07f8b52897f0d3f5835cef615d3a4ff0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07f8b52897f0d3f5835cef615d3a4ff0"></a>
 <a class="el" href="class_d_o_1_1_multi_array.html#a9b1a63f171d76a7a3995b6858e99f2ea">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a07f8b52897f0d3f5835cef615d3a4ff0">operator()</a> (int i, int j)</td></tr>
 <tr class="memdesc:a07f8b52897f0d3f5835cef615d3a4ff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable referencing operator. <br/></td></tr>
@@ -298,10 +277,10 @@ template&lt;typename T2 &gt; </td></tr>
 <a class="el" href="class_d_o_1_1_multi_array.html#a9b1a63f171d76a7a3995b6858e99f2ea">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a39b2df46d5f4fc6ab3f6311e21bbf184">operator()</a> (int i, int j, int k)</td></tr>
 <tr class="memdesc:a39b2df46d5f4fc6ab3f6311e21bbf184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable referencing operator. <br/></td></tr>
 <tr class="separator:a39b2df46d5f4fc6ab3f6311e21bbf184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab77af7f5f264a0e64251a90a300ec8f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab77af7f5f264a0e64251a90a300ec8f9"></a>
-<a class="el" href="class_d_o_1_1_multi_array.html#af9ba3e25df088c62f7d535b91672cda9">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ab77af7f5f264a0e64251a90a300ec8f9">operator()</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#ae4fb477425bbeb20329d300396ac2582">coord_type</a> &amp;c) const </td></tr>
-<tr class="memdesc:ab77af7f5f264a0e64251a90a300ec8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-mutable referencing operator. <br/></td></tr>
-<tr class="separator:ab77af7f5f264a0e64251a90a300ec8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b8c64f6893bd74ecd120d8895b887d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4b8c64f6893bd74ecd120d8895b887d"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#af9ba3e25df088c62f7d535b91672cda9">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ac4b8c64f6893bd74ecd120d8895b887d">operator()</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#af94cd6f98815d838c630d458ffbd5d88">coords_type</a> &amp;c) const </td></tr>
+<tr class="memdesc:ac4b8c64f6893bd74ecd120d8895b887d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-mutable referencing operator. <br/></td></tr>
+<tr class="separator:ac4b8c64f6893bd74ecd120d8895b887d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a775d64bc033de30a55882546aa444731"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a775d64bc033de30a55882546aa444731"></a>
 <a class="el" href="class_d_o_1_1_multi_array.html#af9ba3e25df088c62f7d535b91672cda9">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a775d64bc033de30a55882546aa444731">operator()</a> (int i, int j) const </td></tr>
 <tr class="memdesc:a775d64bc033de30a55882546aa444731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-mutable referencing operator. <br/></td></tr>
@@ -335,7 +314,7 @@ template&lt;typename T2 &gt; </td></tr>
 <tr class="memdesc:a350132543d80a1c1e5be844e6d2878ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-mutable ending iterator. <br/></td></tr>
 <tr class="separator:a350132543d80a1c1e5be844e6d2878ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15f0ce2877b385c9505f042faa705694"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15f0ce2877b385c9505f042faa705694"></a>
-const <a class="el" href="class_d_o_1_1_multi_array.html#aacf98e49e90f9aeead0ff8885fae3ac7">vector_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">sizes</a> () const </td></tr>
+const vector_type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">sizes</a> () const </td></tr>
 <tr class="memdesc:a15f0ce2877b385c9505f042faa705694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size getter. <br/></td></tr>
 <tr class="separator:a15f0ce2877b385c9505f042faa705694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a503ab01f6c0142145d3434f6924714e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a503ab01f6c0142145d3434f6924714e7"></a>
@@ -359,27 +338,50 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memdesc:a3275d1392d01b26af1c8cd52b0d10745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Depth getter. <br/></td></tr>
 <tr class="separator:a3275d1392d01b26af1c8cd52b0d10745"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5be6b48ede748b588c237552cbf3b6b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5be6b48ede748b588c237552cbf3b6b8"></a>
-const <a class="el" href="class_d_o_1_1_multi_array.html#aacf98e49e90f9aeead0ff8885fae3ac7">vector_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a5be6b48ede748b588c237552cbf3b6b8">strides</a> () const </td></tr>
+const vector_type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a5be6b48ede748b588c237552cbf3b6b8">strides</a> () const </td></tr>
 <tr class="memdesc:a5be6b48ede748b588c237552cbf3b6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strides getter. <br/></td></tr>
 <tr class="separator:a5be6b48ede748b588c237552cbf3b6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe61dbf6dda369f1605c7700793791bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe61dbf6dda369f1605c7700793791bd"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#abe61dbf6dda369f1605c7700793791bd">stride</a> (int i) const </td></tr>
 <tr class="memdesc:abe61dbf6dda369f1605c7700793791bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stride along the i-th dimension. <br/></td></tr>
 <tr class="separator:abe61dbf6dda369f1605c7700793791bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09652d290e05eb96dcfb1db912ec8fb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09652d290e05eb96dcfb1db912ec8fb2"></a>
-<a class="el" href="class_d_o_1_1_multi_array.html#ad121376b4c75b70d8dbbf614aa8c238a">locator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a09652d290e05eb96dcfb1db912ec8fb2">begin_locator</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#ae4fb477425bbeb20329d300396ac2582">coord_type</a> &amp;anchor=coord_type::Zero())</td></tr>
-<tr class="memdesc:a09652d290e05eb96dcfb1db912ec8fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable locator. <br/></td></tr>
-<tr class="separator:a09652d290e05eb96dcfb1db912ec8fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a997b4130bfa21ad1213463ebadb4ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a997b4130bfa21ad1213463ebadb4ae"></a>
-<a class="el" href="class_d_o_1_1_multi_array.html#a4a50c3fdef274a291b3fc257677bea28">const_locator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a8a997b4130bfa21ad1213463ebadb4ae">begin_locator</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#ae4fb477425bbeb20329d300396ac2582">coord_type</a> &amp;anchor=coord_type::Zero()) const </td></tr>
-<tr class="memdesc:a8a997b4130bfa21ad1213463ebadb4ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immutable locator. <br/></td></tr>
-<tr class="separator:a8a997b4130bfa21ad1213463ebadb4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b6444239bd00a52732b1ac4aeec929b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b6444239bd00a52732b1ac4aeec929b"></a>
-<a class="el" href="class_d_o_1_1_multi_array.html#a993ff1bd1b7d3a67eeea283b48b1b346">range_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a5b6444239bd00a52732b1ac4aeec929b">begin_range</a> () const </td></tr>
-<tr class="memdesc:a5b6444239bd00a52732b1ac4aeec929b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant range iterator. <br/></td></tr>
-<tr class="separator:a5b6444239bd00a52732b1ac4aeec929b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab90f193517fda2b4390b14eba239dd5d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab90f193517fda2b4390b14eba239dd5d"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#a598d93e43e894a9acbbaf36d99afeaa2">range_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ab90f193517fda2b4390b14eba239dd5d">begin_range</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#af94cd6f98815d838c630d458ffbd5d88">coords_type</a> &amp;anchor=coords_type::Zero())</td></tr>
+<tr class="memdesc:ab90f193517fda2b4390b14eba239dd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable locator. <br/></td></tr>
+<tr class="separator:ab90f193517fda2b4390b14eba239dd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b3ae12c53cb9519f739dba262b116bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b3ae12c53cb9519f739dba262b116bf"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#a598d93e43e894a9acbbaf36d99afeaa2">range_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end_range</b> ()</td></tr>
+<tr class="separator:a2b3ae12c53cb9519f739dba262b116bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ccc9303c78df229b72e331d4d1fa63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4ccc9303c78df229b72e331d4d1fa63"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#aa8ebb791e2ac5be9d07eb78236f6b75e">subrange_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#ad4ccc9303c78df229b72e331d4d1fa63">begin_subrange</a> (const vector_type &amp;start, const vector_type &amp;<a class="el" href="class_d_o_1_1_multi_array.html#acad38d52497a975bfb6f2f6acd76631f">end</a>)</td></tr>
+<tr class="memdesc:ad4ccc9303c78df229b72e331d4d1fa63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable subrange locator. <br/></td></tr>
+<tr class="separator:ad4ccc9303c78df229b72e331d4d1fa63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2141b26412eecd978e31ad21a94df8f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2141b26412eecd978e31ad21a94df8f8"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#aa8ebb791e2ac5be9d07eb78236f6b75e">subrange_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end_subrange</b> ()</td></tr>
+<tr class="separator:a2141b26412eecd978e31ad21a94df8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5161c07fa6877d2f743ebc615d537efa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5161c07fa6877d2f743ebc615d537efa"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#ad69c27e7edbb13178e1dc9147c5ce613">const_range_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a5161c07fa6877d2f743ebc615d537efa">begin_range</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#af94cd6f98815d838c630d458ffbd5d88">coords_type</a> &amp;anchor=coords_type::Zero()) const </td></tr>
+<tr class="memdesc:a5161c07fa6877d2f743ebc615d537efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immutable locator. <br/></td></tr>
+<tr class="separator:a5161c07fa6877d2f743ebc615d537efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c169dbb9bbfb5c72f21d8d29225b239"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5c169dbb9bbfb5c72f21d8d29225b239"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#ad69c27e7edbb13178e1dc9147c5ce613">const_range_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end_range</b> () const </td></tr>
+<tr class="separator:a5c169dbb9bbfb5c72f21d8d29225b239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20329a245ea068ae0caca3226ecddc11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20329a245ea068ae0caca3226ecddc11"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#a860b7c52202b3cf2240cfc5cd84e9556">const_subrange_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a20329a245ea068ae0caca3226ecddc11">begin_subrange</a> (const vector_type &amp;start, const vector_type &amp;<a class="el" href="class_d_o_1_1_multi_array.html#acad38d52497a975bfb6f2f6acd76631f">end</a>) const </td></tr>
+<tr class="memdesc:a20329a245ea068ae0caca3226ecddc11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutable subrange locator. <br/></td></tr>
+<tr class="separator:a20329a245ea068ae0caca3226ecddc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c43d5bbfe44e25bb343edf6e797da05"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c43d5bbfe44e25bb343edf6e797da05"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#a860b7c52202b3cf2240cfc5cd84e9556">const_subrange_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end_subrange</b> () const </td></tr>
+<tr class="separator:a7c43d5bbfe44e25bb343edf6e797da05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd08eea84159de6ddc3e5279e3b6e2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bd08eea84159de6ddc3e5279e3b6e2d"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#a51ca55d9377565ef193eae7ebbf945db">coords_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a0bd08eea84159de6ddc3e5279e3b6e2d">begin_coords</a> () const </td></tr>
+<tr class="memdesc:a0bd08eea84159de6ddc3e5279e3b6e2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coords iterator. <br/></td></tr>
+<tr class="separator:a0bd08eea84159de6ddc3e5279e3b6e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc0a5b7732c947828b3c19ce21f88212"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc0a5b7732c947828b3c19ce21f88212"></a>
+<a class="el" href="class_d_o_1_1_multi_array.html#a51ca55d9377565ef193eae7ebbf945db">coords_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end_coords</b> () const </td></tr>
+<tr class="separator:afc0a5b7732c947828b3c19ce21f88212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f049389446e1c60e25f09be5b64f192"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f049389446e1c60e25f09be5b64f192"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a3f049389446e1c60e25f09be5b64f192">resize</a> (const <a class="el" href="class_d_o_1_1_multi_array.html#aacf98e49e90f9aeead0ff8885fae3ac7">vector_type</a> &amp;<a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">sizes</a>)</td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_multi_array.html#a3f049389446e1c60e25f09be5b64f192">resize</a> (const vector_type &amp;<a class="el" href="class_d_o_1_1_multi_array.html#a15f0ce2877b385c9505f042faa705694">sizes</a>)</td></tr>
 <tr class="memdesc:a3f049389446e1c60e25f09be5b64f192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizing method. <br/></td></tr>
 <tr class="separator:a3f049389446e1c60e25f09be5b64f192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a574c89c5254dabd3d20950612732104a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a574c89c5254dabd3d20950612732104a"></a>
@@ -416,6 +418,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 class DO::MultiArray&lt; T, N, StorageOrder &gt;</h3>
 
 <p>The N-dimensional array class. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>:<ul>
+<li>prefer shallow copy in copy constructor and in the assignment operator</li>
+<li>add '<a class="el" href="class_d_o_1_1_multi_array.html" title="The N-dimensional array class.">MultiArray</a> MultiArray::clone() const' method. (Performance still seems acceptable even if deep copies are always done.)</li>
+<li><b>DOUBLE-CHECK</b> all existing image-based algorithm.</li>
+<li>Extract boost::shared_pointer with bcp to get the job done. </li>
+</ul>
+</dd></dl>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/DO/Core/<a class="el" href="_multi_array_8hpp_source.html">MultiArray.hpp</a></li>
 </ul>
@@ -425,7 +434,7 @@ class DO::MultiArray&lt; T, N, StorageOrder &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d_o.html">DO</a></li><li class="navelem"><a class="el" href="class_d_o_1_1_multi_array.html">MultiArray</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:41 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:54 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

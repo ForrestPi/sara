@@ -45,13 +45,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"_color_8hpp.html#gafb6d4a0e35de27b2f598c5fdf5ff7673",
-"class_d_o_1_1_axis_iterator.html#aacf98e49e90f9aeead0ff8885fae3ac7",
-"class_d_o_1_1_multi_array.html#ab243ad95876992f71bfc9043b9a713bd",
-"class_d_o_1_1_tree.html#ab20dfe0da9bfd5b4e021b4081813555f",
-"group___color_types.html#ga9c8a72eb9c04233172157ab5e7d0be22",
-"group___sparse_multi_array.html",
-"struct_d_o_1_1_m.html"
+"_color_8hpp.html#gaf2f95805ffea57b546cf2547806aae1b",
+"_linear_filtering_8hpp.html#ga7e121dca71a2d7b7be22871098266c0e",
+"class_d_o_1_1_coords_iterator.html#aab4dbf0252b9628df04b94dcfa6d0d85",
+"class_d_o_1_1_o_e_region.html#a159d53245c65dcd14eae7ca120ff9776",
+"class_d_o_1_1_squared_distance.html#a029b6367b873dc6ac0fb3cb6ca1d7040",
+"group___color_conversion.html#ga59961090cefe9adc547ee8f618b1b61c",
+"group___extremum_refinement.html#ga4e83483885aa6a6547d0979be3e0a5da",
+"namespacemembers.html",
+"struct_d_o_1_1_interactive_box.html#aac274af37f5fbaaa2c47d19145cfd856"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

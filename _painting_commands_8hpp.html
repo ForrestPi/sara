@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -116,7 +122,7 @@ $(document).ready(function(){initNavTree('_painting_commands_8hpp.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_d_o"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_d_o.html">DO</a></td></tr>
-<tr class="memdesc:namespace_d_o"><td class="mdescLeft">&#160;</td><td class="mdescRight">The library namespace. <br/></td></tr>
+<tr class="memdesc:namespace_d_o"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> dependencies. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -130,12 +136,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gafd722a4bc47cf9ce5110ee6b639b2b3f"><td class="memItemLeft" align="right" valign="top">DO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#gafd722a4bc47cf9ce5110ee6b639b2b3f">drawPoint</a> (const Point2f &amp;p, const Color3ub &amp;c)</td></tr>
 <tr class="memdesc:gafd722a4bc47cf9ce5110ee6b639b2b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a point in the active <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window.  <a href="group___draw2_d.html#gafd722a4bc47cf9ce5110ee6b639b2b3f">More...</a><br/></td></tr>
 <tr class="separator:gafd722a4bc47cf9ce5110ee6b639b2b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga752f49150f8f2f6ff00806fca131b86c"><td class="memItemLeft" align="right" valign="top">DO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#ga752f49150f8f2f6ff00806fca131b86c">drawCircle</a> (int xc, int yc, int r, const Color3ub &amp;c, int penWidth=1)</td></tr>
-<tr class="memdesc:ga752f49150f8f2f6ff00806fca131b86c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a circle in the active <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window.  <a href="group___draw2_d.html#ga752f49150f8f2f6ff00806fca131b86c">More...</a><br/></td></tr>
-<tr class="separator:ga752f49150f8f2f6ff00806fca131b86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a5f1861fa6d1300657c037e4ee6fc95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#ga3a5f1861fa6d1300657c037e4ee6fc95">drawCircle</a> (int xc, int yc, int r, const Color3ub &amp;c, int penWidth=1)</td></tr>
+<tr class="memdesc:ga3a5f1861fa6d1300657c037e4ee6fc95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a circle in the active <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window.  <a href="group___draw2_d.html#ga3a5f1861fa6d1300657c037e4ee6fc95">More...</a><br/></td></tr>
+<tr class="separator:ga3a5f1861fa6d1300657c037e4ee6fc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0dcd2c6ad80005cf9fc3e92198fc508f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#ga0dcd2c6ad80005cf9fc3e92198fc508f">drawCircle</a> (const Point2i &amp;center, int r, const Color3ub &amp;c, int penWidth=1)</td></tr>
 <tr class="memdesc:ga0dcd2c6ad80005cf9fc3e92198fc508f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a circle in the active <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window.  <a href="group___draw2_d.html#ga0dcd2c6ad80005cf9fc3e92198fc508f">More...</a><br/></td></tr>
 <tr class="separator:ga0dcd2c6ad80005cf9fc3e92198fc508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga222b3771f2dc60e8887d125479ae3dee"><td class="memItemLeft" align="right" valign="top">DO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#ga222b3771f2dc60e8887d125479ae3dee">drawCircle</a> (const Point2f &amp;center, float r, const Color3ub &amp;c, int penWidth=1)</td></tr>
+<tr class="memdesc:ga222b3771f2dc60e8887d125479ae3dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a circle in the active <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window.  <a href="group___draw2_d.html#ga222b3771f2dc60e8887d125479ae3dee">More...</a><br/></td></tr>
+<tr class="separator:ga222b3771f2dc60e8887d125479ae3dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7f9dee248b78883c0948e13612831835"><td class="memItemLeft" align="right" valign="top">DO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#ga7f9dee248b78883c0948e13612831835">drawEllipse</a> (int x, int y, int w, int h, const Color3ub &amp;c, int penWidth=1)</td></tr>
 <tr class="memdesc:ga7f9dee248b78883c0948e13612831835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw an axis-aligned ellipse in the active <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window.  <a href="group___draw2_d.html#ga7f9dee248b78883c0948e13612831835">More...</a><br/></td></tr>
 <tr class="separator:ga7f9dee248b78883c0948e13612831835"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,11 +255,11 @@ Functions</h2></td></tr>
 <tr class="memitem:gab725fb61c4c95346186b4b64c842297d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#gab725fb61c4c95346186b4b64c842297d">displayThreeChannelColorImageAsIs</a> (const Image&lt; T &gt; &amp;image, int xoff=0, int yoff=0, double fact=1.)</td></tr>
 <tr class="memdesc:gab725fb61c4c95346186b4b64c842297d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw an image in the active <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window.  <a href="group___draw2_d.html#gab725fb61c4c95346186b4b64c842297d">More...</a><br/></td></tr>
 <tr class="separator:gab725fb61c4c95346186b4b64c842297d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga15abf15c4ccee6805650834016a512d3"><td class="memTemplParams" colspan="2"><a class="anchor" id="ga15abf15c4ccee6805650834016a512d3"></a>
+<tr class="memitem:gafffa14be173576d6e5a3af58ed6bee3a"><td class="memTemplParams" colspan="2"><a class="anchor" id="gafffa14be173576d6e5a3af58ed6bee3a"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga15abf15c4ccee6805650834016a512d3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#ga15abf15c4ccee6805650834016a512d3">view</a> (const Image&lt; T &gt; &amp;I, const std::string &amp;windowTitle=&quot;DO++&quot;, bool close=true)</td></tr>
-<tr class="memdesc:ga15abf15c4ccee6805650834016a512d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">View an image in a new <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window. <br/></td></tr>
-<tr class="separator:ga15abf15c4ccee6805650834016a512d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafffa14be173576d6e5a3af58ed6bee3a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#gafffa14be173576d6e5a3af58ed6bee3a">viewImage</a> (const Image&lt; T &gt; &amp;I, const std::string &amp;windowTitle=&quot;DO++&quot;, double fact=1.0)</td></tr>
+<tr class="memdesc:gafffa14be173576d6e5a3af58ed6bee3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">View an image in a new <a class="el" href="class_d_o_1_1_painting_window.html" title="QWidget-derived class on which we draw things. I choose not to use QGLWidget because of some weird vi...">PaintingWindow</a> window. <br/></td></tr>
+<tr class="separator:gafffa14be173576d6e5a3af58ed6bee3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga91250b6a86a927c0570061883fd5a21b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga91250b6a86a927c0570061883fd5a21b"></a>
 DO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___draw2_d.html#ga91250b6a86a927c0570061883fd5a21b">clearWindow</a> ()</td></tr>
 <tr class="memdesc:ga91250b6a86a927c0570061883fd5a21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the image. <br/></td></tr>
@@ -272,7 +281,7 @@ DO_EXPORT bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7cfa978e82701257b4eeff8e81fa333b.html">DO</a></li><li class="navelem"><a class="el" href="dir_5aad99fc5a5d671229ab287305c786d1.html">Graphics</a></li><li class="navelem"><a class="el" href="_painting_commands_8hpp.html">PaintingCommands.hpp</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:50 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

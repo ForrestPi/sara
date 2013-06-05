@@ -8,5 +8,6 @@ var searchData=
   ['userthread',['UserThread',['../class_d_o_1_1_user_thread.html',1,'DO']]],
   ['userthread_2ehpp',['UserThread.hpp',['../_user_thread_8hpp.html',1,'']]],
   ['ushort',['ushort',['../group___eigen_typedefs.html#gab95f123a6c9bcfee6a343170ef8c5f69',1,'DO']]],
+  ['utilities_20and_20debug',['Utilities and Debug',['../group___utilities_debug.html',1,'']]],
   ['utility',['Utility',['../group___utility.html',1,'']]]
 ];

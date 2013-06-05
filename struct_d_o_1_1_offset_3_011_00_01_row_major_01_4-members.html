@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -112,17 +118,24 @@ $(document).ready(function(){initNavTree('struct_d_o_1_1_offset_3_011_00_01_row_
 
 <p>This is the complete list of members for <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#ac1c91b6ec96f5963221003a8cae3d912">decrement_coords</a>(Index *coords, const Index *size)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a1ffa69ab4cc1df64eaa174cfbfb1839d">eval</a>(const Index *coords, const Index *dims)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">eval_coords_from_offset</a>(Index *coords, Index offset, const Index *dims)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#aa2c7a84c84fd8cafee697efb4db62c42">decrement_coords</a>(Index *coords, const Index *size, bool &amp;stop)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a1d543cc7b3cbf75393b4fe8539fd059a">decrement_coords</a>(Index *coords, const Index *start, const Index *end, bool &amp;stop)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a4b61b1eedc0e83692372a953a637b576">decrement_coords_</a>(Index *coords, const Index *size, bool &amp;stop)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a8b30f9594b8ab4d69bb830cb137dc3d0">decrement_coords_</a>(Index *coords, const Index *start, const Index *end, bool &amp;stop)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a1ffa69ab4cc1df64eaa174cfbfb1839d">eval</a>(const Index *coords, const Index *dims)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">eval_coords_from_offset</a>(Index *coords, Index offset, const Index *dims)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#aacfaf9567f24a89ec57f519c3eaba471">eval_coords_from_offset_</a>(Index *coords, Index offset, const Index *dims)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#ad02911d67da0ad2bcf95bf5957f37553">eval_strides</a>(Index *strides, const Index *size)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#acbe7b75b289ed1e202180fd94a2a707c">increment_coords</a>(Index *coords, const Index *size)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a197c87541b2f7ceca6df994e3f933dca">increment_coords</a>(Index *coords, const Index *size, bool &amp;stop)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a03d8bb7719e368c749c854315197a6ab">increment_coords</a>(Index *coords, const Index *start, const Index *end, bool &amp;stop)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a5e4f52f6fce1f306223b7efda4ea1186">increment_coords_</a>(Index *coords, const Index *size, bool &amp;stop)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a8953400b698926cd8d544cec97ed6927">increment_coords_</a>(Index *coords, const Index *start, const Index *end, bool &amp;stop)</td><td class="entry"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:40 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:52 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

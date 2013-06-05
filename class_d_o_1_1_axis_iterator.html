@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>DO: AxisIterator&lt; T, Axis, N, StorageOrder &gt; Class Template Reference</title>
+<title>DO: AxisIterator&lt; IsConst, T, Axis, N &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -110,7 +116,7 @@ $(document).ready(function(){initNavTree('class_d_o_1_1_axis_iterator.html','');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_d_o_1_1_axis_iterator-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AxisIterator&lt; T, Axis, N, StorageOrder &gt; Class Template Reference<div class="ingroups"><a class="el" href="group___locator.html">Locator</a></div></div>  </div>
+<div class="title">AxisIterator&lt; IsConst, T, Axis, N &gt; Class Template Reference<div class="ingroups"><a class="el" href="group___locator.html">Locator</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -119,71 +125,72 @@ $(document).ready(function(){initNavTree('class_d_o_1_1_axis_iterator.html','');
 
 <p><code>#include &lt;<a class="el" href="_locator_8hpp_source.html">Locator.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for AxisIterator&lt; T, Axis, N, StorageOrder &gt;:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for AxisIterator&lt; IsConst, T, Axis, N &gt;:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="class_d_o_1_1_axis_iterator.png" usemap="#AxisIterator&lt; T, Axis, N, StorageOrder &gt;_map" alt=""/>
-  <map id="AxisIterator&lt; T, Axis, N, StorageOrder &gt;_map" name="AxisIterator&lt; T, Axis, N, StorageOrder &gt;_map">
+  <img src="class_d_o_1_1_axis_iterator.png" usemap="#AxisIterator&lt; IsConst, T, Axis, N &gt;_map" alt=""/>
+  <map id="AxisIterator&lt; IsConst, T, Axis, N &gt;_map" name="AxisIterator&lt; IsConst, T, Axis, N &gt;_map">
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a758d02a5183e542558cd2f7ad65c683c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a758d02a5183e542558cd2f7ad65c683c"></a>
-typedef Base::value_type&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b></td></tr>
-<tr class="separator:a758d02a5183e542558cd2f7ad65c683c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4336e7fd692b20bda7b7227fa9c9f55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4336e7fd692b20bda7b7227fa9c9f55"></a>
-typedef Base::difference_type&#160;</td><td class="memItemRight" valign="bottom"><b>difference_type</b></td></tr>
-<tr class="separator:aa4336e7fd692b20bda7b7227fa9c9f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2158dc2d25210ef557a40d3b8a521e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2158dc2d25210ef557a40d3b8a521e3"></a>
-typedef Base::pointer&#160;</td><td class="memItemRight" valign="bottom"><b>pointer</b></td></tr>
-<tr class="separator:aa2158dc2d25210ef557a40d3b8a521e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaed3f9c23f38a6baedf841296fa931c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abaed3f9c23f38a6baedf841296fa931c"></a>
-typedef Base::reference&#160;</td><td class="memItemRight" valign="bottom"><b>reference</b></td></tr>
-<tr class="separator:abaed3f9c23f38a6baedf841296fa931c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61a96ce54a0b0407ce9bdd9d3f0e3934"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61a96ce54a0b0407ce9bdd9d3f0e3934"></a>
-typedef Base::iterator_category&#160;</td><td class="memItemRight" valign="bottom"><b>iterator_category</b></td></tr>
-<tr class="separator:a61a96ce54a0b0407ce9bdd9d3f0e3934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabdc9b5f48b286e2d7676557d2b66ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afabdc9b5f48b286e2d7676557d2b66ed"></a>
+typedef base_type::value_type&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b></td></tr>
+<tr class="separator:afabdc9b5f48b286e2d7676557d2b66ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1b8fde63313dfc323ad4f7cb81b188"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f1b8fde63313dfc323ad4f7cb81b188"></a>
+typedef base_type::difference_type&#160;</td><td class="memItemRight" valign="bottom"><b>difference_type</b></td></tr>
+<tr class="separator:a7f1b8fde63313dfc323ad4f7cb81b188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ecfc7edab9c677fab5affc459305f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68ecfc7edab9c677fab5affc459305f2"></a>
+typedef base_type::pointer&#160;</td><td class="memItemRight" valign="bottom"><b>pointer</b></td></tr>
+<tr class="separator:a68ecfc7edab9c677fab5affc459305f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c002ab42a75cdabd182cdde72b474f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa5c002ab42a75cdabd182cdde72b474f"></a>
+typedef base_type::reference&#160;</td><td class="memItemRight" valign="bottom"><b>reference</b></td></tr>
+<tr class="separator:aa5c002ab42a75cdabd182cdde72b474f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac840b4eee6b513081e58a865f59c88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ac840b4eee6b513081e58a865f59c88"></a>
+typedef <br class="typebreak"/>
+base_type::iterator_category&#160;</td><td class="memItemRight" valign="bottom"><b>iterator_category</b></td></tr>
+<tr class="separator:a4ac840b4eee6b513081e58a865f59c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94654f697ba0037a85b8a976f648c3fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94654f697ba0037a85b8a976f648c3fd"></a>
 typedef <a class="el" href="class_d_o_1_1_axis_iterator.html">AxisIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>self_type</b></td></tr>
 <tr class="separator:a94654f697ba0037a85b8a976f648c3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4fb477425bbeb20329d300396ac2582"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4fb477425bbeb20329d300396ac2582"></a>
-typedef Matrix&lt; int, N, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>coord_type</b></td></tr>
-<tr class="separator:ae4fb477425bbeb20329d300396ac2582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94cd6f98815d838c630d458ffbd5d88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af94cd6f98815d838c630d458ffbd5d88"></a>
+typedef Matrix&lt; int, N, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>coords_type</b></td></tr>
+<tr class="separator:af94cd6f98815d838c630d458ffbd5d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacf98e49e90f9aeead0ff8885fae3ac7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacf98e49e90f9aeead0ff8885fae3ac7"></a>
 typedef Matrix&lt; int, N, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vector_type</b></td></tr>
 <tr class="separator:aacf98e49e90f9aeead0ff8885fae3ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ee468a9ca692fbed522f9eb22a1bd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3ee468a9ca692fbed522f9eb22a1bd8"></a>
-typedef coord_type &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>coord_reference</b></td></tr>
-<tr class="separator:ae3ee468a9ca692fbed522f9eb22a1bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb5c640c595dff12638e8492cfd43ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1fb5c640c595dff12638e8492cfd43ed"></a>
+typedef coords_type &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>coords_reference</b></td></tr>
+<tr class="separator:a1fb5c640c595dff12638e8492cfd43ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7d96038ae86b2607b1c75e8d8ff4797"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7d96038ae86b2607b1c75e8d8ff4797"></a>
 typedef pointer &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>pointer_reference</b></td></tr>
 <tr class="separator:aa7d96038ae86b2607b1c75e8d8ff4797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abfc20ae4f3e395a95f0aeb868272fc45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abfc20ae4f3e395a95f0aeb868272fc45"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html#abfc20ae4f3e395a95f0aeb868272fc45">AxisIterator</a> (pointer_reference pos, coord_reference coords, const vector_type &amp;strides, const vector_type &amp;<a class="el" href="class_d_o_1_1_axis_iterator.html#ab8e4e3e2a7bf18888b71bdf9dda0770b">size</a>)</td></tr>
-<tr class="memdesc:abfc20ae4f3e395a95f0aeb868272fc45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br/></td></tr>
-<tr class="separator:abfc20ae4f3e395a95f0aeb868272fc45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a160239099dab920a25e35d660c7d38d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a160239099dab920a25e35d660c7d38d1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html#a160239099dab920a25e35d660c7d38d1">AxisIterator</a> (pointer_reference pos, coords_reference coords, const vector_type &amp;strides, const vector_type &amp;<a class="el" href="class_d_o_1_1_axis_iterator.html#ab8e4e3e2a7bf18888b71bdf9dda0770b">size</a>)</td></tr>
+<tr class="memdesc:a160239099dab920a25e35d660c7d38d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br/></td></tr>
+<tr class="separator:a160239099dab920a25e35d660c7d38d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94cc353f1334b1d367d4df72ceb61071"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94cc353f1334b1d367d4df72ceb61071"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html#a94cc353f1334b1d367d4df72ceb61071">AxisIterator</a> (const <a class="el" href="class_d_o_1_1_axis_iterator.html">self_type</a> &amp;it)</td></tr>
 <tr class="memdesc:a94cc353f1334b1d367d4df72ceb61071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. <br/></td></tr>
 <tr class="separator:a94cc353f1334b1d367d4df72ceb61071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa149c2249879e7727f33688b76bf2c99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa149c2249879e7727f33688b76bf2c99"></a>
 reference&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html#aa149c2249879e7727f33688b76bf2c99">operator*</a> () const </td></tr>
-<tr class="memdesc:aa149c2249879e7727f33688b76bf2c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Referencing operator. <br/></td></tr>
+<tr class="memdesc:aa149c2249879e7727f33688b76bf2c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dereferencing operator. <br/></td></tr>
 <tr class="separator:aa149c2249879e7727f33688b76bf2c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32d919fd1ac974efa89582486e7752de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32d919fd1ac974efa89582486e7752de"></a>
-reference&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html#a32d919fd1ac974efa89582486e7752de">operator[]</a> (int n) const </td></tr>
-<tr class="memdesc:a32d919fd1ac974efa89582486e7752de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Referencing operator. <br/></td></tr>
-<tr class="separator:a32d919fd1ac974efa89582486e7752de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33ce448509e9cc0d73861e4c1919c7a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33ce448509e9cc0d73861e4c1919c7a7"></a>
 pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html#a33ce448509e9cc0d73861e4c1919c7a7">operator-&gt;</a> () const </td></tr>
-<tr class="memdesc:a33ce448509e9cc0d73861e4c1919c7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-mutable pointer operator. <br/></td></tr>
+<tr class="memdesc:a33ce448509e9cc0d73861e4c1919c7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dereferencing operator. <br/></td></tr>
 <tr class="separator:a33ce448509e9cc0d73861e4c1919c7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32d919fd1ac974efa89582486e7752de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32d919fd1ac974efa89582486e7752de"></a>
+reference&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html#a32d919fd1ac974efa89582486e7752de">operator[]</a> (int n) const </td></tr>
+<tr class="memdesc:a32d919fd1ac974efa89582486e7752de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access operator. <br/></td></tr>
+<tr class="separator:a32d919fd1ac974efa89582486e7752de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e10c48af258faf471b5ff616c6395a"><td class="memTemplParams" colspan="2"><a class="anchor" id="a74e10c48af258faf471b5ff616c6395a"></a>
 template&lt;typename Iterator &gt; </td></tr>
 <tr class="memitem:a74e10c48af258faf471b5ff616c6395a"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html#a74e10c48af258faf471b5ff616c6395a">operator==</a> (const Iterator &amp;rhs) const </td></tr>
@@ -232,8 +239,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:ab8e4e3e2a7bf18888b71bdf9dda0770b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T, int Axis, int N, int StorageOrder&gt;<br/>
-class DO::AxisIterator&lt; T, Axis, N, StorageOrder &gt;</h3>
+<div class="textblock"><h3>template&lt;bool IsConst, typename T, int Axis, int N&gt;<br/>
+class DO::AxisIterator&lt; IsConst, T, Axis, N &gt;</h3>
 
 <p>Axis iterator class for N-dimensional arrays. </p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
@@ -245,7 +252,7 @@ class DO::AxisIterator&lt; T, Axis, N, StorageOrder &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d_o.html">DO</a></li><li class="navelem"><a class="el" href="class_d_o_1_1_axis_iterator.html">AxisIterator</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:40 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:52 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

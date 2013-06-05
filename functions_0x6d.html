@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_0x6c.html#index_l"><span>l</span></a></li>
@@ -150,22 +157,18 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <li>matrix_view_type
 : <a class="el" href="class_d_o_1_1_multi_array.html#a185870835281f858bc66928f6c9e1e52">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
-<li>MatrixView
-: <a class="el" href="class_d_o_1_1_multi_array.html#a5dfde2003ca22260d443cb6934cfc791">MultiArray&lt; T, N, StorageOrder &gt;</a>
-</li>
 <li>max()
-: <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_014_00_011_01_4_01_4.html#a363300396ad213712625fdc984648f2e">ColorTraits&lt; Matrix&lt; ChannelType_, 4, 1 &gt; &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; double &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; uchar &gt;</a>
-, <a class="el" href="struct_d_o_1_1_channel_traits.html#aef359c66c9f23cc979387e202180ddd6">ChannelTraits&lt; T &gt;</a>
+: <a class="el" href="struct_d_o_1_1_channel_traits.html#aef359c66c9f23cc979387e202180ddd6">ChannelTraits&lt; T &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01ushort_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; ushort &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uint_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; uint &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits.html#a363300396ad213712625fdc984648f2e">ColorTraits&lt; Color_ &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01char_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; char &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01short_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; short &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_013_00_011_01_4_01_4.html#a363300396ad213712625fdc984648f2e">ColorTraits&lt; Matrix&lt; ChannelType_, 3, 1 &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_01_m_00_01_n_01_4_01_4.html#a363300396ad213712625fdc984648f2e">ColorTraits&lt; Matrix&lt; ChannelType_, M, N &gt; &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01int_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; int &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01float_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; float &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; uchar &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#aded391d5e231096e135e08760c0fbeb6">ColorTraits&lt; double &gt;</a>
 </li>
 <li>max_key()
 : <a class="el" href="class_d_o_1_1_sparse_multi_array.html#ad1a015f476d71c75dc93dadd5e344aec">SparseMultiArray&lt; T, N &gt;</a>
@@ -174,25 +177,24 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 : <a class="el" href="class_d_o_1_1_sparse_multi_array.html#a0ab5ce862c0331d9e45a6e1774fca131">SparseMultiArray&lt; T, N &gt;</a>
 </li>
 <li>min()
-: <a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; uchar &gt;</a>
+: <a class="el" href="struct_d_o_1_1_color_traits_3_01char_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; char &gt;</a>
 , <a class="el" href="struct_d_o_1_1_channel_traits.html#a526b7ad5d0ce589d3086127cb78ffcea">ChannelTraits&lt; T &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits.html#a78baae966b690cee8810329019841a65">ColorTraits&lt; Color_ &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_013_00_011_01_4_01_4.html#a78baae966b690cee8810329019841a65">ColorTraits&lt; Matrix&lt; ChannelType_, 3, 1 &gt; &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_014_00_011_01_4_01_4.html#a78baae966b690cee8810329019841a65">ColorTraits&lt; Matrix&lt; ChannelType_, 4, 1 &gt; &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; double &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_01_m_00_01_n_01_4_01_4.html#a78baae966b690cee8810329019841a65">ColorTraits&lt; Matrix&lt; ChannelType_, M, N &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; uchar &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01ushort_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; ushort &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uint_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; uint &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01short_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; short &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01int_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; int &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01float_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; float &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01char_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; char &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01short_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; short &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#a1cd81f912af766f8004e4d5a82a7128b">ColorTraits&lt; double &gt;</a>
 </li>
 <li>min_key()
 : <a class="el" href="class_d_o_1_1_sparse_multi_array.html#af74fcb5e1793fae740aa6cfa3da7b857">SparseMultiArray&lt; T, N &gt;</a>
 </li>
 <li>MulCost
-: <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da93abfd40f941a64a071fdff2a4c32a28">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
-, <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a93abfd40f941a64a071fdff2a4c32a28">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
+: <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da93abfd40f941a64a071fdff2a4c32a28">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a93abfd40f941a64a071fdff2a4c32a28">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
 </li>
 <li>MultiArray()
 : <a class="el" href="class_d_o_1_1_multi_array.html#a12c16e1c2846b8ca00471291ba650988">MultiArray&lt; T, N, StorageOrder &gt;</a>
@@ -203,7 +205,7 @@ $(document).ready(function(){initNavTree('functions_0x6d.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

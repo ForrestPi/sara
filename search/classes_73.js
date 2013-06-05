@@ -1,12 +1,26 @@
 var searchData=
 [
   ['s',['S',['../struct_d_o_1_1_s.html',1,'DO']]],
-  ['scaleinfo',['ScaleInfo',['../struct_d_o_1_1_scale_info.html',1,'DO']]],
+  ['scharr',['Scharr',['../struct_d_o_1_1_scharr.html',1,'DO']]],
+  ['scharr_3c_20t_2c_202_20_3e',['Scharr&lt; T, 2 &gt;',['../struct_d_o_1_1_scharr_3_01_t_00_012_01_4.html',1,'DO']]],
   ['scrollarea',['ScrollArea',['../class_d_o_1_1_scroll_area.html',1,'DO']]],
+  ['secondmomentmatrix',['SecondMomentMatrix',['../struct_d_o_1_1_second_moment_matrix.html',1,'DO']]],
+  ['sharedpointer',['SharedPointer',['../class_d_o_1_1_shared_pointer.html',1,'DO']]],
   ['simplemesh',['SimpleMesh',['../class_d_o_1_1_simple_mesh.html',1,'DO']]],
   ['simplemesh_3c_20point3f_2c_20triangle_20_3e',['SimpleMesh&lt; Point3f, Triangle &gt;',['../class_d_o_1_1_simple_mesh.html',1,'DO']]],
+  ['sobel',['Sobel',['../struct_d_o_1_1_sobel.html',1,'DO']]],
+  ['sobel_3c_20t_2c_202_20_3e',['Sobel&lt; T, 2 &gt;',['../struct_d_o_1_1_sobel_3_01_t_00_012_01_4.html',1,'DO']]],
   ['sparsemultiarray',['SparseMultiArray',['../class_d_o_1_1_sparse_multi_array.html',1,'DO']]],
+  ['squareddistance',['SquaredDistance',['../class_d_o_1_1_squared_distance.html',1,'DO']]],
+  ['squarednorm',['SquaredNorm',['../struct_d_o_1_1_squared_norm.html',1,'DO']]],
+  ['squaredrefdistance',['SquaredRefDistance',['../class_d_o_1_1_squared_ref_distance.html',1,'DO']]],
+  ['stablenorm',['StableNorm',['../struct_d_o_1_1_stable_norm.html',1,'DO']]],
   ['staticassertion',['StaticAssertion',['../struct_d_o_1_1_meta_1_1_static_assertion.html',1,'DO::Meta']]],
   ['staticassertion_3c_20true_20_3e',['StaticAssertion&lt; true &gt;',['../struct_d_o_1_1_meta_1_1_static_assertion_3_01true_01_4.html',1,'DO::Meta']]],
-  ['staticassertiontest',['StaticAssertionTest',['../struct_d_o_1_1_meta_1_1_static_assertion_test.html',1,'DO::Meta']]]
+  ['staticassertiontest',['StaticAssertionTest',['../struct_d_o_1_1_meta_1_1_static_assertion_test.html',1,'DO::Meta']]],
+  ['strictlocalmax',['StrictLocalMax',['../struct_d_o_1_1_strict_local_max.html',1,'DO']]],
+  ['strictlocalmin',['StrictLocalMin',['../struct_d_o_1_1_strict_local_min.html',1,'DO']]],
+  ['strictlocalscalespacemax',['StrictLocalScaleSpaceMax',['../struct_d_o_1_1_strict_local_scale_space_max.html',1,'DO']]],
+  ['strictlocalscalespacemin',['StrictLocalScaleSpaceMin',['../struct_d_o_1_1_strict_local_scale_space_min.html',1,'DO']]],
+  ['subrangeiterator',['SubrangeIterator',['../class_d_o_1_1_subrange_iterator.html',1,'DO']]]
 ];

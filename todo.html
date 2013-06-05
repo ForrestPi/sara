@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -102,23 +108,41 @@ $(document).ready(function(){initNavTree('todo.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="class_d_o_1_1_adapt_feature_affinely_to_local_shape.html#adb280b2d26559fc4fd143870777efcd0">AdaptFeatureAffinelyToLocalShape::AdaptFeatureAffinelyToLocalShape</a>  ()</dt>
+<dd>: redo because there are hard-coded parameters in the default constructor.  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="group___image.html#ga3589d93d904fd25e83198258d03d44e6">DEFINE_IMAGE_VIEW_FROM_COLMAJOR_MULTIARRAY</a>  (Colorspace)</dt>
 <dd>Check this functionality...  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="group___graphics_view.html#ga90520e24f6b25d7da37cdf425b6c4795">DO::drawPointOnPixmapItem</a>  (int x, int y, const Rgb8 &amp;c, ImageItem pixItem)</dt>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="group___graphics_view.html#ga90520e24f6b25d7da37cdf425b6c4795">DO::drawPointOnPixmapItem</a>  (int x, int y, const Rgb8 &amp;c, ImageItem pixItem)</dt>
 <dd>Not yet implemented I think. Check that.  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Group <a class="el" href="group___event.html">Event</a>  </dt>
+<dt><a class="anchor" id="_todo000008"></a>Group <a class="el" href="group___event.html">Event</a>  </dt>
 <dd><p class="startdd">Investigate if it is useful. I don't remember.</p>
 <p class="enddd"></p>
 </dd>
-<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="struct_d_o_1_1_interactive_box.html">InteractiveBox</a>  </dt>
-<dd>See if it can be done in a more elegant way. </dd>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="class_d_o_1_1_image_pyramid_params.html#a72c5d7407d0631cf6d2a9c103b39091e">ImagePyramidParams::initOctaveIndex</a>  () const </dt>
+<dd>. Improve explanation. \((1/2)^i\) is the rescaling factor of the downsampled image of octave \(i\).  </dd>
+<dt><a class="anchor" id="_todo000007"></a>Class <a class="el" href="struct_d_o_1_1_interactive_box.html">InteractiveBox</a>  </dt>
+<dd>See if it can be done in a more elegant way.  </dd>
+<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="class_d_o_1_1_multi_array.html">MultiArray&lt; T, N, StorageOrder &gt;</a>  </dt>
+<dd>:<ul>
+<li>prefer shallow copy in copy constructor and in the assignment operator</li>
+<li>add 'MultiArray MultiArray::clone() const' method. (Performance still seems acceptable even if deep copies are always done.)</li>
+<li><b>DOUBLE-CHECK</b> all existing image-based algorithm.</li>
+<li>Extract boost::shared_pointer with bcp to get the job done.  </li>
+</ul>
+</dd>
+<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="class_d_o_1_1_tree.html">Tree&lt; T &gt;</a>  </dt>
+<dd>: finish testing (cf. methods' description where TODO is present.).  </dd>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="class_d_o_1_1_tree.html#aba6ece339051b6bad21840d986bd0a3a">Tree&lt; T &gt;::cut_tree</a>  (node_handle node)</dt>
+<dd>: check if the implementation is correct.  </dd>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="class_d_o_1_1_tree.html#a73a3166a18f4d9091d128d7ede38d740">Tree&lt; T &gt;::delete_subtree</a>  (node_handle node)</dt>
+<dd>: check if the implementation is correct. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:50 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

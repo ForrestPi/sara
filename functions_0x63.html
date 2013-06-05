@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_0x6c.html#index_l"><span>l</span></a></li>
@@ -144,40 +151,42 @@ $(document).ready(function(){initNavTree('functions_0x63.html','');});
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>cameraSigma()
+: <a class="el" href="class_d_o_1_1_image_pyramid_params.html#a7f000d11194059b31babe0cc8c75e475">ImagePyramidParams</a>
+</li>
 <li>cast()
 : <a class="el" href="struct_d_o_1_1_channel_traits.html#ad0d4458b14e8213cd30ca819fe69d7ed">ChannelTraits&lt; T &gt;</a>
 </li>
 <li>channel()
-: <a class="el" href="class_d_o_1_1_color.html#af4923830e61e808a81501dc9344bc731">Color&lt; T, Layout &gt;</a>
+: <a class="el" href="class_d_o_1_1_color.html#a0b6849e95fe39fc5321a33ca630fd5df">Color&lt; T, Layout &gt;</a>
 </li>
 <li>Channel
 : <a class="el" href="struct_d_o_1_1_channel_traits.html#a90d968700fb94b368f5a5d1bc31f38e2">ChannelTraits&lt; T &gt;</a>
 </li>
 <li>channel()
-: <a class="el" href="class_d_o_1_1_color.html#a0b6849e95fe39fc5321a33ca630fd5df">Color&lt; T, Layout &gt;</a>
+: <a class="el" href="class_d_o_1_1_color.html#af4923830e61e808a81501dc9344bc731">Color&lt; T, Layout &gt;</a>
 </li>
 <li>ChannelType
-: <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_014_00_011_01_4_01_4.html#a2dbfa21e8fc94ca8feaccc7451584182">ColorTraits&lt; Matrix&lt; ChannelType_, 4, 1 &gt; &gt;</a>
+: <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_01_m_00_01_n_01_4_01_4.html#a2dbfa21e8fc94ca8feaccc7451584182">ColorTraits&lt; Matrix&lt; ChannelType_, M, N &gt; &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#ae21d84313286d731e69913a7fd7a538e">ColorTraits&lt; double &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#aea02f057eaa34dbc5eddf2ff26572206">ColorTraits&lt; uchar &gt;</a>
-, <a class="el" href="class_d_o_1_1_color.html#a4fc05512d90a4b0e4d7a6ca6e56b9ed4">Color&lt; T, Layout &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01ushort_01_4.html#a99998126b2448d8950e0509f25ebc9ed">ColorTraits&lt; ushort &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uint_01_4.html#a13416f6d181e4a56a2ca17183638098f">ColorTraits&lt; uint &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits.html#ad14c104c9edbe1cd9020ea82f3cdb0f5">ColorTraits&lt; Color_ &gt;</a>
+, <a class="el" href="class_d_o_1_1_color.html#a4fc05512d90a4b0e4d7a6ca6e56b9ed4">Color&lt; T, Layout &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01char_01_4.html#a068771d43562e39b0f446c960a439e81">ColorTraits&lt; char &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01short_01_4.html#a28c32afba2b462baca0f47d477ccf9e2">ColorTraits&lt; short &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_013_00_011_01_4_01_4.html#a2dbfa21e8fc94ca8feaccc7451584182">ColorTraits&lt; Matrix&lt; ChannelType_, 3, 1 &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits.html#ad14c104c9edbe1cd9020ea82f3cdb0f5">ColorTraits&lt; Color_ &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01int_01_4.html#a793f06113f28e96ed56101c7a76ac681">ColorTraits&lt; int &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01float_01_4.html#ad57b2d00f790a83a293e9712d5c1805c">ColorTraits&lt; float &gt;</a>
 </li>
 <li>check()
-: <a class="el" href="class_d_o_1_1_locator.html#a4f69d9df692bff019419ca9b3b656c7f">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#a4f69d9df692bff019419ca9b3b656c7f">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>check_sizes_and_strides()
 : <a class="el" href="class_d_o_1_1_multi_array.html#af05ca63ef4968e9da0971052f416df2c">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>check_strides()
-: <a class="el" href="class_d_o_1_1_locator.html#aad7f0d952b12caba65ea4fa3043d2411">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#aad7f0d952b12caba65ea4fa3043d2411">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>children_begin()
 : <a class="el" href="class_d_o_1_1_tree.html#ae25e673000362d17c5dbe34e13ed26a9">Tree&lt; T &gt;</a>
@@ -190,23 +199,21 @@ $(document).ready(function(){initNavTree('functions_0x63.html','');});
 , <a class="el" href="class_d_o_1_1_tree.html#ac8bb3912a3ce86b15842e79d0b421204">Tree&lt; T &gt;</a>
 </li>
 <li>Color
-: <a class="el" href="struct_d_o_1_1_color_traits_3_01char_01_4.html#a5e11ed2b5bbfd2ec0290ba691e77315c">ColorTraits&lt; char &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01short_01_4.html#a8dd4714eb3b4cc636650b4efa78c8319">ColorTraits&lt; short &gt;</a>
+: <a class="el" href="struct_d_o_1_1_color_traits_3_01short_01_4.html#a8dd4714eb3b4cc636650b4efa78c8319">ColorTraits&lt; short &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01int_01_4.html#aeeff082dbf607675914ae4e2f81d6518">ColorTraits&lt; int &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01float_01_4.html#a84e40a2a68501ee9065154219636502d">ColorTraits&lt; float &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#a8b96d8e5cd628393636da37219eb5a2d">ColorTraits&lt; double &gt;</a>
 , <a class="el" href="class_d_o_1_1_color.html#a1589b83974b42a2f3315624f14c3c92c">Color&lt; T, Layout &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits.html#a8d45fa3ac7947ce1caba83d2bad66677">ColorTraits&lt; Color_ &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_013_00_011_01_4_01_4.html#aab4e8238f5a450c0049a5a0ce72334ce">ColorTraits&lt; Matrix&lt; ChannelType_, 3, 1 &gt; &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_014_00_011_01_4_01_4.html#a02199729c0b834fb5e1ec320c25b925a">ColorTraits&lt; Matrix&lt; ChannelType_, 4, 1 &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_01_m_00_01_n_01_4_01_4.html#af8b5f81cfbecb86f8fc8aec1b116b833">ColorTraits&lt; Matrix&lt; ChannelType_, M, N &gt; &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#a6a6b36f9ac287bde85a4a9a4a0cd4430">ColorTraits&lt; uchar &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01ushort_01_4.html#a1ef69be3e9e9a4da299f5111fc591a79">ColorTraits&lt; ushort &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uint_01_4.html#a8b2c4dc7fbdc5063366a0c52d63b0d0b">ColorTraits&lt; uint &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01char_01_4.html#a5e11ed2b5bbfd2ec0290ba691e77315c">ColorTraits&lt; char &gt;</a>
 </li>
 <li>Color64f
 : <a class="el" href="struct_d_o_1_1_color_traits.html#acb6a3ad1b3c0fd4f07d65dfc4fb89623">ColorTraits&lt; Color_ &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_013_00_011_01_4_01_4.html#a31c62f7c09d2de2143ea9de8dfc4ddb7">ColorTraits&lt; Matrix&lt; ChannelType_, 3, 1 &gt; &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_014_00_011_01_4_01_4.html#aeec63d33a5ff7fd9b15151281a33c397">ColorTraits&lt; Matrix&lt; ChannelType_, 4, 1 &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01_matrix_3_01_channel_type___00_01_m_00_01_n_01_4_01_4.html#a74f6d2a14de97d3ac9b8dbb27192e75f">ColorTraits&lt; Matrix&lt; ChannelType_, M, N &gt; &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#a9a301fd8ba0a7225e38351d3e5b2e4d3">ColorTraits&lt; uchar &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01ushort_01_4.html#a9a301fd8ba0a7225e38351d3e5b2e4d3">ColorTraits&lt; ushort &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uint_01_4.html#a9a301fd8ba0a7225e38351d3e5b2e4d3">ColorTraits&lt; uint &gt;</a>
@@ -217,73 +224,87 @@ $(document).ready(function(){initNavTree('functions_0x63.html','');});
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#a9a301fd8ba0a7225e38351d3e5b2e4d3">ColorTraits&lt; double &gt;</a>
 </li>
 <li>ColorLayout
-: <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; double &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01int_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; int &gt;</a>
+: <a class="el" href="struct_d_o_1_1_color_traits_3_01char_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; char &gt;</a>
 , <a class="el" href="class_d_o_1_1_color.html#a7a81d850ad8c8ac23245eabb7fae392b">Color&lt; T, Layout &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits.html#a1936ea193f7f09f57144dd97e0fd7969">ColorTraits&lt; Color_ &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uchar_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; uchar &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01char_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; char &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01ushort_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; ushort &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01uint_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; uint &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01short_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; short &gt;</a>
-, <a class="el" href="struct_d_o_1_1_color_traits_3_01ushort_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; ushort &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01int_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; int &gt;</a>
 , <a class="el" href="struct_d_o_1_1_color_traits_3_01float_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; float &gt;</a>
+, <a class="el" href="struct_d_o_1_1_color_traits_3_01double_01_4.html#a7c9d599cfa0d1404784fbe60e6bcfd24">ColorTraits&lt; double &gt;</a>
 </li>
 <li>cols()
 : <a class="el" href="class_d_o_1_1_multi_array.html#a3cefa469a7524d4bbc80531ebb9b5df4">MultiArray&lt; T, N, StorageOrder &gt;</a>
+</li>
+<li>compute()
+: <a class="el" href="class_d_o_1_1_image.html#af7d231173bd98166d38adba831612175">Image&lt; Color, N &gt;</a>
+</li>
+<li>ComputeDoGExtrema()
+: <a class="el" href="group___interest_point.html#ga4f7e0caac829adb487c7d8fe9af3fc63">ComputeDoGExtrema</a>
+</li>
+<li>ComputeHarrisLaplaceCorners()
+: <a class="el" href="class_d_o_1_1_compute_harris_laplace_corners.html#aa51169ba1a20ba349de20058b62c03c2">ComputeHarrisLaplaceCorners</a>
+</li>
+<li>ComputeSIFTDescriptor()
+: <a class="el" href="class_d_o_1_1_compute_s_i_f_t_descriptor.html#a2c70618635f05d80854daf0ab8fe7b2c">ComputeSIFTDescriptor&lt; N, O &gt;</a>
 </li>
 <li>const_array_view_type
 : <a class="el" href="class_d_o_1_1_multi_array.html#a4c4550c956b26060ca29852fc7752500">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>const_iterator
 : <a class="el" href="struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#aad40b6f664e3f2f7ab960886c2f7e325">ElementTraits&lt; Color&lt; T, Layout &gt; &gt;</a>
-, <a class="el" href="struct_d_o_1_1_element_traits.html#a2fc97dce62b7053449cc868607540dba">ElementTraits&lt; T &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#aad40b6f664e3f2f7ab960886c2f7e325">ElementTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
-, <a class="el" href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#aad40b6f664e3f2f7ab960886c2f7e325">ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_element_traits.html#a2fc97dce62b7053449cc868607540dba">ElementTraits&lt; T &gt;</a>
 , <a class="el" href="class_d_o_1_1_sparse_multi_array.html#a136285f5e1620856973c0c4007453a57">SparseMultiArray&lt; T, N &gt;</a>
+, <a class="el" href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#aad40b6f664e3f2f7ab960886c2f7e325">ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
 , <a class="el" href="class_d_o_1_1_multi_array.html#a2fc97dce62b7053449cc868607540dba">MultiArray&lt; T, N, StorageOrder &gt;</a>
-</li>
-<li>const_locator
-: <a class="el" href="class_d_o_1_1_multi_array.html#a4a50c3fdef274a291b3fc257677bea28">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>const_matrix_view_type
 : <a class="el" href="class_d_o_1_1_multi_array.html#a6dcd1d235928f2209e19860122cfe407">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>const_pointer
-: <a class="el" href="struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#a13c57dab17e2c903cadfa5e35ba84064">ElementTraits&lt; Color&lt; T, Layout &gt; &gt;</a>
-, <a class="el" href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a13c57dab17e2c903cadfa5e35ba84064">ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
-, <a class="el" href="class_d_o_1_1_multi_array.html#a53d259f0075b22d7646e373816830e8e">MultiArray&lt; T, N, StorageOrder &gt;</a>
-, <a class="el" href="struct_d_o_1_1_element_traits.html#a53d259f0075b22d7646e373816830e8e">ElementTraits&lt; T &gt;</a>
+: <a class="el" href="class_d_o_1_1_multi_array.html#a53d259f0075b22d7646e373816830e8e">MultiArray&lt; T, N, StorageOrder &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a13c57dab17e2c903cadfa5e35ba84064">ElementTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#a13c57dab17e2c903cadfa5e35ba84064">ElementTraits&lt; Color&lt; T, Layout &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a13c57dab17e2c903cadfa5e35ba84064">ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_element_traits.html#a53d259f0075b22d7646e373816830e8e">ElementTraits&lt; T &gt;</a>
+</li>
+<li>const_range_iterator
+: <a class="el" href="class_d_o_1_1_multi_array.html#ad69c27e7edbb13178e1dc9147c5ce613">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>const_reference
-: <a class="el" href="struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#afdb67657e63a66ed3fae7b0c9fd81b48">ElementTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
-, <a class="el" href="class_d_o_1_1_sparse_multi_array.html#afdb67657e63a66ed3fae7b0c9fd81b48">SparseMultiArray&lt; T, N &gt;</a>
-, <a class="el" href="class_d_o_1_1_multi_array.html#af9ba3e25df088c62f7d535b91672cda9">MultiArray&lt; T, N, StorageOrder &gt;</a>
-, <a class="el" href="struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#afdb67657e63a66ed3fae7b0c9fd81b48">ElementTraits&lt; Color&lt; T, Layout &gt; &gt;</a>
+: <a class="el" href="class_d_o_1_1_multi_array.html#af9ba3e25df088c62f7d535b91672cda9">MultiArray&lt; T, N, StorageOrder &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits.html#af9ba3e25df088c62f7d535b91672cda9">ElementTraits&lt; T &gt;</a>
+, <a class="el" href="class_d_o_1_1_sparse_multi_array.html#afdb67657e63a66ed3fae7b0c9fd81b48">SparseMultiArray&lt; T, N &gt;</a>
+, <a class="el" href="struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#afdb67657e63a66ed3fae7b0c9fd81b48">ElementTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#afdb67657e63a66ed3fae7b0c9fd81b48">ElementTraits&lt; Color&lt; T, Layout &gt; &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#afdb67657e63a66ed3fae7b0c9fd81b48">ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
 </li>
-<li>ConstArrayView
-: <a class="el" href="class_d_o_1_1_multi_array.html#a52eca6995c3493cf021776bb66b4d5f3">MultiArray&lt; T, N, StorageOrder &gt;</a>
-</li>
-<li>ConstLocator
-: <a class="el" href="class_d_o_1_1_multi_array.html#ac9dad77d8c0422c8e778476ad56a2136">MultiArray&lt; T, N, StorageOrder &gt;</a>
-</li>
-<li>ConstMatrixView
-: <a class="el" href="class_d_o_1_1_multi_array.html#a4ac38b3635f1f1ea4016b226401ba9ad">MultiArray&lt; T, N, StorageOrder &gt;</a>
+<li>const_subrange_iterator
+: <a class="el" href="class_d_o_1_1_multi_array.html#a860b7c52202b3cf2240cfc5cd84e9556">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>convert()
 : <a class="el" href="class_d_o_1_1_image.html#a3b35c07b31609437c194be2614e2e594">Image&lt; Color, N &gt;</a>
 </li>
 <li>coord_type
-: <a class="el" href="class_d_o_1_1_multi_array.html#ae4fb477425bbeb20329d300396ac2582">MultiArray&lt; T, N, StorageOrder &gt;</a>
-, <a class="el" href="class_d_o_1_1_sparse_multi_array.html#ae4fb477425bbeb20329d300396ac2582">SparseMultiArray&lt; T, N &gt;</a>
+: <a class="el" href="class_d_o_1_1_sparse_multi_array.html#ae4fb477425bbeb20329d300396ac2582">SparseMultiArray&lt; T, N &gt;</a>
 </li>
 <li>coords()
-: <a class="el" href="class_d_o_1_1_locator.html#a097d0e1275ad521eec770c654ae7c11a">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#afb44c4cbe26265d288f5384066c0346d">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
-<li>Coords
-: <a class="el" href="class_d_o_1_1_multi_array.html#a8c3d64e399e96b23463965538b430170">MultiArray&lt; T, N, StorageOrder &gt;</a>
+<li>coords_iterator
+: <a class="el" href="class_d_o_1_1_multi_array.html#a51ca55d9377565ef193eae7ebbf945db">MultiArray&lt; T, N, StorageOrder &gt;</a>
+</li>
+<li>coords_type
+: <a class="el" href="class_d_o_1_1_multi_array.html#af94cd6f98815d838c630d458ffbd5d88">MultiArray&lt; T, N, StorageOrder &gt;</a>
+</li>
+<li>cur_coords_
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#a82692beb3bc7e875f7b0cad244c4ad3d">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
+</li>
+<li>cur_pos_
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#a74532bdb15ae1a54d699c150490f022d">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>cut_tree()
 : <a class="el" href="class_d_o_1_1_tree.html#aba6ece339051b6bad21840d986bd0a3a">Tree&lt; T &gt;</a>
@@ -294,7 +315,7 @@ $(document).ready(function(){initNavTree('functions_0x63.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

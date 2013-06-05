@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_func_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_func_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_func_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_func_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_func_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_func_0x6c.html#index_l"><span>l</span></a></li>
@@ -143,6 +150,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 &#160;
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>AdaptFeatureAffinelyToLocalShape()
+: <a class="el" href="class_d_o_1_1_adapt_feature_affinely_to_local_shape.html#adb280b2d26559fc4fd143870777efcd0">AdaptFeatureAffinelyToLocalShape</a>
+</li>
 <li>affinity()
 : <a class="el" href="class_d_o_1_1_o_e_region.html#a210721a354bb9e2435440cb872b18fb7">OERegion</a>
 </li>
@@ -159,17 +169,17 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="class_d_o_1_1_tree.html#a15908e24c5d1f66b6d96b548291ff5c3">Tree&lt; T &gt;</a>
 </li>
 <li>apply()
-: <a class="el" href="struct_d_o_1_1_convert_image.html#afe48b50d9ed6115f19df98129e540c47">ConvertImage&lt; T, U, N &gt;</a>
-, <a class="el" href="struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html#aa5b8da65afada1738fd9f08d33d5520f">ConvertImage&lt; T, T, N &gt;</a>
+: <a class="el" href="struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html#aa5b8da65afada1738fd9f08d33d5520f">ConvertImage&lt; T, T, N &gt;</a>
+, <a class="el" href="struct_d_o_1_1_convert_image.html#afe48b50d9ed6115f19df98129e540c47">ConvertImage&lt; T, U, N &gt;</a>
 </li>
 <li>array()
-: <a class="el" href="class_d_o_1_1_multi_array.html#a32bc57ca621cb7ae27ab5aa25ef1c70d">MultiArray&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_multi_array.html#a8ede4f48ca36ec46ca4b57e3e2eeb3f7">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>axis()
-: <a class="el" href="class_d_o_1_1_locator.html#a2e106e539d6ba7366e07cc4ae130b29e">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#a9c808e11699e1a2d9f806f3bdd829ae7">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>AxisIterator()
-: <a class="el" href="class_d_o_1_1_axis_iterator.html#a94cc353f1334b1d367d4df72ceb61071">AxisIterator&lt; T, Axis, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_axis_iterator.html#a94cc353f1334b1d367d4df72ceb61071">AxisIterator&lt; IsConst, T, Axis, N &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -177,7 +187,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

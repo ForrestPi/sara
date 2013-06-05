@@ -1,5 +1,9 @@
 var class_d_o_1_1_point_feature =
 [
+    [ "ExtremumType", "class_d_o_1_1_point_feature.html#a42373da1d77e9ecbd237d652f1c66390", [
+      [ "Max", "class_d_o_1_1_point_feature.html#a42373da1d77e9ecbd237d652f1c66390a0fd430d535aa1902074d95d60a93f744", null ],
+      [ "Min", "class_d_o_1_1_point_feature.html#a42373da1d77e9ecbd237d652f1c66390abdec2b9cc9c6321c039e5b530793c0a0", null ]
+    ] ],
     [ "Type", "class_d_o_1_1_point_feature.html#a1d1cfd8ffb84e947f82999c682b666a7", [
       [ "Harris", "class_d_o_1_1_point_feature.html#a1d1cfd8ffb84e947f82999c682b666a7a143e5a749e6d8b9809c983f2cd14b039", null ],
       [ "HarAff", "class_d_o_1_1_point_feature.html#a1d1cfd8ffb84e947f82999c682b666a7a86e1f4649a9d6b1e90b873fb256b294d", null ],
@@ -20,6 +24,10 @@ var class_d_o_1_1_point_feature =
     [ "center", "class_d_o_1_1_point_feature.html#a0a1e428f7219a390cd1cbb2cba56cc68", null ],
     [ "coords", "class_d_o_1_1_point_feature.html#ad940cb4c40600c763666bd3dc06848b9", null ],
     [ "coords", "class_d_o_1_1_point_feature.html#a7c501e0d3cce9c7d266d570e9ba59859", null ],
+    [ "extremumType", "class_d_o_1_1_point_feature.html#aa17fa998e2299dc02c9076b38afda0ac", null ],
+    [ "extremumType", "class_d_o_1_1_point_feature.html#a9d38e3f33a42ecd2955a13287b032dc3", null ],
+    [ "extremumValue", "class_d_o_1_1_point_feature.html#a5400aa2d03554a59557f482fbb5f902c", null ],
+    [ "extremumValue", "class_d_o_1_1_point_feature.html#ad6943e49d663a1f67d87156566c5311b", null ],
     [ "operator==", "class_d_o_1_1_point_feature.html#af12ebdba6c8e33e77a37628f29b957c1", null ],
     [ "print", "class_d_o_1_1_point_feature.html#af289b06f5eb5c7bcf6ae7ef4cc61c520", null ],
     [ "read", "class_d_o_1_1_point_feature.html#ab685cbd1cee5d00405e2777bdfe41c04", null ],

@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -112,18 +118,18 @@ $(document).ready(function(){initNavTree('struct_d_o_1_1_differential.html','');
 
 <p>This is the complete list of members for <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>accumulate_neighbor_values</b>(Locator&lt; T, N, StorageOrder &gt; &amp;loc) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>accumulate_neighbor_values</b>(RangeIterator&lt; IsConst, T, N, StorageOrder &gt; &amp;it) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>DO_STATIC_ASSERT</b>(Axis &gt;=0 &amp;&amp;Axis&lt; N, AXIS_MUST_NONNEGATIVE_AND_LESS_THAN_N) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>eval_derivative</b>(Locator&lt; T, N, StorageOrder &gt; &amp;loc) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>eval_divergence</b>(Locator&lt; Matrix&lt; T, N, 1 &gt;, N, StorageOrder &gt; &amp;loc) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>eval_gradient</b>(Matrix&lt; T, N, 1 &gt; &amp;g, Locator&lt; const T, N, StorageOrder &gt; &amp;loc) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>eval_laplacian</b>(Locator&lt; T, N, StorageOrder &gt; &amp;loc) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>eval_divergence</b>(RangeIterator&lt; IsConst, Matrix&lt; T, N, 1 &gt;, N, StorageOrder &gt; &amp;it) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>eval_gradient</b>(Matrix&lt; T, N, 1 &gt; &amp;g, RangeIterator&lt; IsConst, T, N, StorageOrder &gt; &amp;it) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>eval_laplacian</b>(RangeIterator&lt; IsConst, T, N, StorageOrder &gt; &amp;loc) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>eval_partial_derivative</b>(RangeIterator&lt; IsConst, T, N, StorageOrder &gt; &amp;it) (defined in <a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a>)</td><td class="entry"><a class="el" href="struct_d_o_1_1_differential.html">Differential&lt; N, Axis &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:45 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:59 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

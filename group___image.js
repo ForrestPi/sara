@@ -11,13 +11,16 @@ var group___image =
       [ "value_type", "struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#ae79d568f7cb02e0f36a97a7e904791af", null ]
     ] ],
     [ "Image", "class_d_o_1_1_image.html", [
-      [ "Vector", "class_d_o_1_1_image.html#abbab566abe3e8de5e0b8b8d3ca150a0c", null ],
+      [ "Vector", "class_d_o_1_1_image.html#a7c0279c441facd7e70db298185442dcb", null ],
+      [ "vector_type", "class_d_o_1_1_image.html#aaf4d853a31ce96e5aa073ec56f14ed7a", null ],
       [ "Image", "class_d_o_1_1_image.html#a66d0d6da3b89580352c28d37b57df5bb", null ],
-      [ "Image", "class_d_o_1_1_image.html#aa97e04e962349b89c734dbe20738db24", null ],
-      [ "Image", "class_d_o_1_1_image.html#a41991711658b8e1686706ced4a439a1c", null ],
+      [ "Image", "class_d_o_1_1_image.html#a034700cf7007fcf802aa8f9fa7547173", null ],
+      [ "Image", "class_d_o_1_1_image.html#aa6c80209dec9cdb8fc2224b938d8b120", null ],
       [ "Image", "class_d_o_1_1_image.html#af01766f2360b125ef9131ad1c613c013", null ],
       [ "Image", "class_d_o_1_1_image.html#ab4c9fa2662875ab1542a5c01ed74373f", null ],
-      [ "Image", "class_d_o_1_1_image.html#a03040d6426bcf2fcd6a7d731d3534796", null ],
+      [ "Image", "class_d_o_1_1_image.html#a197aeb02bcf7f870ba76dc87462d5cdc", null ],
+      [ "compute", "class_d_o_1_1_image.html#af7d231173bd98166d38adba831612175", null ],
+      [ "compute", "class_d_o_1_1_image.html#a1f8ed62af9aeb243f9a0925e12a99346", null ],
       [ "convert", "class_d_o_1_1_image.html#a3b35c07b31609437c194be2614e2e594", null ],
       [ "depth", "class_d_o_1_1_image.html#a3275d1392d01b26af1c8cd52b0d10745", null ],
       [ "height", "class_d_o_1_1_image.html#ae26bcfe2f33f5873dbdfb6948cf1f59f", null ],
@@ -26,6 +29,12 @@ var group___image =
     ] ],
     [ "ConvertImage", "struct_d_o_1_1_convert_image.html", null ],
     [ "ConvertImage< T, T, N >", "struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html", null ],
+    [ "ColorRescale", "struct_d_o_1_1_color_rescale.html", [
+      [ "ReturnType", "struct_d_o_1_1_color_rescale.html#a4a57062c6b3d5a58de93e274eb28a3d0", null ],
+      [ "ColorRescale", "struct_d_o_1_1_color_rescale.html#a8cfb34c69b996ee2e2fc8b3c7051f0c9", null ],
+      [ "operator()", "struct_d_o_1_1_color_rescale.html#a5462f5f15c90361c6f1b164e8f21c2eb", null ],
+      [ "src_", "struct_d_o_1_1_color_rescale.html#a37acfc8e40f2f233e57b2984e5024035", null ]
+    ] ],
     [ "DEFINE_FINDMINMAX_GRAY", "group___image.html#gab9988e0f3093c7ea96879529b44d3a05", null ],
     [ "DEFINE_IMAGE_VIEW_FROM_COLMAJOR_MULTIARRAY", "group___image.html#ga3589d93d904fd25e83198258d03d44e6", null ],
     [ "DEFINE_RESCALE_GRAY", "group___image.html#gae46f4594b176ee37843b58e67de94b2f", null ],

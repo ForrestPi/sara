@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_0x6c.html#index_l"><span>l</span></a></li>
@@ -144,9 +151,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>AdaptFeatureAffinelyToLocalShape()
+: <a class="el" href="class_d_o_1_1_adapt_feature_affinely_to_local_shape.html#adb280b2d26559fc4fd143870777efcd0">AdaptFeatureAffinelyToLocalShape</a>
+</li>
 <li>AddCost
-: <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da879f6b9e117daf216dce0c0fb6f377c8">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
-, <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a879f6b9e117daf216dce0c0fb6f377c8">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
+: <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a879f6b9e117daf216dce0c0fb6f377c8">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da879f6b9e117daf216dce0c0fb6f377c8">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
 </li>
 <li>affinity()
 : <a class="el" href="class_d_o_1_1_o_e_region.html#a210721a354bb9e2435440cb872b18fb7">OERegion</a>
@@ -173,14 +183,11 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>array_view_type
 : <a class="el" href="class_d_o_1_1_multi_array.html#a9f4b00f1ddd01a394b9e7efc47206238">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
-<li>ArrayView
-: <a class="el" href="class_d_o_1_1_multi_array.html#a445d56f5d487eeb1e4d9fe4e9b3e57b4">MultiArray&lt; T, N, StorageOrder &gt;</a>
-</li>
 <li>axis()
-: <a class="el" href="class_d_o_1_1_locator.html#a2e106e539d6ba7366e07cc4ae130b29e">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#a9c808e11699e1a2d9f806f3bdd829ae7">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>AxisIterator()
-: <a class="el" href="class_d_o_1_1_axis_iterator.html#abfc20ae4f3e395a95f0aeb868272fc45">AxisIterator&lt; T, Axis, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_axis_iterator.html#a160239099dab920a25e35d660c7d38d1">AxisIterator&lt; IsConst, T, Axis, N &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -188,7 +195,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

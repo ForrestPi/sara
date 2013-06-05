@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -131,14 +137,6 @@ Modules</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga6befbca3f4c07866e5a0b6b255b6a469"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6befbca3f4c07866e5a0b6b255b6a469"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#ga6befbca3f4c07866e5a0b6b255b6a469">BEGIN_NAMESPACE_DO</a>&#160;&#160;&#160;namespace DO {</td></tr>
-<tr class="memdesc:ga6befbca3f4c07866e5a0b6b255b6a469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opening macro whose sole purpose is to increase the namespace visibility. <br/></td></tr>
-<tr class="separator:ga6befbca3f4c07866e5a0b6b255b6a469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace84578be62b4659157bfae5b1e7b9f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gace84578be62b4659157bfae5b1e7b9f4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#gace84578be62b4659157bfae5b1e7b9f4">END_NAMESPACE_DO</a>&#160;&#160;&#160;} /* namespace DO */</td></tr>
-<tr class="memdesc:gace84578be62b4659157bfae5b1e7b9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closing macro whose sole purpose is to increase the namespace visibility. <br/></td></tr>
-<tr class="separator:gace84578be62b4659157bfae5b1e7b9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a1adaa43f4f9abbba0e666652a3756c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#ga3a1adaa43f4f9abbba0e666652a3756c">srcPath</a>(s)&#160;&#160;&#160;(s)</td></tr>
 <tr class="memdesc:ga3a1adaa43f4f9abbba0e666652a3756c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the full path of a file when CMake is used.  <a href="#ga3a1adaa43f4f9abbba0e666652a3756c">More...</a><br/></td></tr>
 <tr class="separator:ga3a1adaa43f4f9abbba0e666652a3756c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,7 +146,7 @@ Macros</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Note that the Core module heavily relies on the <a href="http://eigen.tuxfamily.org/">Eigen</a> library (linear algebra). </p>
-<p>the <a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> namespace is directly imported inside the <a class="el" href="namespace_d_o.html" title="The library namespace.">DO</a> namespace for convenience. For details, have a look at the file <a class="el" href="_eigen_extension_8hpp.html" title="Eigen matrices and vector typedefs.">EigenExtension.hpp</a>.</p>
+<p>the <a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> namespace is directly imported inside the <a class="el" href="namespace_d_o.html" title="Eigen dependencies.">DO</a> namespace for convenience. For details, have a look at the file <a class="el" href="_eigen_extension_8hpp.html" title="Eigen matrices and vector typedefs.">EigenExtension.hpp</a>.</p>
 <p>So more specific information about the <a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> library, refer to: <a href="http://eigen.tuxfamily.org/dox/">http://eigen.tuxfamily.org/dox/</a> </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ga3a1adaa43f4f9abbba0e666652a3756c"></a>
@@ -208,7 +206,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:50 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

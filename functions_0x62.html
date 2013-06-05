@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_0x6c.html#index_l"><span>l</span></a></li>
@@ -151,17 +158,20 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 , <a class="el" href="class_d_o_1_1_sparse_multi_array.html#ad69bd11391be1a1dba5c8202259664f8">SparseMultiArray&lt; T, N &gt;</a>
 , <a class="el" href="class_d_o_1_1_tree.html#af5e8c199fcd6546df1e7b757eb6d2939">Tree&lt; T &gt;</a>
 </li>
-<li>begin_locator()
-: <a class="el" href="class_d_o_1_1_multi_array.html#a8a997b4130bfa21ad1213463ebadb4ae">MultiArray&lt; T, N, StorageOrder &gt;</a>
+<li>begin_coords()
+: <a class="el" href="class_d_o_1_1_multi_array.html#a0bd08eea84159de6ddc3e5279e3b6e2d">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>begin_range()
-: <a class="el" href="class_d_o_1_1_multi_array.html#a5b6444239bd00a52732b1ac4aeec929b">MultiArray&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_multi_array.html#ab90f193517fda2b4390b14eba239dd5d">MultiArray&lt; T, N, StorageOrder &gt;</a>
+</li>
+<li>begin_subrange()
+: <a class="el" href="class_d_o_1_1_multi_array.html#ad4ccc9303c78df229b72e331d4d1fa63">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>breadth_first_begin()
-: <a class="el" href="class_d_o_1_1_tree.html#aeff3d8457fe71b935b10ce476917928b">Tree&lt; T &gt;</a>
+: <a class="el" href="class_d_o_1_1_tree.html#ad097f916ecfaf0eebfb0183c610ddcae">Tree&lt; T &gt;</a>
 </li>
 <li>breadth_first_end()
-: <a class="el" href="class_d_o_1_1_tree.html#aca0ea756c48799d75381de9ef0cce128">Tree&lt; T &gt;</a>
+: <a class="el" href="class_d_o_1_1_tree.html#a96a5a047c112cbba0d54d746a6073499">Tree&lt; T &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -169,7 +179,7 @@ $(document).ready(function(){initNavTree('functions_0x62.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

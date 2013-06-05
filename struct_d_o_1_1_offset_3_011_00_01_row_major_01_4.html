@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -135,16 +141,51 @@ template&lt;typename Index &gt; </td></tr>
 <tr class="memitem:a0b52d46c505c64599af0ed217401d2fe"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">eval_coords_from_offset</a> (Index *coords, Index offset, const Index *dims)</td></tr>
 <tr class="memdesc:a0b52d46c505c64599af0ed217401d2fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merely returns the offset value. <br/></td></tr>
 <tr class="separator:a0b52d46c505c64599af0ed217401d2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbe7b75b289ed1e202180fd94a2a707c"><td class="memTemplParams" colspan="2"><a class="anchor" id="acbe7b75b289ed1e202180fd94a2a707c"></a>
+<tr class="memitem:aacfaf9567f24a89ec57f519c3eaba471"><td class="memTemplParams" colspan="2"><a class="anchor" id="aacfaf9567f24a89ec57f519c3eaba471"></a>
 template&lt;typename Index &gt; </td></tr>
-<tr class="memitem:acbe7b75b289ed1e202180fd94a2a707c"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#acbe7b75b289ed1e202180fd94a2a707c">increment_coords</a> (Index *coords, const Index *size)</td></tr>
-<tr class="memdesc:acbe7b75b289ed1e202180fd94a2a707c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merely does +1. <br/></td></tr>
-<tr class="separator:acbe7b75b289ed1e202180fd94a2a707c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1c91b6ec96f5963221003a8cae3d912"><td class="memTemplParams" colspan="2"><a class="anchor" id="ac1c91b6ec96f5963221003a8cae3d912"></a>
+<tr class="memitem:aacfaf9567f24a89ec57f519c3eaba471"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#aacfaf9567f24a89ec57f519c3eaba471">eval_coords_from_offset_</a> (Index *coords, Index offset, const Index *dims)</td></tr>
+<tr class="memdesc:aacfaf9567f24a89ec57f519c3eaba471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes the unrolled loop of 'eval_coords_from_offset'. <br/></td></tr>
+<tr class="separator:aacfaf9567f24a89ec57f519c3eaba471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a197c87541b2f7ceca6df994e3f933dca"><td class="memTemplParams" colspan="2"><a class="anchor" id="a197c87541b2f7ceca6df994e3f933dca"></a>
 template&lt;typename Index &gt; </td></tr>
-<tr class="memitem:ac1c91b6ec96f5963221003a8cae3d912"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#ac1c91b6ec96f5963221003a8cae3d912">decrement_coords</a> (Index *coords, const Index *size)</td></tr>
-<tr class="memdesc:ac1c91b6ec96f5963221003a8cae3d912"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merely does -1. <br/></td></tr>
-<tr class="separator:ac1c91b6ec96f5963221003a8cae3d912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a197c87541b2f7ceca6df994e3f933dca"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a197c87541b2f7ceca6df994e3f933dca">increment_coords</a> (Index *coords, const Index *size, bool &amp;stop)</td></tr>
+<tr class="memdesc:a197c87541b2f7ceca6df994e3f933dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merely does +1. <br/></td></tr>
+<tr class="separator:a197c87541b2f7ceca6df994e3f933dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e4f52f6fce1f306223b7efda4ea1186"><td class="memTemplParams" colspan="2"><a class="anchor" id="a5e4f52f6fce1f306223b7efda4ea1186"></a>
+template&lt;typename Index &gt; </td></tr>
+<tr class="memitem:a5e4f52f6fce1f306223b7efda4ea1186"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a5e4f52f6fce1f306223b7efda4ea1186">increment_coords_</a> (Index *coords, const Index *size, bool &amp;stop)</td></tr>
+<tr class="memdesc:a5e4f52f6fce1f306223b7efda4ea1186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes the underlying loop of 'increment_coords'. <br/></td></tr>
+<tr class="separator:a5e4f52f6fce1f306223b7efda4ea1186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d8bb7719e368c749c854315197a6ab"><td class="memTemplParams" colspan="2"><a class="anchor" id="a03d8bb7719e368c749c854315197a6ab"></a>
+template&lt;typename Index &gt; </td></tr>
+<tr class="memitem:a03d8bb7719e368c749c854315197a6ab"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a03d8bb7719e368c749c854315197a6ab">increment_coords</a> (Index *coords, const Index *start, const Index *end, bool &amp;stop)</td></tr>
+<tr class="memdesc:a03d8bb7719e368c749c854315197a6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes the incremented coordinates. <br/></td></tr>
+<tr class="separator:a03d8bb7719e368c749c854315197a6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8953400b698926cd8d544cec97ed6927"><td class="memTemplParams" colspan="2"><a class="anchor" id="a8953400b698926cd8d544cec97ed6927"></a>
+template&lt;typename Index &gt; </td></tr>
+<tr class="memitem:a8953400b698926cd8d544cec97ed6927"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a8953400b698926cd8d544cec97ed6927">increment_coords_</a> (Index *coords, const Index *start, const Index *end, bool &amp;stop)</td></tr>
+<tr class="memdesc:a8953400b698926cd8d544cec97ed6927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes the underlying loop of 'increment_coords'. <br/></td></tr>
+<tr class="separator:a8953400b698926cd8d544cec97ed6927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c7a84c84fd8cafee697efb4db62c42"><td class="memTemplParams" colspan="2"><a class="anchor" id="aa2c7a84c84fd8cafee697efb4db62c42"></a>
+template&lt;typename Index &gt; </td></tr>
+<tr class="memitem:aa2c7a84c84fd8cafee697efb4db62c42"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#aa2c7a84c84fd8cafee697efb4db62c42">decrement_coords</a> (Index *coords, const Index *size, bool &amp;stop)</td></tr>
+<tr class="memdesc:aa2c7a84c84fd8cafee697efb4db62c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merely does -1. <br/></td></tr>
+<tr class="separator:aa2c7a84c84fd8cafee697efb4db62c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b61b1eedc0e83692372a953a637b576"><td class="memTemplParams" colspan="2"><a class="anchor" id="a4b61b1eedc0e83692372a953a637b576"></a>
+template&lt;typename Index &gt; </td></tr>
+<tr class="memitem:a4b61b1eedc0e83692372a953a637b576"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a4b61b1eedc0e83692372a953a637b576">decrement_coords_</a> (Index *coords, const Index *size, bool &amp;stop)</td></tr>
+<tr class="memdesc:a4b61b1eedc0e83692372a953a637b576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes the underlying loop of 'decrement_coords'. <br/></td></tr>
+<tr class="separator:a4b61b1eedc0e83692372a953a637b576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d543cc7b3cbf75393b4fe8539fd059a"><td class="memTemplParams" colspan="2"><a class="anchor" id="a1d543cc7b3cbf75393b4fe8539fd059a"></a>
+template&lt;typename Index &gt; </td></tr>
+<tr class="memitem:a1d543cc7b3cbf75393b4fe8539fd059a"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a1d543cc7b3cbf75393b4fe8539fd059a">decrement_coords</a> (Index *coords, const Index *start, const Index *end, bool &amp;stop)</td></tr>
+<tr class="memdesc:a1d543cc7b3cbf75393b4fe8539fd059a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes the incremented coordinates. <br/></td></tr>
+<tr class="separator:a1d543cc7b3cbf75393b4fe8539fd059a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b30f9594b8ab4d69bb830cb137dc3d0"><td class="memTemplParams" colspan="2"><a class="anchor" id="a8b30f9594b8ab4d69bb830cb137dc3d0"></a>
+template&lt;typename Index &gt; </td></tr>
+<tr class="memitem:a8b30f9594b8ab4d69bb830cb137dc3d0"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a8b30f9594b8ab4d69bb830cb137dc3d0">decrement_coords_</a> (Index *coords, const Index *start, const Index *end, bool &amp;stop)</td></tr>
+<tr class="memdesc:a8b30f9594b8ab4d69bb830cb137dc3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes the underlying loop of 'increment_coords'. <br/></td></tr>
+<tr class="separator:a8b30f9594b8ab4d69bb830cb137dc3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;&gt;<br/>
@@ -160,7 +201,7 @@ struct DO::Offset&lt; 1, RowMajor &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d_o.html">DO</a></li><li class="navelem"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset< 1, RowMajor ></a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:40 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:52 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

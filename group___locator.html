@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -98,7 +104,8 @@ $(document).ready(function(){initNavTree('group___locator.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">Locator<div class="ingroups"><a class="el" href="group___core.html">Core</a></div></div>  </div>
 </div><!--header-->
@@ -109,35 +116,93 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset.html">Offset&lt; N, StorageOrder &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The offset computer class for N-dimensional arrays. StorageOrder must be either 'Eigen::RowMajor' or 'Eigen::ColMajor'.  <a href="struct_d_o_1_1_offset.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset2.html">Offset2&lt; N &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html">Offset&lt; N, RowMajor &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The specialized offset computer for dimension N &gt; 1 and row-major storage.  <a href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html">Offset&lt; N, ColMajor &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The specialized offset computer for dimension N &gt; 1 and column-major storage.  <a href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html">Offset&lt; 1, RowMajor &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The specialized offset computer for dimension 1 and row-major storage (for loop unrolling).  <a href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html">Offset&lt; N, ColMajor &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The specialized offset computer for dimension N &gt; 1 and column-major storage.  <a href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html">Offset&lt; 1, ColMajor &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The specialized offset computer for dimension 1 and column-major storage.  <a href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html">AxisIterator&lt; T, Axis, N, StorageOrder &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_offset2_3_011_01_4.html">Offset2&lt; 1 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_axis_iterator.html">AxisIterator&lt; IsConst, T, Axis, N &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Axis iterator class for N-dimensional arrays.  <a href="class_d_o_1_1_axis_iterator.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_locator.html">Locator&lt; T, N, StorageOrder &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">N-dimensional iterator class.  <a href="class_d_o_1_1_locator.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_range_iterator_base.html">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">N-dimensional iterator class. In any case the 'Locator2' class is a heavy object. It is slower than the 'Locator' class for incremental iteration. It is mostly useful for differential calculus. Otherwise prefer using other iterator instead.  <a href="class_d_o_1_1_range_iterator_base.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_range_iterator.html">RangeIterator&lt; N &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range iterator class for N-dimensional array.  <a href="class_d_o_1_1_range_iterator.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_range_iterator.html">RangeIterator&lt; IsConst, T, N, StorageOrder &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">N-dimensional iterator class. In any case the '<a class="el" href="class_d_o_1_1_range_iterator.html" title="N-dimensional iterator class. In any case the &#39;RangeIterator&#39; class is a heavy object. It is mostly useful for differential calculus. Otherwise prefer using other iterator instead.">RangeIterator</a>' class is a heavy object. It is mostly useful for differential calculus. Otherwise prefer using other iterator instead.  <a href="class_d_o_1_1_range_iterator.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_subrange_iterator.html">SubrangeIterator&lt; IsConst, T, N, StorageOrder &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">N-dimensional iterator class. In any case the '<a class="el" href="class_d_o_1_1_subrange_iterator.html" title="N-dimensional iterator class. In any case the &#39;SubrangeIterator&#39; class is a heavy object...">SubrangeIterator</a>' class is a heavy object. It is slower than the '<a class="el" href="class_d_o_1_1_range_iterator.html" title="N-dimensional iterator class. In any case the &#39;RangeIterator&#39; class is a heavy object. It is mostly useful for differential calculus. Otherwise prefer using other iterator instead.">RangeIterator</a>' class for incremental iteration. It is mostly useful for differential calculus. Otherwise prefer using other iterator instead.  <a href="class_d_o_1_1_subrange_iterator.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_coords_iterator.html">CoordsIterator&lt; N &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coords iterator class for N-dimensional array. See if loop unrolling makes them faster.  <a href="class_d_o_1_1_coords_iterator.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga4b163dc010e22d5ad597d78fbff447f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>ITERATOR_BASE_TYPE</b>(IsConst)</td></tr>
+<tr class="separator:ga4b163dc010e22d5ad597d78fbff447f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8b2ed23c6d577cce5b244460bedb876"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>TYPEDEF_ITERATOR_TYPES</b>(IteratorType)</td></tr>
+<tr class="separator:gaf8b2ed23c6d577cce5b244460bedb876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="ga4b163dc010e22d5ad597d78fbff447f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ITERATOR_BASE_TYPE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">IsConst</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">std::iterator&lt;std::random_access_iterator_tag, T, std::ptrdiff_t, \</div>
+<div class="line">    typename Meta::Choose&lt;IsConst, const T *, T *&gt;::Type,           \</div>
+<div class="line">    typename Meta::Choose&lt;IsConst, const T&amp;, T&amp;&gt;::Type&gt;</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="gaf8b2ed23c6d577cce5b244460bedb876"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TYPEDEF_ITERATOR_TYPES</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">IteratorType</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">typedef</span> <span class="keyword">typename</span> base_type::value_type value_type;              \</div>
+<div class="line">  typedef <span class="keyword">typename</span> base_type::difference_type difference_type;    \</div>
+<div class="line">  typedef <span class="keyword">typename</span> base_type::pointer pointer;                    \</div>
+<div class="line">  typedef <span class="keyword">typename</span> base_type::reference reference;                \</div>
+<div class="line">  typedef <span class="keyword">typename</span> base_type::iterator_category iterator_category</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:50 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

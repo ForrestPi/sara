@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_0x64.html#index_d"><span>d</span></a></li>
       <li class="current"><a href="functions_func_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_func_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_func_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_func_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_func_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_func_0x6c.html#index_l"><span>l</span></a></li>
@@ -146,13 +153,18 @@ $(document).ready(function(){initNavTree('functions_func_0x65.html','');});
 <li>elapsed()
 : <a class="el" href="class_d_o_1_1_timer.html#afb19d21ecfbd068a2f9c63ae52939df2">Timer</a>
 </li>
+<li>elapsedMs()
+: <a class="el" href="class_d_o_1_1_high_res_timer.html#af4dbcc0b93d74e5fb7100c4299f9ec20">HighResTimer</a>
+</li>
 <li>empty()
-: <a class="el" href="class_d_o_1_1_sparse_multi_array.html#ac6e61de369e994009e36f344f99c15ad">SparseMultiArray&lt; T, N &gt;</a>
-, <a class="el" href="class_d_o_1_1_tree.html#ac6e61de369e994009e36f344f99c15ad">Tree&lt; T &gt;</a>
+: <a class="el" href="class_d_o_1_1_tree.html#ac6e61de369e994009e36f344f99c15ad">Tree&lt; T &gt;</a>
+, <a class="el" href="class_d_o_1_1_sparse_multi_array.html#ac6e61de369e994009e36f344f99c15ad">SparseMultiArray&lt; T, N &gt;</a>
 </li>
 <li>end()
-: <a class="el" href="class_d_o_1_1_multi_array.html#acad38d52497a975bfb6f2f6acd76631f">MultiArray&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_sparse_multi_array.html#a350132543d80a1c1e5be844e6d2878ea">SparseMultiArray&lt; T, N &gt;</a>
 , <a class="el" href="class_d_o_1_1_tree.html#a84c3a10b394fa5d0687d032a086c3e96">Tree&lt; T &gt;</a>
+, <a class="el" href="class_d_o_1_1_multi_array.html#acad38d52497a975bfb6f2f6acd76631f">MultiArray&lt; T, N, StorageOrder &gt;</a>
+, <a class="el" href="class_d_o_1_1_tree.html#a687d5908d94367fd391ce19fd6d48a39">Tree&lt; T &gt;</a>
 , <a class="el" href="class_d_o_1_1_multi_array.html#a350132543d80a1c1e5be844e6d2878ea">MultiArray&lt; T, N, StorageOrder &gt;</a>
 , <a class="el" href="class_d_o_1_1_sparse_multi_array.html#acad38d52497a975bfb6f2f6acd76631f">SparseMultiArray&lt; T, N &gt;</a>
 </li>
@@ -161,22 +173,28 @@ $(document).ready(function(){initNavTree('functions_func_0x65.html','');});
 , <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a34a0f20cd593faa04bf2c821272ab5c1">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
 </li>
 <li>eval()
-: <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#affb094f082ace3f8d9949275933b888b">Offset&lt; N, ColMajor &gt;</a>
-, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a1ffa69ab4cc1df64eaa174cfbfb1839d">Offset&lt; 1, RowMajor &gt;</a>
+: <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a1ffa69ab4cc1df64eaa174cfbfb1839d">Offset&lt; 1, RowMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#a156c0b86b1e62dfdfe3f957ef54c619c">Offset&lt; N, ColMajor &gt;</a>
 , <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#a1ffa69ab4cc1df64eaa174cfbfb1839d">Offset&lt; 1, ColMajor &gt;</a>
 , <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#a156c0b86b1e62dfdfe3f957ef54c619c">Offset&lt; N, RowMajor &gt;</a>
 </li>
 <li>eval_coords_from_offset()
-: <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">Offset&lt; N, RowMajor &gt;</a>
-, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">Offset&lt; N, ColMajor &gt;</a>
+: <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">Offset&lt; N, ColMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">Offset&lt; N, RowMajor &gt;</a>
 , <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">Offset&lt; 1, RowMajor &gt;</a>
 , <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#a0b52d46c505c64599af0ed217401d2fe">Offset&lt; 1, ColMajor &gt;</a>
 </li>
+<li>eval_coords_from_offset_()
+: <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#aacfaf9567f24a89ec57f519c3eaba471">Offset&lt; 1, RowMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#aacfaf9567f24a89ec57f519c3eaba471">Offset&lt; 1, ColMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#aacfaf9567f24a89ec57f519c3eaba471">Offset&lt; N, RowMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#aacfaf9567f24a89ec57f519c3eaba471">Offset&lt; N, ColMajor &gt;</a>
+</li>
 <li>eval_strides()
-: <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#ad02911d67da0ad2bcf95bf5957f37553">Offset&lt; N, RowMajor &gt;</a>
-, <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#ad02911d67da0ad2bcf95bf5957f37553">Offset&lt; 1, ColMajor &gt;</a>
+: <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_col_major_01_4.html#ad02911d67da0ad2bcf95bf5957f37553">Offset&lt; 1, ColMajor &gt;</a>
 , <a class="el" href="struct_d_o_1_1_offset_3_011_00_01_row_major_01_4.html#ad02911d67da0ad2bcf95bf5957f37553">Offset&lt; 1, RowMajor &gt;</a>
 , <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_col_major_01_4.html#ad02911d67da0ad2bcf95bf5957f37553">Offset&lt; N, ColMajor &gt;</a>
+, <a class="el" href="struct_d_o_1_1_offset_3_01_n_00_01_row_major_01_4.html#ad02911d67da0ad2bcf95bf5957f37553">Offset&lt; N, RowMajor &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -184,7 +202,7 @@ $(document).ready(function(){initNavTree('functions_func_0x65.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -106,7 +112,11 @@ $(document).ready(function(){initNavTree('dir_7cfa978e82701257b4eeff8e81fa333b.h
 Directories</h2></td></tr>
 <tr class="memitem:dir_7bef077cbb0b026103ac45f2b959b03e"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_7bef077cbb0b026103ac45f2b959b03e.html">Core</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dir_98f8bf22aab1610b0c59609c4282dcae"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_98f8bf22aab1610b0c59609c4282dcae.html">FeatureDetectors</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dir_80267d3cd074f8782be60c7f29cfaac2"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_80267d3cd074f8782be60c7f29cfaac2.html">Features</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dir_5a22dc5620d0dbeff6dfdcd3bb531f29"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_5a22dc5620d0dbeff6dfdcd3bb531f29.html">Geometry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dir_5aad99fc5a5d671229ab287305c786d1"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_5aad99fc5a5d671229ab287305c786d1.html">Graphics</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,12 +130,17 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:_defines_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>Defines.hpp</b> <a href="_defines_8hpp_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_features_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>Features.hpp</b> <a href="_features_8hpp_source.html">[code]</a></td></tr>
+<tr class="memitem:_feature_detectors_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_feature_detectors_8hpp.html">FeatureDetectors.hpp</a> <a href="_feature_detectors_8hpp_source.html">[code]</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:_features_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_features_8hpp.html">Features.hpp</a> <a href="_features_8hpp_source.html">[code]</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:_geometry_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>Geometry.hpp</b> <a href="_geometry_8hpp_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:_graphics_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_graphics_8hpp.html">Graphics.hpp</a> <a href="_graphics_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:_graphics_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master header file of the Graphics module. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_image_processing_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>ImageProcessing.hpp</b> <a href="_image_processing_8hpp_source.html">[code]</a></td></tr>
+<tr class="memitem:_image_processing_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_image_processing_8hpp.html">ImageProcessing.hpp</a> <a href="_image_processing_8hpp_source.html">[code]</a></td></tr>
+<tr class="memdesc:_image_processing_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master header file of the ImageProcessing module. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -134,7 +149,7 @@ Files</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7cfa978e82701257b4eeff8e81fa333b.html">DO</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:45 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:02 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

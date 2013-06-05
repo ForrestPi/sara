@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_func_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_func_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_func_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_func_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_func_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_func_0x6c.html#index_l"><span>l</span></a></li>
@@ -143,23 +150,26 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 &#160;
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>cameraSigma()
+: <a class="el" href="class_d_o_1_1_image_pyramid_params.html#a7f000d11194059b31babe0cc8c75e475">ImagePyramidParams</a>
+</li>
 <li>cast()
 : <a class="el" href="struct_d_o_1_1_channel_traits.html#ad0d4458b14e8213cd30ca819fe69d7ed">ChannelTraits&lt; T &gt;</a>
 </li>
 <li>channel()
-: <a class="el" href="class_d_o_1_1_color.html#af4923830e61e808a81501dc9344bc731">Color&lt; T, Layout &gt;</a>
+: <a class="el" href="class_d_o_1_1_color.html#a0b6849e95fe39fc5321a33ca630fd5df">Color&lt; T, Layout &gt;</a>
 </li>
 <li>check()
-: <a class="el" href="class_d_o_1_1_locator.html#a4f69d9df692bff019419ca9b3b656c7f">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#a4f69d9df692bff019419ca9b3b656c7f">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>check_sizes_and_strides()
 : <a class="el" href="class_d_o_1_1_multi_array.html#af05ca63ef4968e9da0971052f416df2c">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>check_strides()
-: <a class="el" href="class_d_o_1_1_locator.html#aad7f0d952b12caba65ea4fa3043d2411">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#aad7f0d952b12caba65ea4fa3043d2411">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>children_begin()
-: <a class="el" href="class_d_o_1_1_tree.html#a2d8a88ca545846840e8c0715cc3f36fc">Tree&lt; T &gt;</a>
+: <a class="el" href="class_d_o_1_1_tree.html#ae25e673000362d17c5dbe34e13ed26a9">Tree&lt; T &gt;</a>
 </li>
 <li>children_end()
 : <a class="el" href="class_d_o_1_1_tree.html#a4bbe761f0929f34567f339615d616bda">Tree&lt; T &gt;</a>
@@ -174,11 +184,23 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 <li>cols()
 : <a class="el" href="class_d_o_1_1_multi_array.html#a3cefa469a7524d4bbc80531ebb9b5df4">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
+<li>compute()
+: <a class="el" href="class_d_o_1_1_image.html#af7d231173bd98166d38adba831612175">Image&lt; Color, N &gt;</a>
+</li>
+<li>ComputeDoGExtrema()
+: <a class="el" href="group___interest_point.html#ga4f7e0caac829adb487c7d8fe9af3fc63">ComputeDoGExtrema</a>
+</li>
+<li>ComputeHarrisLaplaceCorners()
+: <a class="el" href="class_d_o_1_1_compute_harris_laplace_corners.html#aa51169ba1a20ba349de20058b62c03c2">ComputeHarrisLaplaceCorners</a>
+</li>
+<li>ComputeSIFTDescriptor()
+: <a class="el" href="class_d_o_1_1_compute_s_i_f_t_descriptor.html#a2c70618635f05d80854daf0ab8fe7b2c">ComputeSIFTDescriptor&lt; N, O &gt;</a>
+</li>
 <li>convert()
 : <a class="el" href="class_d_o_1_1_image.html#a3b35c07b31609437c194be2614e2e594">Image&lt; Color, N &gt;</a>
 </li>
 <li>coords()
-: <a class="el" href="class_d_o_1_1_locator.html#a097d0e1275ad521eec770c654ae7c11a">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#afb44c4cbe26265d288f5384066c0346d">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>cut_tree()
 : <a class="el" href="class_d_o_1_1_tree.html#aba6ece339051b6bad21840d986bd0a3a">Tree&lt; T &gt;</a>
@@ -189,7 +211,7 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

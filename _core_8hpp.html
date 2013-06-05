@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -128,24 +134,28 @@ $(document).ready(function(){initNavTree('_core_8hpp.html','');});
 <code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;sstream&gt;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
+<code>#include &lt;vector&gt;</code><br/>
+<code>#include &lt;sys/time.h&gt;</code><br/>
 <code>#include &quot;<a class="el" href="_eigen_extension_8hpp_source.html">Core/EigenExtension.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_meta_8hpp_source.html">Core/Meta.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_static_assert_8hpp_source.html">Core/StaticAssert.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="_stringify_8hpp_source.html">Core/Stringify.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="_timer_8hpp_source.html">Core/Timer.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="_color_8hpp_source.html">Core/Color.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_locator_8hpp_source.html">Core/Locator.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_multi_array_8hpp_source.html">Core/MultiArray.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_sparse_multi_array_8hpp_source.html">Core/SparseMultiArray.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_color_8hpp_source.html">Core/Color.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_image_8hpp_source.html">Core/Image.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_subimage_8hpp_source.html">Core/Subimage.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_tree_8hpp_source.html">Core/Tree.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_stringify_8hpp_source.html">Core/Stringify.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_timer_8hpp_source.html">Core/Timer.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_std_vector_helpers_8hpp_source.html">Core/StdVectorHelpers.hpp</a>&quot;</code><br/>
 </div>
 <p><a href="_core_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_d_o"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_d_o.html">DO</a></td></tr>
-<tr class="memdesc:namespace_d_o"><td class="mdescLeft">&#160;</td><td class="mdescRight">The library namespace. <br/></td></tr>
+<tr class="memdesc:namespace_d_o"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_eigen.html" title="Some customized extension to interface for the Eigen library Essentially template class specializatio...">Eigen</a> dependencies. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -154,14 +164,6 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8hpp.html#a525335710b53cb064ca56b936120431e">_USE_MATH_DEFINES</a></td></tr>
 <tr class="memdesc:a525335710b53cb064ca56b936120431e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate by default math constants. <br/></td></tr>
 <tr class="separator:a525335710b53cb064ca56b936120431e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6befbca3f4c07866e5a0b6b255b6a469"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6befbca3f4c07866e5a0b6b255b6a469"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#ga6befbca3f4c07866e5a0b6b255b6a469">BEGIN_NAMESPACE_DO</a>&#160;&#160;&#160;namespace DO {</td></tr>
-<tr class="memdesc:ga6befbca3f4c07866e5a0b6b255b6a469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opening macro whose sole purpose is to increase the namespace visibility. <br/></td></tr>
-<tr class="separator:ga6befbca3f4c07866e5a0b6b255b6a469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace84578be62b4659157bfae5b1e7b9f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gace84578be62b4659157bfae5b1e7b9f4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#gace84578be62b4659157bfae5b1e7b9f4">END_NAMESPACE_DO</a>&#160;&#160;&#160;} /* namespace DO */</td></tr>
-<tr class="memdesc:gace84578be62b4659157bfae5b1e7b9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closing macro whose sole purpose is to increase the namespace visibility. <br/></td></tr>
-<tr class="separator:gace84578be62b4659157bfae5b1e7b9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a1adaa43f4f9abbba0e666652a3756c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#ga3a1adaa43f4f9abbba0e666652a3756c">srcPath</a>(s)&#160;&#160;&#160;(s)</td></tr>
 <tr class="memdesc:ga3a1adaa43f4f9abbba0e666652a3756c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the full path of a file when CMake is used.  <a href="group___core.html#ga3a1adaa43f4f9abbba0e666652a3756c">More...</a><br/></td></tr>
 <tr class="separator:ga3a1adaa43f4f9abbba0e666652a3756c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,7 +179,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7cfa978e82701257b4eeff8e81fa333b.html">DO</a></li><li class="navelem"><a class="el" href="_core_8hpp.html">Core.hpp</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:49 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

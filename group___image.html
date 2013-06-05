@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -119,6 +125,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html">ConvertImage&lt; T, T, N &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized image converter class when the source and color types are the same.  <a href="struct_d_o_1_1_convert_image_3_01_t_00_01_t_00_01_n_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_o_1_1_color_rescale.html">ColorRescale&lt; T, N &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">color rescaling functor helper.  <a href="struct_d_o_1_1_color_rescale.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -320,31 +329,31 @@ template&lt;int N&gt; </td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">   \</div>
-<div class="line">  template &lt;int N&gt;                                            \</div>
-<div class="line">  inline Image&lt;T, N&gt; <a class="code" href="group___image.html#gae3e29da826156e86b948cc0fda4d6e4d" title="color rescaling function.">colorRescale</a>(<span class="keyword">const</span> Image&lt;T, N&gt;&amp; src,     \</div>
-<div class="line">                  T a = ColorTraits&lt;T&gt;::min(),                \</div>
-<div class="line">                  T b = ColorTraits&lt;T&gt;::max())                \</div>
-<div class="line">  {                                                           \</div>
-<div class="line">    Image&lt;T, N&gt; dst(src.sizes());                             \</div>
-<div class="line">                                                              \</div>
-<div class="line">    const T *src_first = src.data();                          \</div>
-<div class="line">    const T *src_last = src_first + src.size();               \</div>
-<div class="line">    T *dst_first  = dst.data();                               \</div>
-<div class="line">                                                              \</div>
-<div class="line">    T min = *std::min_element(src_first, src_last);           \</div>
-<div class="line">    T max = *std::max_element(src_first, src_last);           \</div>
-<div class="line">                                                              \</div>
-<div class="line">    if (min == max)                                           \</div>
-<div class="line">    {                                                         \</div>
-<div class="line">      std::cerr &lt;&lt; <span class="stringliteral">&quot;Warning: min == max!&quot;</span> &lt;&lt; std::endl;       \</div>
-<div class="line">      return dst;                                             \</div>
-<div class="line">    }                                                         \</div>
-<div class="line">                                                              \</div>
-<div class="line">    for ( ; src_first != src_last; ++src_first, ++dst_first)  \</div>
-<div class="line">      *dst_first = a + (b-a)*(*src_first-min)/(max-min);      \</div>
-<div class="line">                                                              \</div>
-<div class="line">    return dst;                                               \</div>
+<b>Value:</b><div class="fragment"><div class="line">     \</div>
+<div class="line">  template &lt;int N&gt;                                              \</div>
+<div class="line">  inline Image&lt;T, N&gt; <a class="code" href="group___image.html#gae3e29da826156e86b948cc0fda4d6e4d" title="color rescaling function.">colorRescale</a>(<span class="keyword">const</span> Image&lt;T, N&gt;&amp; src,       \</div>
+<div class="line">                                  T a = ColorTraits&lt;T&gt;::min(),  \</div>
+<div class="line">                                  T b = ColorTraits&lt;T&gt;::max())  \</div>
+<div class="line">  {                                                             \</div>
+<div class="line">    Image&lt;T, N&gt; dst(src.sizes());                               \</div>
+<div class="line">                                                                \</div>
+<div class="line">    const T *src_first = src.data();                            \</div>
+<div class="line">    const T *src_last = src_first + src.size();                 \</div>
+<div class="line">    T *dst_first  = dst.data();                                 \</div>
+<div class="line">                                                                \</div>
+<div class="line">    T min = *std::min_element(src_first, src_last);             \</div>
+<div class="line">    T max = *std::max_element(src_first, src_last);             \</div>
+<div class="line">                                                                \</div>
+<div class="line">    if (min == max)                                             \</div>
+<div class="line">    {                                                           \</div>
+<div class="line">      std::cerr &lt;&lt; <span class="stringliteral">&quot;Warning: min == max!&quot;</span> &lt;&lt; std::endl;         \</div>
+<div class="line">      return dst;                                               \</div>
+<div class="line">    }                                                           \</div>
+<div class="line">                                                                \</div>
+<div class="line">    for ( ; src_first != src_last; ++src_first, ++dst_first)    \</div>
+<div class="line">      *dst_first = a + (b-a)*(*src_first-min)/(max-min);        \</div>
+<div class="line">                                                                \</div>
+<div class="line">    return dst;                                                 \</div>
 <div class="line">  }</div>
 </div><!-- fragment --><p>Macro that defines a color rescaling function for a specific grayscale color type. </p>
 
@@ -355,7 +364,7 @@ template&lt;int N&gt; </td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:39 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:50 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

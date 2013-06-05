@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -93,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_0x64.html#index_d"><span>d</span></a></li>
       <li><a href="functions_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="functions_0x66.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="functions_0x68.html#index_h"><span>h</span></a></li>
       <li><a href="functions_0x69.html#index_i"><span>i</span></a></li>
       <li><a href="functions_0x6c.html#index_l"><span>l</span></a></li>
@@ -148,43 +155,46 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 : <a class="el" href="class_d_o_1_1_o_e_region.html#a17126522b1e707da4d1ee81a36251f5e">OERegion</a>
 </li>
 <li>range_iterator
-: <a class="el" href="class_d_o_1_1_multi_array.html#a993ff1bd1b7d3a67eeea283b48b1b346">MultiArray&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_multi_array.html#a598d93e43e894a9acbbaf36d99afeaa2">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
-<li>RangeIterator
-: <a class="el" href="class_d_o_1_1_multi_array.html#a9ac449a0d117e31fa565a7f41e02a748">MultiArray&lt; T, N, StorageOrder &gt;</a>
+<li>RangeIterator()
+: <a class="el" href="class_d_o_1_1_range_iterator.html#a0b4e860c0d327d9044416df1c73709ef">RangeIterator&lt; IsConst, T, N, StorageOrder &gt;</a>
+</li>
+<li>RangeIteratorBase()
+: <a class="el" href="class_d_o_1_1_range_iterator_base.html#aceb239ee1378f3ce3f078ecfb07d0989">RangeIteratorBase&lt; IsConst, T, N, StorageOrder &gt;</a>
 </li>
 <li>ReadCost
-: <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da5a1fb41592894b713f370e40e4967339">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
-, <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a5a1fb41592894b713f370e40e4967339">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
+: <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da5a1fb41592894b713f370e40e4967339">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a5a1fb41592894b713f370e40e4967339">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
 </li>
 <li>Real
 : <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac8c09a8007131b0360928599f9060e9e">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
 , <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a1a60db4703bbefdac9f214dae8fa427c">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
 </li>
 <li>reference
-: <a class="el" href="struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#abe8933d436779a43cb5c1896ff5f2918">ElementTraits&lt; Color&lt; T, Layout &gt; &gt;</a>
-, <a class="el" href="class_d_o_1_1_locator.html#abaed3f9c23f38a6baedf841296fa931c">Locator&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_sparse_multi_array.html#abe8933d436779a43cb5c1896ff5f2918">SparseMultiArray&lt; T, N &gt;</a>
+, <a class="el" href="class_d_o_1_1_multi_array.html#a9b1a63f171d76a7a3995b6858e99f2ea">MultiArray&lt; T, N, StorageOrder &gt;</a>
+, <a class="el" href="struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#abe8933d436779a43cb5c1896ff5f2918">ElementTraits&lt; Color&lt; T, Layout &gt; &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits.html#a9b1a63f171d76a7a3995b6858e99f2ea">ElementTraits&lt; T &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abe8933d436779a43cb5c1896ff5f2918">ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
 , <a class="el" href="struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abe8933d436779a43cb5c1896ff5f2918">ElementTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
-, <a class="el" href="class_d_o_1_1_multi_array.html#a9b1a63f171d76a7a3995b6858e99f2ea">MultiArray&lt; T, N, StorageOrder &gt;</a>
-, <a class="el" href="class_d_o_1_1_sparse_multi_array.html#abe8933d436779a43cb5c1896ff5f2918">SparseMultiArray&lt; T, N &gt;</a>
-</li>
-<li>regionLexCompLess()
-: <a class="el" href="class_d_o_1_1_o_e_region.html#a46c225519e501e58884822cd0f162b73">OERegion</a>
 </li>
 <li>RequireInitialization
-: <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da076ee79941a434ab0e56732208246979">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
-, <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#ac36f475ca5b446f4fde4c9b90bec77c8a076ee79941a434ab0e56732208246979">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
+: <a class="el" href="struct_eigen_1_1_num_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a385c44f6fb256e5716a2302a5b940388a076ee79941a434ab0e56732208246979">NumTraits&lt; Array&lt; T, M, N &gt; &gt;</a>
+, <a class="el" href="struct_eigen_1_1_num_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#abc5c98fcc1211af2b80116dd6e0a035da076ee79941a434ab0e56732208246979">NumTraits&lt; Matrix&lt; T, M, N &gt; &gt;</a>
 </li>
 <li>resize()
-: <a class="el" href="class_d_o_1_1_multi_array.html#a3f049389446e1c60e25f09be5b64f192">MultiArray&lt; T, N, StorageOrder &gt;</a>
+: <a class="el" href="class_d_o_1_1_multi_array.html#ae519bd2dc457833fb5de167c6da87a2f">MultiArray&lt; T, N, StorageOrder &gt;</a>
 </li>
 <li>restart()
-: <a class="el" href="class_d_o_1_1_timer.html#a22ee094ca3f45aa4156b97d34fe678bf">Timer</a>
+: <a class="el" href="class_d_o_1_1_high_res_timer.html#a22ee094ca3f45aa4156b97d34fe678bf">HighResTimer</a>
+, <a class="el" href="class_d_o_1_1_timer.html#a22ee094ca3f45aa4156b97d34fe678bf">Timer</a>
 </li>
 <li>rows()
 : <a class="el" href="class_d_o_1_1_multi_array.html#a48cdd99e4e82f74c1adae2bd69970220">MultiArray&lt; T, N, StorageOrder &gt;</a>
+</li>
+<li>run()
+: <a class="el" href="class_d_o_1_1_do_g_sift_detector.html#a5a6de2bdff9cbeaa99f4c1e0207402dc">DoGSiftDetector</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -192,7 +202,7 @@ $(document).ready(function(){initNavTree('functions_0x72.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:46 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:33:03 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

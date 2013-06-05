@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['cur_5fcoords_5f',['cur_coords_',['../class_d_o_1_1_range_iterator_base.html#a82692beb3bc7e875f7b0cad244c4ad3d',1,'DO::RangeIteratorBase']]],
+  ['cur_5fpos_5f',['cur_pos_',['../class_d_o_1_1_range_iterator_base.html#a74532bdb15ae1a54d699c150490f022d',1,'DO::RangeIteratorBase']]],
   ['cyan16',['Cyan16',['../group___primary_colors.html#ga4559d64d2aefd0bc159d0a5cff0d3ea3',1,'DO']]],
   ['cyan16s',['Cyan16s',['../group___primary_colors.html#gafb6d4a0e35de27b2f598c5fdf5ff7673',1,'DO']]],
   ['cyan32',['Cyan32',['../group___primary_colors.html#ga35bcab728235dd30ac3f54e351e5b36d',1,'DO']]],

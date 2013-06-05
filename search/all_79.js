@@ -1,8 +1,7 @@
 var searchData=
 [
   ['y',['Y',['../struct_d_o_1_1_y.html',1,'DO']]],
-  ['y',['y',['../class_d_o_1_1_locator.html#af33cd0d6e05af68f0f5d58c905493f7c',1,'DO::Locator::y()'],['../group___channel_accessors.html#gac90c52c5b3a7b2a7e3761e6e84f25778',1,'DO::y(Color&lt; T, Layout &gt; &amp;c)'],['../group___channel_accessors.html#ga42846abfe3173fb8a817a0e3a3fa9c44',1,'DO::y(const Color&lt; T, Layout &gt; &amp;c)']]],
-  ['y_5fiterator',['y_iterator',['../class_d_o_1_1_locator.html#af164507f5d2199608aa38d15634c878b',1,'DO::Locator']]],
+  ['y',['y',['../class_d_o_1_1_range_iterator_base.html#af33cd0d6e05af68f0f5d58c905493f7c',1,'DO::RangeIteratorBase::y()'],['../group___channel_accessors.html#gac90c52c5b3a7b2a7e3761e6e84f25778',1,'DO::y(Color&lt; T, Layout &gt; &amp;c)'],['../group___channel_accessors.html#ga42846abfe3173fb8a817a0e3a3fa9c44',1,'DO::y(const Color&lt; T, Layout &gt; &amp;c)']]],
   ['yellow',['yellow',['../group___channel_accessors.html#ga6829ee374a312a1029a0148235540de3',1,'DO::yellow(Color&lt; T, Layout &gt; &amp;c)'],['../group___channel_accessors.html#gac23bd53f11255e8179ab89bf48d050d1',1,'DO::yellow(const Color&lt; T, Layout &gt; &amp;c)'],['../group___primary_colors.html#ga03c463032ad2ac98a3661c1801fea9cb',1,'DO::yellow()']]],
   ['yellow16',['Yellow16',['../group___primary_colors.html#gaa53c83b51a45b11eecace384bcca8dc8',1,'DO']]],
   ['yellow16s',['Yellow16s',['../group___primary_colors.html#ga6746cbfaacce6d8bd3784dadc6565a35',1,'DO']]],

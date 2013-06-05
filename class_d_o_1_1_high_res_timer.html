@@ -20,6 +20,12 @@
 <script type="text/javascript">
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,7 +113,6 @@ $(document).ready(function(){initNavTree('class_d_o_1_1_high_res_timer.html','')
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_d_o_1_1_high_res_timer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">HighResTimer Class Reference<div class="ingroups"><a class="el" href="group___utility.html">Utility</a></div></div>  </div>
@@ -121,24 +126,18 @@ $(document).ready(function(){initNavTree('class_d_o_1_1_high_res_timer.html','')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:abb2a280e2bd01d67148a9761d39db3e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb2a280e2bd01d67148a9761d39db3e2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_high_res_timer.html#abb2a280e2bd01d67148a9761d39db3e2">HighResTimer</a> ()</td></tr>
+<tr class="memdesc:abb2a280e2bd01d67148a9761d39db3e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br/></td></tr>
+<tr class="separator:abb2a280e2bd01d67148a9761d39db3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22ee094ca3f45aa4156b97d34fe678bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22ee094ca3f45aa4156b97d34fe678bf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>restart</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_high_res_timer.html#a22ee094ca3f45aa4156b97d34fe678bf">restart</a> ()</td></tr>
+<tr class="memdesc:a22ee094ca3f45aa4156b97d34fe678bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the timer to zero. <br/></td></tr>
 <tr class="separator:a22ee094ca3f45aa4156b97d34fe678bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4dbcc0b93d74e5fb7100c4299f9ec20"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4dbcc0b93d74e5fb7100c4299f9ec20"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>elapsedMs</b> ()</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_1_1_high_res_timer.html#af4dbcc0b93d74e5fb7100c4299f9ec20">elapsedMs</a> ()</td></tr>
+<tr class="memdesc:af4dbcc0b93d74e5fb7100c4299f9ec20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the elapsed time in milliseconds. <br/></td></tr>
 <tr class="separator:af4dbcc0b93d74e5fb7100c4299f9ec20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a2ea9282fd2003b9e952e0d2bb54e48c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ea9282fd2003b9e952e0d2bb54e48c7"></a>
-timeval&#160;</td><td class="memItemRight" valign="bottom"><b>start_</b></td></tr>
-<tr class="separator:a2ea9282fd2003b9e952e0d2bb54e48c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ce1b9ff5082e17ac8a6679b7b8df5a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ce1b9ff5082e17ac8a6679b7b8df5a4"></a>
-timeval&#160;</td><td class="memItemRight" valign="bottom"><b>end_</b></td></tr>
-<tr class="separator:a1ce1b9ff5082e17ac8a6679b7b8df5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0935164e30e3396a46e9494efb83fe7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0935164e30e3396a46e9494efb83fe7"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>elapsed_</b></td></tr>
-<tr class="separator:ac0935164e30e3396a46e9494efb83fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_d_o_1_1_timer.html" title="Timer class.">Timer</a> class with microsecond accuracy. </p>
@@ -151,7 +150,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>elapsed_</b></td></
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d_o.html">DO</a></li><li class="navelem"><a class="el" href="class_d_o_1_1_high_res_timer.html">HighResTimer</a></li>
-    <li class="footer">Generated on Thu Apr 18 2013 22:40:41 for DO by
+    <li class="footer">Generated on Wed Jun 5 2013 04:32:54 for DO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
