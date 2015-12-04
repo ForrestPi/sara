@@ -1,4 +1,4 @@
 var group___a_n_m_s =
 [
-    [ "adaptiveNonMaximalSuppression", "group___a_n_m_s.html#gaebf6724613bb6b75e5c0b6bcefb3253b", null ]
+    [ "adaptive_non_maximal_suppression", "group___a_n_m_s.html#gade69f7acba6000a0a6c6a53375a797d7", null ]
 ];

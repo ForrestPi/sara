@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['simpletrianglemesh3f',['SimpleTriangleMesh3f',['../group___draw3_d.html#ga4f1ab8c8365dc907bff111a6f87e6141',1,'DO']]],
-  ['size_5ftype',['size_type',['../struct_d_o_1_1_element_traits_3_01_color_3_01_t_00_01_layout_01_4_01_4.html#a49b489a408a211a90e766329c0732d7b',1,'DO::ElementTraits&lt; Color&lt; T, Layout &gt; &gt;::size_type()'],['../struct_d_o_1_1_element_traits.html#a49b489a408a211a90e766329c0732d7b',1,'DO::ElementTraits::size_type()'],['../struct_d_o_1_1_element_traits_3_01_matrix_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a49b489a408a211a90e766329c0732d7b',1,'DO::ElementTraits&lt; Matrix&lt; T, M, N &gt; &gt;::size_type()'],['../struct_d_o_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html#a49b489a408a211a90e766329c0732d7b',1,'DO::ElementTraits&lt; Array&lt; T, M, N &gt; &gt;::size_type()'],['../class_d_o_1_1_multi_array.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f',1,'DO::MultiArray::size_type()'],['../class_d_o_1_1_sparse_multi_array.html#ada51e68d31936547d3729c82daf6b7c6',1,'DO::SparseMultiArray::size_type()']]],
-  ['subrange_5fiterator',['subrange_iterator',['../class_d_o_1_1_multi_array.html#aa8ebb791e2ac5be9d07eb78236f6b75e',1,'DO::MultiArray']]]
+  ['simpletrianglemesh3f',['SimpleTriangleMesh3f',['../group___draw3_d.html#ga545ca8d3fe8778a7a0ba8307d7fd9bf0',1,'DO::Sara']]],
+  ['size_5ftype',['size_type',['../class_d_o_1_1_sara_1_1_multi_array_view.html#af38ce1af42d538f410180c265518d4f0',1,'DO::Sara::MultiArrayView::size_type()'],['../class_d_o_1_1_sara_1_1_sparse_multi_array.html#a6b08e626a31af1c7694319f57097b9d0',1,'DO::Sara::SparseMultiArray::size_type()']]],
+  ['slice_5ftype',['slice_type',['../class_d_o_1_1_sara_1_1_multi_array_view.html#ad21f14588f58fb778e25e6ee320fe924',1,'DO::Sara::MultiArrayView']]],
+  ['subarray_5fiterator',['subarray_iterator',['../class_d_o_1_1_sara_1_1_multi_array_view.html#a6793b6bb3a6a4929802f92ceac49032f',1,'DO::Sara::MultiArrayView']]]
 ];

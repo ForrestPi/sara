@@ -1,15 +1,12 @@
 var group___deriche =
 [
-    [ "DericheBlur", "struct_d_o_1_1_deriche_blur.html", [
-      [ "ParamType", "struct_d_o_1_1_deriche_blur.html#a861c819a2ed467ea81a64bfc4e364f51", null ],
-      [ "ReturnType", "struct_d_o_1_1_deriche_blur.html#a4a57062c6b3d5a58de93e274eb28a3d0", null ],
-      [ "DericheBlur", "struct_d_o_1_1_deriche_blur.html#a2b0c434f5e34f70d475a48935f64e972", null ],
-      [ "operator()", "struct_d_o_1_1_deriche_blur.html#a93cdd8d8a8249d80ead184168169b547", null ],
-      [ "src_", "struct_d_o_1_1_deriche_blur.html#a37acfc8e40f2f233e57b2984e5024035", null ]
+    [ "DericheBlur", "struct_d_o_1_1_sara_1_1_deriche_blur.html", [
+      [ "ReturnType", "struct_d_o_1_1_sara_1_1_deriche_blur.html#aee213623f8a217909fdbc3a5c8ae0a5c", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_deriche_blur.html#aa5fb153158576010a0b2fc3e9422403f", null ]
     ] ],
-    [ "dericheBlur", "group___deriche.html#gada6eccbcfa3374dfaf664ed16fbf260d", null ],
-    [ "dericheBlur", "group___deriche.html#ga7bd1e38b1cebd93f03405f4512b43e68", null ],
-    [ "inPlaceDeriche", "group___deriche.html#gab404ef785307b2382e9cecbd44df9de5", null ],
-    [ "inPlaceDericheBlur", "group___deriche.html#ga9146f525e5e87213cca064afb26a7a22", null ],
-    [ "inPlaceDericheBlur", "group___deriche.html#ga5ede49623b76ef3c51bb98d16787d93b", null ]
+    [ "deriche_blur", "group___deriche.html#gacee4d4adfda349a2837483f00e04a73e", null ],
+    [ "deriche_blur", "group___deriche.html#ga65cc6ccbefadd20383aaa1d5b957a93d", null ],
+    [ "inplace_deriche", "group___deriche.html#ga252015ced4417c529eb867873c7e3b3d", null ],
+    [ "inplace_deriche_blur", "group___deriche.html#gafcc8fed0fad04cd427fa3efd5145d0d4", null ],
+    [ "inplace_deriche_blur", "group___deriche.html#ga161bb472ddabe3dbc27b82f93d824592", null ]
 ];

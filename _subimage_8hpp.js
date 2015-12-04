@@ -1,6 +1,6 @@
 var _subimage_8hpp =
 [
-    [ "getImagePatch", "_subimage_8hpp.html#a9fc7b66793f44d9fb1d9321341995e9c", null ],
-    [ "getImagePatch", "_subimage_8hpp.html#a9f05a7d8cf43ea9c19f0019f5a125254", null ],
-    [ "getImagePatch", "_subimage_8hpp.html#ad1da29979f8c29f425924c86d5a0d0c1", null ]
+    [ "get_subimage", "_subimage_8hpp.html#a11bfc6acd56e66b97c37e1c772d94865", null ],
+    [ "get_subimage", "_subimage_8hpp.html#ac9f49e45e4f70001f205f025823f0776", null ],
+    [ "get_subimage", "_subimage_8hpp.html#a440018ce2b8054b18c8016332e66ddd5", null ]
 ];

@@ -10,13 +10,7 @@ var NAVTREE =
     [ "Bug List", "bug.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
-      ] ]
+      [ "Namespace List", "namespaces.html", "namespaces" ]
     ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
@@ -28,7 +22,7 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ]
+        [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -45,15 +39,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"_color_8hpp.html#gaf2f95805ffea57b546cf2547806aae1b",
-"_linear_filtering_8hpp.html#ga7e121dca71a2d7b7be22871098266c0e",
-"class_d_o_1_1_coords_iterator.html#aab4dbf0252b9628df04b94dcfa6d0d85",
-"class_d_o_1_1_o_e_region.html#a159d53245c65dcd14eae7ca120ff9776",
-"class_d_o_1_1_squared_distance.html#a029b6367b873dc6ac0fb3cb6ca1d7040",
-"group___color_conversion.html#ga59961090cefe9adc547ee8f618b1b61c",
-"group___extremum_refinement.html#ga4e83483885aa6a6547d0979be3e0a5da",
-"namespacemembers.html",
-"struct_d_o_1_1_interactive_box.html#aac274af37f5fbaaa2c47d19145cfd856"
+"_lo_g_8hpp.html",
+"class_d_o_1_1_sara_1_1_array_iterator_base.html#aa149c2249879e7727f33688b76bf2c99",
+"class_d_o_1_1_sara_1_1_image_base.html#a06afdb50e0033a70f647635cbef9b453",
+"class_d_o_1_1_sara_1_1_open_ball.html#aa30800dc1608741d9f16b6344fdf20ed",
+"class_d_o_1_1_sara_1_1_sparse_multi_array.html#af74fcb5e1793fae740aa6cfa3da7b857",
+"group___color_types.html#ga1b230db2a6cb8c199b88304ba30aa377",
+"group___linear_filtering.html#ga68ef83a5805c7b7ee16e8f7f5827b878",
+"struct_d_o_1_1_sara_1_1_element_traits_3_01_array_3_01_t_00_01_m_00_01_n_01_4_01_4.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

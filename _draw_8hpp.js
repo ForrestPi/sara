@@ -1,4 +1,4 @@
 var _draw_8hpp =
 [
-    [ "drawKeypoints", "_draw_8hpp.html#ga06bbc2b1a0c63ee0fc91e3dc707cbf5d", null ]
+    [ "draw_oe_regions", "_draw_8hpp.html#ga75597890b38961eb4dd13da3ba5b1b8e", null ]
 ];

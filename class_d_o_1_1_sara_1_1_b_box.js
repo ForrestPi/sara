@@ -1,0 +1,27 @@
+var class_d_o_1_1_sara_1_1_b_box =
+[
+    [ "BBox", "class_d_o_1_1_sara_1_1_b_box.html#a0c734f29926f7f2e8e71e81a070d578d", null ],
+    [ "BBox", "class_d_o_1_1_sara_1_1_b_box.html#aee19c00bc79b01c1b97bfef319effc12", null ],
+    [ "BBox", "class_d_o_1_1_sara_1_1_b_box.html#a1f675afea091976a1f8a86bfd92b9b66", null ],
+    [ "BBox", "class_d_o_1_1_sara_1_1_b_box.html#abb53e32e272ae03b331d90da52f5f948", null ],
+    [ "bottom_left", "class_d_o_1_1_sara_1_1_b_box.html#a926999cedbcf1d386fbb86a14d6306ff", null ],
+    [ "bottom_right", "class_d_o_1_1_sara_1_1_b_box.html#a46ac4719b1fa4da3ed8bdc3e2fa5701d", null ],
+    [ "bottom_right", "class_d_o_1_1_sara_1_1_b_box.html#a06a4e5fd9d2a8261fc14cb1722dbfd63", null ],
+    [ "center", "class_d_o_1_1_sara_1_1_b_box.html#add5a3629eda78fcc21079a625e89733c", null ],
+    [ "height", "class_d_o_1_1_sara_1_1_b_box.html#afa7750092d5dcf402c83fb5adba91453", null ],
+    [ "operator!=", "class_d_o_1_1_sara_1_1_b_box.html#a34c09a54eb59b56159aa84b87f129b3e", null ],
+    [ "operator==", "class_d_o_1_1_sara_1_1_b_box.html#a6b34a395273160857d4e2331a15bde45", null ],
+    [ "sizes", "class_d_o_1_1_sara_1_1_b_box.html#afd250a73e19d12fb73d489bb9b7f7150", null ],
+    [ "top_left", "class_d_o_1_1_sara_1_1_b_box.html#a043f0f9d012a2dd49bdf1833f28cffbe", null ],
+    [ "top_left", "class_d_o_1_1_sara_1_1_b_box.html#a88ee7d5baa1ab462f16775479d7e17cb", null ],
+    [ "top_right", "class_d_o_1_1_sara_1_1_b_box.html#a7c29c59cfe40050ff7db4f99c70e5763", null ],
+    [ "width", "class_d_o_1_1_sara_1_1_b_box.html#a6cddcbf72c80144aa2e6501abb150c30", null ],
+    [ "x1", "class_d_o_1_1_sara_1_1_b_box.html#aebdb5d2baae12fbbd46215c5da97678f", null ],
+    [ "x1", "class_d_o_1_1_sara_1_1_b_box.html#a71af5717bb437e63034a8192583ff16f", null ],
+    [ "x2", "class_d_o_1_1_sara_1_1_b_box.html#ae6989ab803b2300b79074ab32e7b8eaf", null ],
+    [ "x2", "class_d_o_1_1_sara_1_1_b_box.html#ae19ba70737353cf4a0cfe795d0f27f05", null ],
+    [ "y1", "class_d_o_1_1_sara_1_1_b_box.html#aba3113f4eac2623a664db161c271eaaf", null ],
+    [ "y1", "class_d_o_1_1_sara_1_1_b_box.html#af4090c1687b2576d20303d3789d8f4ec", null ],
+    [ "y2", "class_d_o_1_1_sara_1_1_b_box.html#a2e3e5c61c0236d30209a28515912cea3", null ],
+    [ "y2", "class_d_o_1_1_sara_1_1_b_box.html#a14129fe85e75c9eadf29378cbbcf57a0", null ]
+];

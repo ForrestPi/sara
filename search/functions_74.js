@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['timer',['Timer',['../class_d_o_1_1_timer.html#a6a8bc5014802d569f6d01c4f36121a81',1,'DO::Timer']]],
-  ['tostring',['toString',['../group___utility.html#ga822e83b6eef265d4189aca150f0821db',1,'DO']]],
-  ['tree',['Tree',['../class_d_o_1_1_tree.html#a3dee5770ede29888f2c0136bbd7f5a95',1,'DO::Tree::Tree()'],['../class_d_o_1_1_tree.html#ab2eeead563db79ec963561503f3db441',1,'DO::Tree::Tree(const T &amp;v)'],['../class_d_o_1_1_tree.html#a9603ba799d51fe7b2e8d2ac78abfa535',1,'DO::Tree::Tree(const Tree &amp;t)']]]
+  ['timer',['Timer',['../class_d_o_1_1_sara_1_1_timer.html#a6a8bc5014802d569f6d01c4f36121a81',1,'DO::Sara::Timer']]],
+  ['top_5fleft',['top_left',['../class_d_o_1_1_sara_1_1_b_box.html#a043f0f9d012a2dd49bdf1833f28cffbe',1,'DO::Sara::BBox']]],
+  ['tree',['Tree',['../class_d_o_1_1_sara_1_1_tree.html#a5960f52971ee758b8b4ddd518aa1b402',1,'DO::Sara::Tree::Tree()=default'],['../class_d_o_1_1_sara_1_1_tree.html#a176bf2364d34c17e2e02eb44a21c520d',1,'DO::Sara::Tree::Tree(const Tree &amp;other)'],['../class_d_o_1_1_sara_1_1_tree.html#a91c26fa1ccd0ce81c458ce64e9b6016a',1,'DO::Sara::Tree::Tree(Tree &amp;&amp;other)']]]
 ];

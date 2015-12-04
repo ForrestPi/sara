@@ -1,6 +1,6 @@
 var _mesh_8hpp =
 [
-    [ "Quad", "_mesh_8hpp.html#gae5a923c17de7c04456eb0c0e9c0537e4", null ],
-    [ "SimpleTriangleMesh3f", "_mesh_8hpp.html#ga4f1ab8c8365dc907bff111a6f87e6141", null ],
-    [ "Triangle", "_mesh_8hpp.html#ga0ca67ac512a882951211499a31ab60a0", null ]
+    [ "Face3", "_mesh_8hpp.html#gab412213b30248bb6aadf015e4dd4c04e", null ],
+    [ "Face4", "_mesh_8hpp.html#ga12d54996ef1f128c70f2d7596b93e610", null ],
+    [ "SimpleTriangleMesh3f", "_mesh_8hpp.html#ga545ca8d3fe8778a7a0ba8307d7fd9bf0", null ]
 ];

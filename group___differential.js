@@ -1,92 +1,70 @@
 var group___differential =
 [
-    [ "Determinant", "struct_d_o_1_1_determinant.html", [
-      [ "Coords", "struct_d_o_1_1_determinant.html#a354195d823689d8ace92cf1499462880", null ],
-      [ "MatrixField", "struct_d_o_1_1_determinant.html#aaf84b6e6f2c28ada687cf57f37e4d230", null ],
-      [ "ReturnType", "struct_d_o_1_1_determinant.html#ae4f12122abcccffbe744a7549b9caa7a", null ],
-      [ "Scalar", "struct_d_o_1_1_determinant.html#a576a212c73325e92f06a9734f124d407", null ],
-      [ "ScalarField", "struct_d_o_1_1_determinant.html#a14cd1249f3f6e9a9954e92e107f778c2", null ],
-      [ "Determinant", "struct_d_o_1_1_determinant.html#af0aefa1485e3b28856ff96484d6a215e", null ],
-      [ "operator()", "struct_d_o_1_1_determinant.html#a39876648e223249b807c204f18157de2", null ],
-      [ "matrix_field_", "struct_d_o_1_1_determinant.html#a459508d8216603e5f149da15c1c88684", null ]
+    [ "Determinant", "struct_d_o_1_1_sara_1_1_determinant.html", [
+      [ "Dimension", "struct_d_o_1_1_sara_1_1_determinant_1_1_dimension.html", [
+        [ "value", "struct_d_o_1_1_sara_1_1_determinant_1_1_dimension.html#aabfcbcb5ac86a1edac4035264bc7d2b8a97de9ab6885342a574053b8f64a563a9", null ]
+      ] ],
+      [ "Matrix", "struct_d_o_1_1_sara_1_1_determinant.html#a4dc3ec92db0920fcb55b00925f04e560", null ],
+      [ "ReturnType", "struct_d_o_1_1_sara_1_1_determinant.html#a93438b6c5bfebbef64da483ea9219bf2", null ],
+      [ "Scalar", "struct_d_o_1_1_sara_1_1_determinant.html#a0ed21b25a256d03b9b325d0251c6a7c8", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_determinant.html#a9ccd4e665ed9295d9055c8d843ccdfa7", null ]
     ] ],
-    [ "Differential", "struct_d_o_1_1_differential.html", [
-      [ "DO_STATIC_ASSERT", "struct_d_o_1_1_differential.html#a9114583055bce8066521d149ad8bbdbb", null ]
+    [ "Gradient", "struct_d_o_1_1_sara_1_1_gradient.html", [
+      [ "Dimension", "struct_d_o_1_1_sara_1_1_gradient_1_1_dimension.html", [
+        [ "value", "struct_d_o_1_1_sara_1_1_gradient_1_1_dimension.html#a5d76b81b0ad4c19007a781d4edb8181fa97de9ab6885342a574053b8f64a563a9", null ]
+      ] ],
+      [ "Coords", "struct_d_o_1_1_sara_1_1_gradient.html#ab28213ae50de961c53e4060ef5a89da8", null ],
+      [ "ReturnType", "struct_d_o_1_1_sara_1_1_gradient.html#af18f1fcbc0f1738a7075b34e7a3a3182", null ],
+      [ "Scalar", "struct_d_o_1_1_sara_1_1_gradient.html#a4ea080f9eb2a116b64a6e367016edd7b", null ],
+      [ "Vector", "struct_d_o_1_1_sara_1_1_gradient.html#a3063eab4c07a76eccb1ad9e3f97d9bb0", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_gradient.html#a1767ad19123c3d1070655b32042a3a8d", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_gradient.html#a323d2d1ebff2ff5fca1ecbc617344074", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_gradient.html#acbd85ad46c4163217e3fe6a369cbcc0a", null ]
     ] ],
-    [ "Differential< N, 0 >", "struct_d_o_1_1_differential_3_01_n_00_010_01_4.html", null ],
-    [ "Gradient", "struct_d_o_1_1_gradient.html", [
-      [ "Coords", "struct_d_o_1_1_gradient.html#a354195d823689d8ace92cf1499462880", null ],
-      [ "ReturnType", "struct_d_o_1_1_gradient.html#aceadf74d39853ac1b95f0283851aa3b5", null ],
-      [ "Scalar", "struct_d_o_1_1_gradient.html#a47fdf58368a1d22e91e658ab30bfcda8", null ],
-      [ "ScalarField", "struct_d_o_1_1_gradient.html#aaca885c038505f71aeacf776b6e270cf", null ],
-      [ "ScalarIterator", "struct_d_o_1_1_gradient.html#a57154875072720d40189a6c6dc48f897", null ],
-      [ "Vector", "struct_d_o_1_1_gradient.html#ab74103774caddc914b667558c96fbd7a", null ],
-      [ "VectorField", "struct_d_o_1_1_gradient.html#abeefefce46db2c26399efb55afa1b917", null ],
-      [ "VectorIterator", "struct_d_o_1_1_gradient.html#af1f57080ed01255b1a1b0b9fa3ec9e5c", null ],
-      [ "Gradient", "struct_d_o_1_1_gradient.html#a9ae3e5a8758d9a841221bd1bd70d9004", null ],
-      [ "operator()", "struct_d_o_1_1_gradient.html#a08eb8132bc44012d2502297897188b0a", null ],
-      [ "operator()", "struct_d_o_1_1_gradient.html#ad929d024dce137d36e300f7aea97300b", null ],
-      [ "operator()", "struct_d_o_1_1_gradient.html#a97da41a30071bfb94d383560e07f3143", null ],
-      [ "operator()", "struct_d_o_1_1_gradient.html#ae1667b64c0f2091c0f2ff51302ce98b7", null ],
-      [ "scalar_field_", "struct_d_o_1_1_gradient.html#aa7830f9750639f04aaecb30e9322ce0b", null ]
+    [ "Laplacian", "struct_d_o_1_1_sara_1_1_laplacian.html", [
+      [ "Dimension", "struct_d_o_1_1_sara_1_1_laplacian_1_1_dimension.html", [
+        [ "value", "struct_d_o_1_1_sara_1_1_laplacian_1_1_dimension.html#aac34dfe6c6b73b43a4656c9dce041034a97de9ab6885342a574053b8f64a563a9", null ]
+      ] ],
+      [ "Coords", "struct_d_o_1_1_sara_1_1_laplacian.html#ab28213ae50de961c53e4060ef5a89da8", null ],
+      [ "ReturnType", "struct_d_o_1_1_sara_1_1_laplacian.html#a897223916ee9668be0d8c2bdcbfaf35d", null ],
+      [ "Scalar", "struct_d_o_1_1_sara_1_1_laplacian.html#a4ea080f9eb2a116b64a6e367016edd7b", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_laplacian.html#aaca9cd5a6c0007010b216f5b58cd6346", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_laplacian.html#ab4118de351544eccae80465769bf9190", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_laplacian.html#acbd85ad46c4163217e3fe6a369cbcc0a", null ]
     ] ],
-    [ "Laplacian", "struct_d_o_1_1_laplacian.html", [
-      [ "ConstRangeIterator", "struct_d_o_1_1_laplacian.html#ac8b6b7fa400261ea26162fda0b8d2018", null ],
-      [ "Coords", "struct_d_o_1_1_laplacian.html#a354195d823689d8ace92cf1499462880", null ],
-      [ "RangeIterator", "struct_d_o_1_1_laplacian.html#a27807375f76b36eb22c2966c5bafe976", null ],
-      [ "ReturnType", "struct_d_o_1_1_laplacian.html#a4a57062c6b3d5a58de93e274eb28a3d0", null ],
-      [ "ScalarField", "struct_d_o_1_1_laplacian.html#aaca885c038505f71aeacf776b6e270cf", null ],
-      [ "Laplacian", "struct_d_o_1_1_laplacian.html#a27257860049bdf41eedb7d84234102f9", null ],
-      [ "operator()", "struct_d_o_1_1_laplacian.html#a5376ed10027c76fe446de2d3105c086c", null ],
-      [ "operator()", "struct_d_o_1_1_laplacian.html#af1ed940ca1d6ee69f148c455080dd9e7", null ],
-      [ "operator()", "struct_d_o_1_1_laplacian.html#a55b5b9e30bc520352b5b9b9c8899103e", null ],
-      [ "operator()", "struct_d_o_1_1_laplacian.html#a39876648e223249b807c204f18157de2", null ],
-      [ "scalar_field_", "struct_d_o_1_1_laplacian.html#aa7830f9750639f04aaecb30e9322ce0b", null ]
+    [ "Hessian", "struct_d_o_1_1_sara_1_1_hessian.html", [
+      [ "Dimension", "struct_d_o_1_1_sara_1_1_hessian_1_1_dimension.html", [
+        [ "value", "struct_d_o_1_1_sara_1_1_hessian_1_1_dimension.html#a0ed680fdb405e7195d9f14032851eebba97de9ab6885342a574053b8f64a563a9", null ]
+      ] ],
+      [ "Coords", "struct_d_o_1_1_sara_1_1_hessian.html#ab28213ae50de961c53e4060ef5a89da8", null ],
+      [ "HessianMatrix", "struct_d_o_1_1_sara_1_1_hessian.html#a5edb89718e42640ed47e1f19cad5e555", null ],
+      [ "ReturnType", "struct_d_o_1_1_sara_1_1_hessian.html#aaaf2bca4b478ad235e03ce04207aab21", null ],
+      [ "Scalar", "struct_d_o_1_1_sara_1_1_hessian.html#a4ea080f9eb2a116b64a6e367016edd7b", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_hessian.html#a99631f2834417e2a4fdb8b2f5a284a53", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_hessian.html#aa1c6a00f5a81e2c91a5de8adf54b2749", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_hessian.html#acbd85ad46c4163217e3fe6a369cbcc0a", null ]
     ] ],
-    [ "Hessian", "struct_d_o_1_1_hessian.html", [
-      [ "Coords", "struct_d_o_1_1_hessian.html#a354195d823689d8ace92cf1499462880", null ],
-      [ "HessianField", "struct_d_o_1_1_hessian.html#a5edec8989f5fed1196435ec288e876b7", null ],
-      [ "HessianMatrix", "struct_d_o_1_1_hessian.html#a0570481d412295a9af8604f449ad525e", null ],
-      [ "MatrixIterator", "struct_d_o_1_1_hessian.html#a76bf7bdc03a65fa5d55e169269185b2c", null ],
-      [ "ReturnType", "struct_d_o_1_1_hessian.html#a084af807c046345c62b0d4f73db1c27a", null ],
-      [ "ScalarField", "struct_d_o_1_1_hessian.html#aaca885c038505f71aeacf776b6e270cf", null ],
-      [ "ScalarIterator", "struct_d_o_1_1_hessian.html#a57154875072720d40189a6c6dc48f897", null ],
-      [ "Vector", "struct_d_o_1_1_hessian.html#a4467b54ec557777a1da38d5aa6aeea0f", null ],
-      [ "Hessian", "struct_d_o_1_1_hessian.html#a65c9ea50f9e128a134d1b17e52de6800", null ],
-      [ "delta", "struct_d_o_1_1_hessian.html#a63071e27fc88c70cce717778b5bf63c2", null ],
-      [ "delta", "struct_d_o_1_1_hessian.html#ad2fcf0076117c6b3e379fc614fd107ce", null ],
-      [ "operator()", "struct_d_o_1_1_hessian.html#ac95d8fcc702d4cb18a7f579b856df6bb", null ],
-      [ "operator()", "struct_d_o_1_1_hessian.html#a6f7619a5456cc52c36a460c1479c893d", null ],
-      [ "operator()", "struct_d_o_1_1_hessian.html#a33c4a4312c12f4f325545a36a5627fff", null ],
-      [ "operator()", "struct_d_o_1_1_hessian.html#ac79cd5c7a089667065b44aa4707bab7d", null ],
-      [ "scalar_field_", "struct_d_o_1_1_hessian.html#aa7830f9750639f04aaecb30e9322ce0b", null ]
+    [ "SecondMomentMatrix", "struct_d_o_1_1_sara_1_1_second_moment_matrix.html", [
+      [ "Dimension", "struct_d_o_1_1_sara_1_1_second_moment_matrix_1_1_dimension.html", [
+        [ "value", "struct_d_o_1_1_sara_1_1_second_moment_matrix_1_1_dimension.html#a96a58e29e8dbf2b5bdeb775cba46556ea97de9ab6885342a574053b8f64a563a9", null ]
+      ] ],
+      [ "Matrix", "struct_d_o_1_1_sara_1_1_second_moment_matrix.html#a73b472dd501d8ff59e902db10ce09684", null ],
+      [ "ReturnType", "struct_d_o_1_1_sara_1_1_second_moment_matrix.html#ad36edb22a6c63f808a8a0b39e533ff15", null ],
+      [ "Scalar", "struct_d_o_1_1_sara_1_1_second_moment_matrix.html#a817bdf2a7d12aec5a341d843e9a91d49", null ],
+      [ "operator()", "struct_d_o_1_1_sara_1_1_second_moment_matrix.html#a64334b5d97fbdcec21a2d53abbdce8ea", null ]
     ] ],
-    [ "SecondMomentMatrix", "struct_d_o_1_1_second_moment_matrix.html", [
-      [ "Coords", "struct_d_o_1_1_second_moment_matrix.html#a354195d823689d8ace92cf1499462880", null ],
-      [ "Moment", "struct_d_o_1_1_second_moment_matrix.html#a71cb84e6fb5d41d8fb662b13798e222e", null ],
-      [ "MomentField", "struct_d_o_1_1_second_moment_matrix.html#a958892081ce5f982dd370e866f3b0570", null ],
-      [ "ReturnType", "struct_d_o_1_1_second_moment_matrix.html#a23b58de4a55acfe2aa84a9279acf1113", null ],
-      [ "Scalar", "struct_d_o_1_1_second_moment_matrix.html#a6a0d8ef455df500e6854be7ad9e79e0c", null ],
-      [ "VectorField", "struct_d_o_1_1_second_moment_matrix.html#abeefefce46db2c26399efb55afa1b917", null ],
-      [ "SecondMomentMatrix", "struct_d_o_1_1_second_moment_matrix.html#ae0c5f4942b98987e8b9de90d04d893e4", null ],
-      [ "operator()", "struct_d_o_1_1_second_moment_matrix.html#a8a1b41151b8685c41e7b670cd927ecc1", null ],
-      [ "gradient_field_", "struct_d_o_1_1_second_moment_matrix.html#aac98ecdc260d51d4c1fb3fad6960fcd1", null ]
-    ] ],
-    [ "blueNorm", "group___differential.html#ga64a1c18b3a769c991d4458cbf1b5b85c", null ],
-    [ "blueNorm", "group___differential.html#ga3e186700b17ea6fc33f987f81c6a6ac6", null ],
-    [ "gradient", "group___differential.html#ga3b68fc0aa689b2bcdb6a1a556da93eec", null ],
-    [ "gradient", "group___differential.html#ga19bf84abd269ae3dd5a322008cd7495b", null ],
-    [ "gradient", "group___differential.html#ga96135e1292050104f2b02f99cc7df69d", null ],
-    [ "hessian", "group___differential.html#gac0b0ba5fdd1608dd1290e127fb3f22bb", null ],
-    [ "hessian", "group___differential.html#gaa0dfb4cdf49f06188df9b5fbb1f251d5", null ],
-    [ "hessian", "group___differential.html#gabce7c4e0432985de285764ff74bdae95", null ],
-    [ "laplacian", "group___differential.html#gad4dc35278f3799f4130399a34521c4eb", null ],
-    [ "laplacian", "group___differential.html#ga487ed381811c3871bd06cfe631f32f83", null ],
-    [ "laplacian", "group___differential.html#ga0f34e33582aeb726da5f618f78c8ad7b", null ],
-    [ "orientation", "group___differential.html#ga1e0840d5585c59e1b1b86175686780c2", null ],
-    [ "orientation", "group___differential.html#ga1726772490c0aaf8cbf03007b413fc25", null ],
-    [ "squaredNorm", "group___differential.html#ga7315b78bba45e4a1882ad9566b99e949", null ],
-    [ "squaredNorm", "group___differential.html#ga8880ca08e1e287668f610db64f54cfea", null ],
-    [ "stableNorm", "group___differential.html#ga71ea0be02e15acc698cbdcd0657b05a1", null ],
-    [ "stableNorm", "group___differential.html#ga56bd039983fa692c8309e6911bbd3a7c", null ]
+    [ "blue_norm", "group___differential.html#ga78dec2d93d7d1e5fd7077e11bbbd263e", null ],
+    [ "blue_norm", "group___differential.html#gaee971d2af7e46d3b271834d74ae1497c", null ],
+    [ "gradient", "group___differential.html#ga6eae8fa8712a48d1a37fecc7ed6b6d07", null ],
+    [ "gradient", "group___differential.html#ga4d039458335a59cfdb976a8e99bbf51d", null ],
+    [ "hessian", "group___differential.html#gaff9b4a9ddc8ddf0159e1bc2bf4c72fdb", null ],
+    [ "hessian", "group___differential.html#ga73ac3e938d18cfb91ff4db5d9f49c81a", null ],
+    [ "laplacian", "group___differential.html#ga3f70b0ebad1963dd6cf06ed2c8012f54", null ],
+    [ "laplacian", "group___differential.html#ga4247dd2987e0c13d8368f53916dc136a", null ],
+    [ "orientation", "group___differential.html#ga01698e69195e563724d1b55990a0a95e", null ],
+    [ "orientation", "group___differential.html#ga4684f89861fd43579e7f762277d13615", null ],
+    [ "squared_norm", "group___differential.html#gac23024a8459bf4d146ad8168fa69aab5", null ],
+    [ "squared_norm", "group___differential.html#gaa7e1d23cb0f3f4bf85d94dd67029a469", null ],
+    [ "stable_norm", "group___differential.html#gae367457d2870d3a6aae35ad7f1103f67", null ],
+    [ "stable_norm", "group___differential.html#ga973acfa8eb2c5fcceacf5d1878d53e23", null ]
 ];

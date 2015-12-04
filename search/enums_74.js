@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type',['Type',['../class_d_o_1_1_point_feature.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'DO::PointFeature']]]
+  ['type',['Type',['../class_d_o_1_1_sara_1_1_interest_point.html#a923bc052312ee4a74ed46b87e003c4bd',1,'DO::Sara::InterestPoint']]]
 ];

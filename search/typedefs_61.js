@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['abgr',['Abgr',['../group___color_space.html#gae0496dd76c54f129381947440d56a874',1,'DO']]],
-  ['argb',['Argb',['../group___color_space.html#gac3a42db968dfe7d65b7b74f49de821c3',1,'DO']]],
-  ['array_5fview_5ftype',['array_view_type',['../class_d_o_1_1_multi_array.html#a9f4b00f1ddd01a394b9e7efc47206238',1,'DO::MultiArray']]]
+  ['array_5fiterator',['array_iterator',['../class_d_o_1_1_sara_1_1_multi_array_view.html#a69d392d80bc90b11e5f1ba6b5cd89b6f',1,'DO::Sara::MultiArrayView']]],
+  ['array_5fview_5ftype',['array_view_type',['../class_d_o_1_1_sara_1_1_multi_array_view.html#ab99cffaeacedece9bf759cc753f80180',1,'DO::Sara::MultiArrayView']]]
 ];

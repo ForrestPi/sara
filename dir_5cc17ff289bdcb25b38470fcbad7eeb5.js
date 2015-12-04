@@ -1,0 +1,26 @@
+var dir_5cc17ff289bdcb25b38470fcbad7eeb5 =
+[
+    [ "Core", "dir_974f2d2aaa5555fb2a46350d9e478de6.html", "dir_974f2d2aaa5555fb2a46350d9e478de6" ],
+    [ "DisjointSets", "dir_7f5bb8afdfc975a3a74583f22a78f593.html", "dir_7f5bb8afdfc975a3a74583f22a78f593" ],
+    [ "FeatureDescriptors", "dir_e11dbfff3e694602003d966b949ba57a.html", "dir_e11dbfff3e694602003d966b949ba57a" ],
+    [ "FeatureDetectors", "dir_ae8167ad6d336455a93cb362628f6241.html", "dir_ae8167ad6d336455a93cb362628f6241" ],
+    [ "Features", "dir_8aacb79959c4a55276eb517361723000.html", "dir_8aacb79959c4a55276eb517361723000" ],
+    [ "Geometry", "dir_1dd8af1e0c4b8d5f08bcf62a29eaec3b.html", "dir_1dd8af1e0c4b8d5f08bcf62a29eaec3b" ],
+    [ "Graphics", "dir_17dead852b6582dfd10b73c6d982c9f6.html", "dir_17dead852b6582dfd10b73c6d982c9f6" ],
+    [ "ImageIO", "dir_689588329d8926a00faa52f53e87d2ce.html", "dir_689588329d8926a00faa52f53e87d2ce" ],
+    [ "ImageProcessing", "dir_fa028c09dbe7e50f2eb1517b2f2df9aa.html", "dir_fa028c09dbe7e50f2eb1517b2f2df9aa" ],
+    [ "KDTree", "dir_f972f14855a57af87930f5e4f3e7cb64.html", "dir_f972f14855a57af87930f5e4f3e7cb64" ],
+    [ "VideoIO", "dir_30061552e3243c71dc622b02c4b14220.html", "dir_30061552e3243c71dc622b02c4b14220" ],
+    [ "Core.hpp", "_core_8hpp.html", null ],
+    [ "Defines.hpp", "_defines_8hpp_source.html", null ],
+    [ "DisjointSets.hpp", "_disjoint_sets_8hpp.html", null ],
+    [ "FeatureDescriptors.hpp", "_feature_descriptors_8hpp.html", null ],
+    [ "FeatureDetectors.hpp", "_feature_detectors_8hpp.html", null ],
+    [ "Features.hpp", "_features_8hpp.html", null ],
+    [ "Geometry.hpp", "_geometry_8hpp_source.html", null ],
+    [ "Graphics.hpp", "_graphics_8hpp.html", null ],
+    [ "ImageIO.hpp", "_image_i_o_8hpp_source.html", null ],
+    [ "ImageProcessing.hpp", "_image_processing_8hpp.html", null ],
+    [ "KDTree.hpp", "_k_d_tree_8hpp_source.html", null ],
+    [ "VideoIO.hpp", "_video_i_o_8hpp_source.html", null ]
+];

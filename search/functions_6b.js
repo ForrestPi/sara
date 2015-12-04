@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['kirsch',['kirsch',['../group___linear_filtering.html#ga3c730e316d23b07baef040c122d4c040',1,'DO']]]
+  ['kdtree',['KDTree',['../class_d_o_1_1_sara_1_1_k_d_tree.html#a983ff5cd9301363eb140d4d7db4c7ab4',1,'DO::Sara::KDTree']]],
+  ['key_5fpressed',['key_pressed',['../group___event.html#ga72d9fd0d129c975697b798bdcbee618b',1,'DO::Sara']]],
+  ['key_5freleased',['key_released',['../group___event.html#ga0eb6c3d5dd414bbd1f706dbd78b8f609',1,'DO::Sara']]],
+  ['knn_5fsearch',['knn_search',['../class_d_o_1_1_sara_1_1_k_d_tree.html#a147dd38a2a51bc480b7359ef4d620b10',1,'DO::Sara::KDTree::knn_search(const Matrix&lt; double, N, 1, Options, MaxRows, MaxCols &gt; &amp;query, int num_nearest_neighbors, std::vector&lt; int &gt; &amp;nn_indices, std::vector&lt; double &gt; &amp;nn_squared_distances)'],['../class_d_o_1_1_sara_1_1_k_d_tree.html#acc8a4886070bb6c47c5fc2fe63b155ed',1,'DO::Sara::KDTree::knn_search(const MatrixXd &amp;query_column_vectors, int num_nearest_neighbors, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;nn_indices, std::vector&lt; std::vector&lt; double &gt; &gt; &amp;nn_squared_distances)'],['../class_d_o_1_1_sara_1_1_k_d_tree.html#a245deffeab64fa1acd2c434961fc6dbe',1,'DO::Sara::KDTree::knn_search(size_t query_vector_index, int num_nearest_neighbors, std::vector&lt; int &gt; &amp;nn_indices, std::vector&lt; double &gt; &amp;nn_squared_distances)'],['../class_d_o_1_1_sara_1_1_k_d_tree.html#afab8e82cd1dd6a5ed5f18c23f6e048d9',1,'DO::Sara::KDTree::knn_search(const std::vector&lt; size_t &gt; &amp;queries, int num_nearest_neighbors, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;nn_indices, std::vector&lt; std::vector&lt; double &gt; &gt; &amp;nn_squared_distances)']]]
 ];

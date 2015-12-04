@@ -1,11 +1,10 @@
 var _debug_8hpp =
 [
-    [ "checkPatch", "_debug_8hpp.html#ga8d98fd5640702e7e4d4764b2825abc10", null ],
-    [ "checkPatch", "_debug_8hpp.html#ga6a1b6354b6bf5e63c596c70f6eee9561", null ],
-    [ "displayImagePyramid", "_debug_8hpp.html#ga983fc1860d13c14a113eb7ad3743b2e1", null ],
-    [ "drawExtrema", "_debug_8hpp.html#gab1e1e2e86a0d6b4aee70eb5806f7c701", null ],
-    [ "drawScaleSpaceExtremum", "_debug_8hpp.html#gafccf08391e381820ebc2d066422d6b65", null ],
-    [ "highlightPatch", "_debug_8hpp.html#ga0217ef1997af10c1850e869057953cab", null ],
-    [ "intRound", "_debug_8hpp.html#ga338e614ac0341d482a9dbd1c8cf666ea", null ],
-    [ "viewHistogram", "_debug_8hpp.html#ga37dd6339918db2bbbae6e496b482fa45", null ]
+    [ "check_patch", "_debug_8hpp.html#gafbfea8e6730a4f7186600794445815db", null ],
+    [ "check_patch", "_debug_8hpp.html#ga8f5e47c871d5da47acb7154d34b057f4", null ],
+    [ "display_image_pyramid", "_debug_8hpp.html#gafd2fdf43b2a99e63e8e2cb876bf983c1", null ],
+    [ "draw_extrema", "_debug_8hpp.html#ga4d7f594e6c8132311ae3e336bf61ca27", null ],
+    [ "draw_scale_space_extremum", "_debug_8hpp.html#gad19a2a1af9eca604b0c76b6034d6d163", null ],
+    [ "highlight_patch", "_debug_8hpp.html#gaba5fa703f662b45149b86bf0b5bd3233", null ],
+    [ "view_histogram", "_debug_8hpp.html#gaa65197009da887d84e8324e8338b9147", null ]
 ];

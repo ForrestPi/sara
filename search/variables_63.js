@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['cur_5fcoords_5f',['cur_coords_',['../class_d_o_1_1_range_iterator_base.html#a82692beb3bc7e875f7b0cad244c4ad3d',1,'DO::RangeIteratorBase']]],
-  ['cur_5fpos_5f',['cur_pos_',['../class_d_o_1_1_range_iterator_base.html#a74532bdb15ae1a54d699c150490f022d',1,'DO::RangeIteratorBase']]],
-  ['cyan16',['Cyan16',['../group___primary_colors.html#ga4559d64d2aefd0bc159d0a5cff0d3ea3',1,'DO']]],
-  ['cyan16s',['Cyan16s',['../group___primary_colors.html#gafb6d4a0e35de27b2f598c5fdf5ff7673',1,'DO']]],
-  ['cyan32',['Cyan32',['../group___primary_colors.html#ga35bcab728235dd30ac3f54e351e5b36d',1,'DO']]],
-  ['cyan32f',['Cyan32f',['../group___primary_colors.html#gabaf314b3ee2b4ae65c7a354863cbfd6b',1,'DO']]],
-  ['cyan32s',['Cyan32s',['../group___primary_colors.html#ga453129ba2b1378cb5568721d637b5b71',1,'DO']]],
-  ['cyan64f',['Cyan64f',['../group___primary_colors.html#ga353d007048893d08d591e4eaa969b46e',1,'DO']]],
-  ['cyan8',['Cyan8',['../group___primary_colors.html#ga77f239deabd1a53d0cba26c801842b00',1,'DO']]],
-  ['cyan8s',['Cyan8s',['../group___primary_colors.html#ga478abd1bda71241ece158980514d2284',1,'DO']]]
+  ['cur_5fpos_5f',['cur_pos_',['../class_d_o_1_1_sara_1_1_array_iterator_base.html#a89bd1a82d2a542759d60900a34558e98',1,'DO::Sara::ArrayIteratorBase']]],
+  ['cur_5fptr_5f',['cur_ptr_',['../class_d_o_1_1_sara_1_1_array_iterator_base.html#ae8b7c7caa0279ddc2f7ec846c47fdb24',1,'DO::Sara::ArrayIteratorBase']]],
+  ['cyan16',['Cyan16',['../group___primary_colors.html#ga36b26bc7bcadf41dec8da694559f138b',1,'DO::Sara']]],
+  ['cyan16s',['Cyan16s',['../group___primary_colors.html#gafb6d4a0e35de27b2f598c5fdf5ff7673',1,'DO::Sara']]],
+  ['cyan32',['Cyan32',['../group___primary_colors.html#ga2623324e05df7b9448b51359200ddccc',1,'DO::Sara']]],
+  ['cyan32f',['Cyan32f',['../group___primary_colors.html#gabaf314b3ee2b4ae65c7a354863cbfd6b',1,'DO::Sara']]],
+  ['cyan32s',['Cyan32s',['../group___primary_colors.html#ga453129ba2b1378cb5568721d637b5b71',1,'DO::Sara']]],
+  ['cyan64f',['Cyan64f',['../group___primary_colors.html#ga353d007048893d08d591e4eaa969b46e',1,'DO::Sara']]],
+  ['cyan8',['Cyan8',['../group___primary_colors.html#ga2a0f650d2d76d04d5012fe78b6605e3b',1,'DO::Sara']]],
+  ['cyan8s',['Cyan8s',['../group___primary_colors.html#ga478abd1bda71241ece158980514d2284',1,'DO::Sara']]]
 ];

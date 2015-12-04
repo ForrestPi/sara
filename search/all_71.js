@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['quad',['Quad',['../struct_d_o_1_1_quad.html',1,'DO']]],
-  ['quad',['Quad',['../group___draw3_d.html#gae5a923c17de7c04456eb0c0e9c0537e4',1,'DO']]]
+  ['quad',['Quad',['../class_d_o_1_1_sara_1_1_quad.html',1,'DO::Sara']]],
+  ['quad',['Quad',['../class_d_o_1_1_sara_1_1_quad.html#ac68e5f6d14c705de38fde0f0f1d3fafa',1,'DO::Sara::Quad']]]
 ];

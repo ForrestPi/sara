@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['h',['H',['../struct_d_o_1_1_h.html',1,'DO']]],
-  ['haraffsiftdetector',['HarAffSiftDetector',['../class_d_o_1_1_har_aff_sift_detector.html',1,'DO']]],
-  ['hesaffsiftdetector',['HesAffSiftDetector',['../class_d_o_1_1_hes_aff_sift_detector.html',1,'DO']]],
-  ['hessian',['Hessian',['../struct_d_o_1_1_hessian.html',1,'DO']]],
-  ['highrestimer',['HighResTimer',['../class_d_o_1_1_high_res_timer.html',1,'DO']]]
+  ['h',['H',['../struct_d_o_1_1_sara_1_1_h.html',1,'DO::Sara']]],
+  ['halfspace3',['HalfSpace3',['../class_d_o_1_1_sara_1_1_half_space3.html',1,'DO::Sara']]],
+  ['hessian',['Hessian',['../struct_d_o_1_1_sara_1_1_hessian.html',1,'DO::Sara']]],
+  ['homography',['Homography',['../class_d_o_1_1_sara_1_1_projective_1_1_homography.html',1,'DO::Sara::Projective']]]
 ];

@@ -1,31 +1,29 @@
 var group___features =
 [
-    [ "DescriptorBase", "class_d_o_1_1_descriptor_base.html", [
-      [ "~DescriptorBase", "class_d_o_1_1_descriptor_base.html#ae58b7d34119d33cedb0543e30414424b", null ],
-      [ "print", "class_d_o_1_1_descriptor_base.html#afed4f86b0662986f692edd2335acac75", null ],
-      [ "read", "class_d_o_1_1_descriptor_base.html#a1aa99ed23bd7769a018e8f03a435519c", null ]
+    [ "DescriptorMatrix", "class_d_o_1_1_sara_1_1_descriptor_matrix.html", [
+      [ "bin_type", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a6a8fac430945bcc2f087528bbe52cfea", null ],
+      [ "const_descriptor_type", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a22c2d0b198d647094b855253e2706a24", null ],
+      [ "descriptor_type", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a4696f176143111264411687f241f18b0", null ],
+      [ "matrix_type", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#aedd5b0196c951e7daff3c23831cdcb18", null ],
+      [ "DescriptorMatrix", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a37e4f9d8728dcdfabf322d8d9ec87e79", null ],
+      [ "DescriptorMatrix", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#af2b674f4b91e43e2b2fddc30285cbd51", null ],
+      [ "append", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a90e62fe48acde010066244f8c771697a", null ],
+      [ "dimension", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a0e2bd6bf5908bfc9131d00e0c2a5905b", null ],
+      [ "matrix", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a3bfc0fa927a26d75fa693788abaf0581", null ],
+      [ "matrix", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a35888a9f1061ffaff6fd5cd909a56c0d", null ],
+      [ "operator[]", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#afed70663f78de509dc3e8390e7f6f0a4", null ],
+      [ "operator[]", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#ab96acc5cb3825598bf3e302701f6ec8c", null ],
+      [ "resize", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#ae575e22276bff468749f4500ded45a4c", null ],
+      [ "size", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#aac782da1f912bceb5d8ad00c8dc892ac", null ],
+      [ "swap", "class_d_o_1_1_sara_1_1_descriptor_matrix.html#a2c29b601b61cd5bf6aa7284f2dd01559", null ]
     ] ],
-    [ "Feature", "class_d_o_1_1_feature.html", [
-      [ "Feature", "class_d_o_1_1_feature.html#a89ca9dd4721e2f90958fdfc01f49b477", null ],
-      [ "~Feature", "class_d_o_1_1_feature.html#a774235e33078b0780c090112621f6e17", null ],
-      [ "print", "class_d_o_1_1_feature.html#afed4f86b0662986f692edd2335acac75", null ],
-      [ "read", "class_d_o_1_1_feature.html#a1aa99ed23bd7769a018e8f03a435519c", null ]
+    [ "VisualFeature", "class_d_o_1_1_sara_1_1_visual_feature.html", [
+      [ "VisualFeature", "class_d_o_1_1_sara_1_1_visual_feature.html#a4f586007f42bf6e955752122e993d0d6", null ],
+      [ "~VisualFeature", "class_d_o_1_1_sara_1_1_visual_feature.html#a7bbf2f23fbbf94f6836e10cabe747dfb", null ],
+      [ "print", "class_d_o_1_1_sara_1_1_visual_feature.html#afed4f86b0662986f692edd2335acac75", null ],
+      [ "read", "class_d_o_1_1_sara_1_1_visual_feature.html#a1aa99ed23bd7769a018e8f03a435519c", null ],
+      [ "operator<<", "class_d_o_1_1_sara_1_1_visual_feature.html#a2bb46bec9410d44c45488bd43285c3aa", null ],
+      [ "operator>>", "class_d_o_1_1_sara_1_1_visual_feature.html#acba9b78f6c393f8f20e9ec45c056cda3", null ]
     ] ],
-    [ "Key", "class_d_o_1_1_key.html", [
-      [ "Descriptor", "class_d_o_1_1_key.html#ace52bdcb1ca111cb29de50ac8e2f5ed9", null ],
-      [ "Feature", "class_d_o_1_1_key.html#a68b4e90ade498f561075fed99f6d96f9", null ],
-      [ "Key", "class_d_o_1_1_key.html#a864f3bdec0a6b38a9582783f3dcc16bb", null ],
-      [ "Key", "class_d_o_1_1_key.html#a479756cbda414b50c22954c59590d198", null ],
-      [ "desc", "class_d_o_1_1_key.html#a0850ec6fc75fa8d488ae90e3c3e46b99", null ],
-      [ "desc", "class_d_o_1_1_key.html#a3dd85c869bc914d78c2551830d9e14fe", null ],
-      [ "feat", "class_d_o_1_1_key.html#ae51c80f14ea27bc9c2be1e744c8789ec", null ],
-      [ "feat", "class_d_o_1_1_key.html#ae02837f41fce9281eed6fb24bc1fda9c", null ],
-      [ "operator==", "class_d_o_1_1_key.html#ad17576bc1c2a5f8565f1b688ef50d5ae", null ]
-    ] ],
-    [ "ImageFeaturesItem", "class_d_o_1_1_image_features_item.html", [
-      [ "ImageFeaturesItem", "class_d_o_1_1_image_features_item.html#a221d3f1dd8105c71077d299701ae02a7", null ],
-      [ "boundingRect", "class_d_o_1_1_image_features_item.html#a7f9aac15380d5c7a5b33979d006275d7", null ],
-      [ "paint", "class_d_o_1_1_image_features_item.html#ac7e6c577486dbb0f61b2bf88f01d8ff0", null ],
-      [ "shape", "class_d_o_1_1_image_features_item.html#a6e4b5bc28b84f0ec515bb76daba69390", null ]
-    ] ]
+    [ "remove_redundant_features", "group___features.html#ga1a923fc638c7f440505423b49c8b3467", null ]
 ];

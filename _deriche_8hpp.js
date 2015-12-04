@@ -1,8 +1,8 @@
 var _deriche_8hpp =
 [
-    [ "dericheBlur", "_deriche_8hpp.html#gada6eccbcfa3374dfaf664ed16fbf260d", null ],
-    [ "dericheBlur", "_deriche_8hpp.html#ga7bd1e38b1cebd93f03405f4512b43e68", null ],
-    [ "inPlaceDeriche", "_deriche_8hpp.html#gab404ef785307b2382e9cecbd44df9de5", null ],
-    [ "inPlaceDericheBlur", "_deriche_8hpp.html#ga9146f525e5e87213cca064afb26a7a22", null ],
-    [ "inPlaceDericheBlur", "_deriche_8hpp.html#ga5ede49623b76ef3c51bb98d16787d93b", null ]
+    [ "deriche_blur", "_deriche_8hpp.html#gacee4d4adfda349a2837483f00e04a73e", null ],
+    [ "deriche_blur", "_deriche_8hpp.html#ga65cc6ccbefadd20383aaa1d5b957a93d", null ],
+    [ "inplace_deriche", "_deriche_8hpp.html#ga252015ced4417c529eb867873c7e3b3d", null ],
+    [ "inplace_deriche_blur", "_deriche_8hpp.html#gafcc8fed0fad04cd427fa3efd5145d0d4", null ],
+    [ "inplace_deriche_blur", "_deriche_8hpp.html#ga161bb472ddabe3dbc27b82f93d824592", null ]
 ];

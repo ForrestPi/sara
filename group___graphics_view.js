@@ -1,5 +1,4 @@
 var group___graphics_view =
 [
-    [ "addImage", "group___graphics_view.html#ga26dd076d57f9e1e5e6ea70fb5383a0f3", null ],
-    [ "drawPointOnPixmapItem", "group___graphics_view.html#ga90520e24f6b25d7da37cdf425b6c4795", null ]
+    [ "add_pixmap", "group___graphics_view.html#gab3e7cdf371eae93d15cfbb3c66dc7735", null ]
 ];

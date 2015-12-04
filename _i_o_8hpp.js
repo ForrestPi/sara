@@ -1,6 +1,5 @@
 var _i_o_8hpp =
 [
-    [ "operator<<", "_i_o_8hpp.html#ga4b47c4c472202f23ac8b3ba079929c7d", null ],
-    [ "readKeypoints", "_i_o_8hpp.html#ga04d17d909ea4d5405a32cbc09a5d72b8", null ],
-    [ "writeKeypoints", "_i_o_8hpp.html#ga9b57be0c939f2d85828cb0ae9bab58a2", null ]
+    [ "read_keypoints", "_i_o_8hpp.html#gad38a6c85465ce4b432f308da9265a569", null ],
+    [ "write_keypoints", "_i_o_8hpp.html#ga300e69e9a5b6ef65798690a4ccbc62a5", null ]
 ];
