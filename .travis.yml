@@ -9,9 +9,18 @@ cache:
   - $HOME/ffmpeg
 
 addons:
+  coverity_scan:
+    project:
+      name: "DO-CV/sara"
+      description: "Build submitted via Travis CI"
+    notification_email: "david.ok8@gmail.com"
+    build_command_prepend: mkdir build-coverity && cd build-coverity && cmake -DCMAKE_BUILD_TYPE=Release ..
+    build_command: make
+    branch_pattern: coverity_scan
   apt:
     sources:
     - ubuntu-sdk-team
+    - ubuntu-toolchain-r-test
     packages:
     - qtbase5-dev
     - lcov
@@ -21,6 +30,7 @@ addons:
 
 compiler:
   - gcc
+  - clang
 
 before_script:
   # Fake X server
