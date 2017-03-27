@@ -214,15 +214,5 @@ namespace DO { namespace Sara {
       const NormalDistribution& dist)
       -> std::vector<ImageDataTransform>;
 
-  DO_SARA_EXPORT
-  auto augment_data(const std::vector<int>& data_indices,
-                    const Vector2i& in_sz, const Vector2i& out_sz,
-                    bool zoom, float zmin, float zmax, int num_scales,
-                    bool shift, const Vector2i& delta,
-                    bool flip,
-                    bool fancy_pca, int num_fancy_pca, float fancy_pca_std_dev,
-                    const NormalDistribution& randn)
-      -> std::vector<std::pair<int, ImageDataTransform>>;
-
 } /* namespace Sara */
 } /* namespace DO */

@@ -21,10 +21,12 @@
 
 namespace DO { namespace Sara {
 
-  template <typename XIterator, typename YIterator, typename TIterator>
+  template <typename XIterator, typename YIterator, typename TIterator,
+           typename XYTIterator>
   class TransformedTrainingDataSetIterator
   {
   public:
+    using xyt_iterator = XYTIterator;
     using x_iterator = XIterator;
     using y_iterator = YIterator;
     using data_transform_iterator = TIterator;
@@ -46,33 +48,25 @@ namespace DO { namespace Sara {
 
     inline auto operator++() -> self_type&
     {
-      ++_x;
-      ++_y;
-      ++_t;
+      ++xyt_ref;
       return *this;
     }
 
     inline auto operator--() -> self_type&
     {
-      --_x;
-      --_y;
-      --_t;
+      --xyt_ref;
       return *this;
     }
 
     inline auto operator+=(std::ptrdiff_t n) -> self_type&
     {
-      _x += n;
-      _y += n;
-      _t += n;
+      xyt_ref += n;
       return *this;
     }
 
     inline auto operator-=(std::ptrdiff_t n) -> self_type&
     {
-      _x -= n;
-      _y -= n;
-      _t -= n;
+      xyt_ref -= n;
       return *this;
     }
 
@@ -118,9 +112,11 @@ namespace DO { namespace Sara {
     }
 
   private:
-    mutable x_iterator _x;
-    mutable y_iterator _y;
-    data_transform_iterator _t;
+    xyt_iterator xyt_ref;
+
+    x_iterator x_data;
+    y_iterator y_data;
+    data_transform_iterator t_data;
   };
 
 
@@ -136,6 +132,10 @@ namespace DO { namespace Sara {
     using y_set_type = std::vector<YHandle>;
     using data_transform_set_type = std::vector<DataTransform>;
 
+    using x_pointer = typename x_set_type::const_pointer;
+    using y_pointer = typename y_set_type::const_pointer;
+    using t_pointer = typename y_set_type::const_pointer;
+
     inline TransformedTrainingDataSet() = default;
 
     inline void clear()
@@ -143,17 +143,22 @@ namespace DO { namespace Sara {
       x.clear();
       y.clear();
       t.clear();
+
+      xyt_refs.clear();
     }
 
     inline bool operator==(const TransformedTrainingDataSet& other) const
     {
-      return x == other.x && y == other.y && t == other.t;
+      return x == other.x && y == other.y && t == other.t && xyt_refs =
+                 other.xyt_refs;
     }
 
     inline bool operator!=(const TransformedTrainingDataSet& other) const
     {
       return !(*this == other);
     }
+
+    std::vector<std::tuple<std::size_t, 2>> xyt_refs;
 
     x_set_type x;
     y_set_type y;

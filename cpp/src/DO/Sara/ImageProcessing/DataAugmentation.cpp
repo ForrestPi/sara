@@ -184,31 +184,5 @@ namespace DO { namespace Sara {
     return ts;
   }
 
-  auto augment_data(const std::vector<int>& data_indices,
-                    const Vector2i& in_sz, const Vector2i& out_sz,
-                    bool zoom, float zmin, float zmax, int num_scales,
-                    bool shift, const Vector2i& delta,
-                    bool flip,
-                    bool fancy_pca, int num_fancy_pca, float fancy_pca_std_dev,
-                    const NormalDistribution& randn)
-      -> vector<pair<int, ImageDataTransform>>
-  {
-    auto augmented_data = vector<pair<int, ImageDataTransform>>{};
-
-    for (const auto i : data_indices)
-    {
-      const auto data_transforms = enumerate_image_data_transforms(
-          in_sz, out_sz,
-          zoom, zmin, zmax, num_scales,
-          shift, delta,
-          flip,
-          fancy_pca, num_fancy_pca, fancy_pca_std_dev, randn);
-
-      for (const auto t : data_transforms)
-        augmented_data.push_back(make_pair(i, t));
-    }
-    return augmented_data;
-  }
-
 } /* namespace Sara */
 } /* namespace DO */

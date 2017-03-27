@@ -173,6 +173,5 @@ namespace DO { namespace Sara {
       csv_file << s.x().path() << ',' << s.y().path() << ',' << s.t_ref() << '\n';
   }
 
-
 } /* namespace Sara */
 } /* namespace DO */
