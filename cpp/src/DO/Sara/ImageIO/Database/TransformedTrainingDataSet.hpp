@@ -21,27 +21,27 @@
 
 namespace DO { namespace Sara {
 
-  template <typename XIterator, typename YIterator, typename TIterator,
-           typename XYTReferenceIterator>
+  template <typename XYTHandleIterator, typename XIterator, typename YIterator,
+            typename DataTransformIterator>
   class TransformedTrainingDataSetIterator
   {
   public:
-    using xyt_ref_iterator = XYTReferenceIterator;
-    using x_iterator = XIterator;
-    using y_iterator = YIterator;
-    using data_transform_iterator = TIterator;
+    using xyt_handle_iterator = XYTHandleIterator;
+    using x_iterator = XPointer;
+    using y_iterator = YPointer;
+    using data_transform_pointer = DataTransformPointer;
 
-    using x_type = typename XIterator::value_type;
-    using y_type = typename YIterator::value_type;
-    using data_transform_type = typename TIterator::value_type;
+    using x_type = typename XPointer::value_type;
+    using y_type = typename YPointer::value_type;
+    using data_transform_type = typename DataTransformPointer::value_type;
     using self_type = TransformedTrainingDataSetIterator;
 
     inline TransformedTrainingDataSetIterator() = default;
 
-    inline TransformedTrainingDataSetIterator(xyt_ref_iterator xyt_ref_i,
-                                              x_iterator x, y_iterator y,
-                                              data_transform_iterator t)
-      : _xyt_ref_i{xyt_ref_i}
+    inline TransformedTrainingDataSetIterator(xyt_handle_iterator xyt_handle_i,
+                                              x_pointer x, y_pointer y,
+                                              data_transform_pointer t)
+      : _xyt_handle_i{xyt_handle_i}
       , _x{x}
       , _y{y}
       , _t{t}
@@ -50,63 +50,62 @@ namespace DO { namespace Sara {
 
     inline auto operator++() -> self_type&
     {
-      ++xyt_ref_i;
+      ++_xyt_handle_i;
       return *this;
     }
 
     inline auto operator--() -> self_type&
     {
-      --xyt_ref_i;
+      --_xyt_handle_i;
       return *this;
     }
 
     inline auto operator+=(std::ptrdiff_t n) -> self_type&
     {
-      xyt_ref_i += n;
+      _xyt_handle_i += n;
       return *this;
     }
 
     inline auto operator-=(std::ptrdiff_t n) -> self_type&
     {
-      xyt_ref_i -= n;
+      _xyt_handle_i -= n;
       return *this;
     }
 
-    inline auto x() const -> x_iterator
+    inline auto x_ptr() const -> x_pointer
     {
-      return _x_data + std::get<0>(*_xyt_ref_i);
+      return _x + std::get<0>(*_xyt_handle_i);
     }
 
-    inline auto y() const -> y_iterator
+    inline auto y_ptr() const -> y_pointer
     {
-      return _y_data + std::get<0>(*_xyt_ref_i);
+      return _y + std::get<0>(*_xyt_handle_i);
     }
 
-    inline auto t() const -> data_transform_iterator
+    inline auto t_ptr() const -> data_transform_pointer
     {
-      return _t_data + std::get<1>(*_xyt_ref_i);
+      return _t + std::get<1>(*_xyt_handle_i);
     }
 
-    inline auto x_ref() const -> const x_type&
+    inline auto x() const -> const x_type&
     {
-      return *x();
+      return *x_ptr();
     }
 
-    inline auto y_ref() const -> const y_type&
+    inline auto y() const -> const y_type&
     {
-      return *y();
+      return *y_ptr();
     }
 
-    inline auto t_ref() const -> const data_transform_type&
+    inline auto t() const -> const data_transform_type&
     {
-      return *t();
+      return *t_ptr();
     }
 
     inline auto operator==(const self_type& other) const -> bool
     {
-      return std::make_tuple(_xyt_ref, _x_data, _y_data, _t_data) ==
-             std::make_tuple(other._xyt_ref, other._x_data, other._y_data,
-                             other._t_data);
+      return std::make_tuple(_xyt_handle_i, _x, _y, _t) ==
+             std::make_tuple(other._xyt_handle_i, other._x, other._y, other._t);
     }
 
     inline auto operator!=(const self_type& other) const -> bool
@@ -115,11 +114,10 @@ namespace DO { namespace Sara {
     }
 
   private:
-    xyt_ref_iterator _xyt_ref_i;
-
-    x_iterator _x_data;
-    y_iterator _y_data;
-    data_transform_iterator _t_data;
+    xyt_handle_iterator _xyt_handle_i;
+    x_pointer _x;
+    y_pointer _y;
+    data_transform_pointer _t;
   };
 
 
@@ -131,19 +129,17 @@ namespace DO { namespace Sara {
     using y_handle = YHandle;
     using data_transform_type = DataTransform;
 
-    using x_set_type = std::vector<XHandle>;
-    using y_set_type = std::vector<YHandle>;
-    using data_transform_set_type = std::vector<DataTransform>;
+    using x_handle_array = std::vector<XHandle>;
+    using y_handle_array = std::vector<YHandle>;
+    using data_transform_array = std::vector<DataTransform>;
 
-    using x_pointer = typename x_set_type::const_pointer;
-    using y_pointer = typename y_set_type::const_pointer;
-    using t_pointer = typename y_set_type::const_pointer;
+    using xyt_handle_array = std::vector<std::array<std::size_t, 2>>;
 
     inline TransformedTrainingDataSet() = default;
 
     inline void clear()
     {
-      xyt_refs.clear();
+      xyt.clear();
       x.clear();
       y.clear();
       t.clear();
@@ -151,8 +147,7 @@ namespace DO { namespace Sara {
 
     inline bool operator==(const TransformedTrainingDataSet& other) const
     {
-      return x == other.x && y == other.y && t == other.t && xyt_refs =
-                 other.xyt_refs;
+      return x == other.x && y == other.y && t == other.t && xyt = other.xyt;
     }
 
     inline bool operator!=(const TransformedTrainingDataSet& other) const
@@ -160,11 +155,10 @@ namespace DO { namespace Sara {
       return !(*this == other);
     }
 
-    std::vector<std::array<std::size_t, 2>> xyt_refs;
-
-    x_set_type x;
-    y_set_type y;
-    data_transform_set_type t;
+    xyt_handle_array xyt;
+    x_handle_array x;
+    y_handle_array y;
+    data_transform_array t;
   };
 
 
@@ -174,25 +168,33 @@ namespace DO { namespace Sara {
     using base_type =
         TransformedTrainingDataSet<std::string, int, ImageDataTransform>;
 
+    using base_type::xyt;
+    using base_type::x;
+    using base_type::y;
+    using base_type::t;
+
   public:
     using x_iterator = ImageDataSetIterator<Image<Rgb8>>;
-    using y_iterator = typename y_set_type::const_iterator;
+    using y_iterator = typename y_handle_array::const_iterator;
     using data_transform_iterator =
-        typename data_transform_set_type::const_iterator;
+        typename data_transform_array::const_iterator;
+
     using iterator =
-        TransformedTrainingDataSetIterator<x_iterator, y_iterator,
+        TransformedTrainingDataSetIterator<xyt_handle_array::const_iterator,
+                                           x_iterator, y_iterator,
                                            data_transform_iterator>;
+
 
     inline TransformedImageClassificationTrainingDataSet() = default;
 
     inline auto begin() const -> iterator
     {
-      return iterator{x_begin(), y_begin(), data_transform_begin()};
+      return iterator{xyt.begin(), x.begin(), y.begin(), t.begin()};
     }
 
     inline auto end() const -> iterator
     {
-      return iterator{x_end(), y_end(), data_transform_end()};
+      return iterator{xyt.end(), x.end(), y.end(), t.end()};
     }
 
     auto x_begin() const -> x_iterator
