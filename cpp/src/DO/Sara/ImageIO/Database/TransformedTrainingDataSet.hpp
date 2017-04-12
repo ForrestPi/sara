@@ -27,20 +27,20 @@ namespace DO { namespace Sara {
   {
   public:
     using xyt_handle_iterator = XYTHandleIterator;
-    using x_iterator = XPointer;
-    using y_iterator = YPointer;
-    using data_transform_pointer = DataTransformPointer;
+    using x_iterator = XIterator;
+    using y_iterator = YIterator;
+    using data_transform_iterator = DataTransformIterator;
 
-    using x_type = typename XPointer::value_type;
-    using y_type = typename YPointer::value_type;
-    using data_transform_type = typename DataTransformPointer::value_type;
+    using x_type = typename XIterator::value_type;
+    using y_type = typename YIterator::value_type;
+    using data_transform_type = typename DataTransformIterator::value_type;
     using self_type = TransformedTrainingDataSetIterator;
 
     inline TransformedTrainingDataSetIterator() = default;
 
     inline TransformedTrainingDataSetIterator(xyt_handle_iterator xyt_handle_i,
-                                              x_pointer x, y_pointer y,
-                                              data_transform_pointer t)
+                                              x_iterator x, y_iterator y,
+                                              data_transform_iterator t)
       : _xyt_handle_i{xyt_handle_i}
       , _x{x}
       , _y{y}
@@ -72,34 +72,46 @@ namespace DO { namespace Sara {
       return *this;
     }
 
-    inline auto x_ptr() const -> x_pointer
+    inline auto base_x_ptr() const -> x_iterator
     {
       return _x + std::get<0>(*_xyt_handle_i);
     }
 
-    inline auto y_ptr() const -> y_pointer
+    inline auto base_y_ptr() const -> y_iterator
     {
       return _y + std::get<0>(*_xyt_handle_i);
     }
 
-    inline auto t_ptr() const -> data_transform_pointer
+    inline auto t_ptr() const -> data_transform_iterator
     {
       return _t + std::get<1>(*_xyt_handle_i);
     }
 
-    inline auto x() const -> const x_type&
+    inline auto base_x() const -> const x_type&
     {
-      return *x_ptr();
+      return *base_x_ptr();
     }
 
-    inline auto y() const -> const y_type&
+    inline auto base_y() const -> const y_type&
     {
-      return *y_ptr();
+      return *base_y_ptr();
     }
 
     inline auto t() const -> const data_transform_type&
     {
       return *t_ptr();
+    }
+
+    inline auto x() const -> x_type
+    {
+      static_assert(false, "Unimplemented!");
+      return x_type{};
+    }
+
+    inline auto y() const -> y_type
+    {
+      static_assert(false, "Unimplemented!");
+      return y_type{};
     }
 
     inline auto operator==(const self_type& other) const -> bool
@@ -115,9 +127,9 @@ namespace DO { namespace Sara {
 
   private:
     xyt_handle_iterator _xyt_handle_i;
-    x_pointer _x;
-    y_pointer _y;
-    data_transform_pointer _t;
+    x_iterator _x;
+    y_iterator _y;
+    data_transform_iterator _t;
   };
 
 
@@ -174,6 +186,8 @@ namespace DO { namespace Sara {
     using base_type::t;
 
   public:
+    //! @{
+    //! @brief Iterator types.
     using x_iterator = ImageDataSetIterator<Image<Rgb8>>;
     using y_iterator = typename y_handle_array::const_iterator;
     using data_transform_iterator =
@@ -183,49 +197,61 @@ namespace DO { namespace Sara {
         TransformedTrainingDataSetIterator<xyt_handle_array::const_iterator,
                                            x_iterator, y_iterator,
                                            data_transform_iterator>;
+    //! @}
 
-
+    //! @brief Default constructor (empty).
     inline TransformedImageClassificationTrainingDataSet() = default;
 
+    //! @{
+    //! @brief Return iterator to **transformed** dataset.
     inline auto begin() const -> iterator
     {
-      return iterator{xyt.begin(), x.begin(), y.begin(), t.begin()};
+      return iterator{xyt.begin(), base_x_begin(), base_y_begin(),
+                      base_data_transform_begin()};
     }
 
     inline auto end() const -> iterator
     {
-      return iterator{xyt.end(), x.end(), y.end(), t.end()};
+      return iterator{xyt.end(), base_x_end(), base_y_end(),
+                      base_data_transform_end()};
     }
+    //! @}
 
-    auto x_begin() const -> x_iterator
+    //! @{
+    //! @brief Return iterator to **original** dataset.
+    inline auto base_x_begin() const -> x_iterator
     {
       return x_iterator{x.begin(), x.end()};
     }
 
-    auto x_end() const -> x_iterator
+    inline auto base_x_end() const -> x_iterator
     {
       return x_iterator{x.end(), x.end()};
     }
 
-    auto y_begin() const -> y_iterator
+    inline auto base_y_begin() const -> y_iterator
     {
       return y.begin();
     }
 
-    auto y_end() const -> y_iterator
+    inline auto base_y_end() const -> y_iterator
     {
       return y.end();
     }
+    //! @}
 
-    auto data_transform_begin() const -> data_transform_iterator
+    //! @{
+    //! @brief Return base data transformation iterator.
+    inline auto base_data_transform_begin() const -> data_transform_iterator
     {
       return t.begin();
     }
 
-    auto data_transform_end() const -> data_transform_iterator
+    inline auto base_data_transform_end() const -> data_transform_iterator
     {
       return t.end();
     }
+    //! @}
   };
 
 
@@ -235,57 +261,78 @@ namespace DO { namespace Sara {
   {
     using base_type = TransformedTrainingDataSet<std::string, std::string,
                                                  ImageDataTransform>;
+    using base_type::xyt;
+    using base_type::x;
+    using base_type::y;
+    using base_type::t;
 
   public:
+    //! @{
+    //! @brief Iterator types.
     using x_iterator = ImageDataSetIterator<Image<Rgb8>>;
     using y_iterator = ImageDataSetIterator<Image<int>>;
     using data_transform_iterator =
-        typename data_transform_set_type::const_iterator;
-    using iterator =
-        TransformedTrainingDataSetIterator<x_iterator, y_iterator,
-                                           data_transform_iterator>;
+        typename data_transform_array::const_iterator;
 
+    using iterator =
+        TransformedTrainingDataSetIterator<xyt_handle_array::const_iterator,
+                                           x_iterator, y_iterator,
+                                           data_transform_iterator>;
+    //! @}
+
+    //! @brief Default constructor (empty).
     inline TransformedImageSegmentationTrainingDataSet() = default;
 
+    //! @{
+    //! @brief Return iterator to **transformed** dataset.
     inline auto begin() const -> iterator
     {
-      return iterator{x_begin(), y_begin(), data_transform_begin()};
+      return iterator{xyt.begin(), base_x_begin(), base_y_begin(),
+                      base_data_transform_begin()};
     }
 
     inline auto end() const -> iterator
     {
-      return iterator{x_end(), y_end(), data_transform_end()};
+      return iterator{xyt.end(), base_x_end(), base_y_end(),
+                      base_data_transform_end()};
     }
+    //! @}
 
-    auto x_begin() const -> x_iterator
+    //! @{
+    //! @brief Return iterator to **original** dataset.
+    inline auto base_x_begin() const -> x_iterator
     {
       return x_iterator{x.begin(), x.end()};
     }
 
-    auto x_end() const -> x_iterator
+    inline auto base_x_end() const -> x_iterator
     {
       return x_iterator{x.end(), x.end()};
     }
 
-    auto y_begin() const -> y_iterator
+    inline auto base_y_begin() const -> y_iterator
     {
       return y_iterator{y.begin(), y.end()};
     }
 
-    auto y_end() const -> y_iterator
+    inline auto base_y_end() const -> y_iterator
     {
       return y_iterator{y.end(), y.end()};
     }
+    //! @}
 
-    auto data_transform_begin() const -> data_transform_iterator
+    //! @{
+    //! @brief Return base data transformation iterator.
+    inline auto base_data_transform_begin() const -> data_transform_iterator
     {
       return t.begin();
     }
 
-    auto data_transform_end() const -> data_transform_iterator
+    inline auto base_data_transform_end() const -> data_transform_iterator
     {
       return t.end();
     }
+    //! @}
   };
 
   DO_SARA_EXPORT
